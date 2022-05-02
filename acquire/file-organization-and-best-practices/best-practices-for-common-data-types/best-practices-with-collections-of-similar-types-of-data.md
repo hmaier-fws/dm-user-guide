@@ -1,0 +1,3 @@
+# Best Practices with Collections of Similar Types of Data
+
+Large batches of data are often collected in a project via cameras (e.g., from a remote camera taking time-lapsed or motion-sensitive images or from an aerial survey), data loggers, etc. Save these batches, called a “collection” in metadata, in a single archive data folder with an accompanying text file describing relevant information for each file (location, equipment, resolution, etc.). In the case of photographic images, information for each file is removable from the metadata embedded in the image itself. The collection can be documented with a single metadata record in the mdEditor.\

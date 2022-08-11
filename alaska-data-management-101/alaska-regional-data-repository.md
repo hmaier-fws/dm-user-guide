@@ -19,7 +19,7 @@ To obtain an archive folder for your project, complete a [Data Management Plan (
 
 After submission of a DMP, you will be provided with the address to your project archive folder in the RDR.  It will look something like this:&#x20;
 
-![Example RDR digital location](<../.gitbook/assets/image (1).png>)
+![Example RDR digital location](<../.gitbook/assets/image (10).png>)
 
 ## Organization of the Regional Data Repository
 

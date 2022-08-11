@@ -10,7 +10,11 @@
   * [Quality Management](four-fundamental-activities-of-data-management/quality-management.md)
   * [Security and Preservation](four-fundamental-activities-of-data-management/security-and-preservation.md)
   * [Documentation](four-fundamental-activities-of-data-management/documentation.md)
-* [Workflow](workflow.md)
+
+## Alaska Data Management 101
+
+* [Workflow](alaska-data-management-101/workflow.md)
+* [Alaska Regional Data Repository](alaska-data-management-101/alaska-regional-data-repository.md)
 
 ## Plan <a href="#planning" id="planning"></a>
 
@@ -47,7 +51,3 @@
 * [Appendix A: Interim Data Management Quick Guide](appendix-a-interim-data-management-quick-guide.md)
 * [Appendix B: Tree Structure for File Organization of the Archive Record](appendix-b-tree-structure-for-file-organization-of-the-archive-record.md)
 * [Glossary](glossary.md)
-
-## Group 1
-
-* [Alaska Regional Data Repository](group-1/alaska-regional-data-repository.md)

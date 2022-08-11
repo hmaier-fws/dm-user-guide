@@ -90,7 +90,7 @@ Because the Service does NOT currently have officially approved repositories, th
 
 Note that Refuges are required to store data assets in ServCat.
 
-![Public Data Sharing Repositories table from the regional DMP template; The blue arrow indicates the plus (+) button for adding additional rows to the table.](<../../.gitbook/assets/image (3) (1).png>)
+![Public Data Sharing Repositories table from the regional DMP template; The blue arrow indicates the plus (+) button for adding additional rows to the table.](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 #### DMP Section 5: Records Schedule and Disposition
 

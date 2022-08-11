@@ -1,8 +1,4 @@
----
-description: ( Yes, this IS a national requirement)
----
-
-# Data Management Plan
+# Data Management Plan Templates
 
 {% hint style="success" %}
 Completing a DMP is a National Service Requirement.
@@ -27,6 +23,8 @@ A DMP is required to be completed for any new or ongoing projects. Ongoing proje
 2\) A completed DMP is the mechanism to allocate a project space in the Regional Data Repository. There is no need to complete the RDR Project Folder Request form when using the regional DMP template.
 
 3\) Lastly, this template is designed to meet the policy requirements of the Service National DMP template.
+
+### Regional Template Guidance
 
 #### DMP Section 1: Project Details <a href="#dmp-section-1-project-details" id="dmp-section-1-project-details"></a>
 
@@ -90,7 +88,7 @@ Because the Service does NOT currently have officially approved repositories, th
 
 Note that Refuges are required to store data assets in ServCat.
 
-![Public Data Sharing Repositories table from the regional DMP template; The blue arrow indicates the plus (+) button for adding additional rows to the table.](<../../.gitbook/assets/image (3) (1) (1).png>)
+![Public Data Sharing Repositories table from the regional DMP template; The blue arrow indicates the plus (+) button for adding additional rows to the table.](<../../.gitbook/assets/image (3) (1).png>)
 
 #### DMP Section 5: Records Schedule and Disposition
 
@@ -174,3 +172,5 @@ Physical samples include any tangible items that will be collected in associatio
 * **Chain of Custody:** Briefly describe the chain of custody, controls, or transfer procedure of the physical samples.
 * **Fate After Analysis:** Briefly describe the long-term storage or disposition plan for the physical samples.
 * **Data Products Derived:**  Provide the name or description of digital data products that resulted from the collection of these physical samples.&#x20;
+
+Updated June 2022

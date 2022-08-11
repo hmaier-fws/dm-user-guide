@@ -14,15 +14,15 @@
 ## Alaska Data Management 101
 
 * [Workflow](alaska-data-management-101/workflow.md)
-* [File Organization and Best Practices](alaska-data-management-101/file-organization-and-best-practices/README.md)
-  * [Best Practices in Naming Conventions](alaska-data-management-101/file-organization-and-best-practices/best-practices-in-naming-conventions.md)
-  * [Incorporating Data Standards](alaska-data-management-101/file-organization-and-best-practices/incorporating-data-standards.md)
-  * [Best Practices for Common Data Types](alaska-data-management-101/file-organization-and-best-practices/best-practices-for-common-data-types/README.md)
-    * [Best Practices in Tabular Data](alaska-data-management-101/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-in-tabular-data.md)
-    * [Best Practices in Databases](alaska-data-management-101/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-in-databases.md)
-    * [Best Practices in Geospatial Data](alaska-data-management-101/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-in-geospatial-data.md)
-    * [Best Practices with Collections of Similar Types of Data](alaska-data-management-101/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-with-collections-of-similar-types-of-data.md)
-    * [Best Practices with Source Data](alaska-data-management-101/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-with-source-data.md)
+* [File Organization and Best Practices](acquire/file-organization-and-best-practices/README.md)
+  * [Best Practices in Naming Conventions](acquire/file-organization-and-best-practices/best-practices-in-naming-conventions.md)
+  * [Incorporating Data Standards](acquire/file-organization-and-best-practices/incorporating-data-standards.md)
+  * [Best Practices for Common Data Types](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/README.md)
+    * [Best Practices in Tabular Data](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-in-tabular-data.md)
+    * [Best Practices in Databases](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-in-databases.md)
+    * [Best Practices in Geospatial Data](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-in-geospatial-data.md)
+    * [Best Practices with Collections of Similar Types of Data](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-with-collections-of-similar-types-of-data.md)
+    * [Best Practices with Source Data](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-with-source-data.md)
   * [Best Practices for Version Control](alaska-data-management-101/file-organization-and-best-practices/best-practices-for-version-control.md)
   * [Changelog Best Practices](alaska-data-management-101/file-organization-and-best-practices/changelog-best-practices.md)
 * [Alaska Regional Data Repository](alaska-data-management-101/alaska-regional-data-repository.md)
@@ -30,7 +30,8 @@
 
 ## Plan <a href="#planning" id="planning"></a>
 
-* [Data Management Plan](planning/data-management-plan/README.md)
+* [Why Data Planning?](planning/why-data-planning.md)
+* [Data Management Plan Templates](planning/data-management-plan/README.md)
   * [Data Standards in brief](planning/data-management-plan/data-standards-in-brief.md)
 * [Project & Data Management Integration](planning/project-and-data-management-integration.md)
 

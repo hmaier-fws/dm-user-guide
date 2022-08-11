@@ -10,6 +10,7 @@
   * [Quality Management](four-fundamental-activities-of-data-management/quality-management.md)
   * [Security and Preservation](four-fundamental-activities-of-data-management/security-and-preservation.md)
   * [Documentation](four-fundamental-activities-of-data-management/documentation.md)
+* [Workflow](workflow.md)
 
 ## Plan <a href="#planning" id="planning"></a>
 

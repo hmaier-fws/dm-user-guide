@@ -4,8 +4,6 @@
 Completing a DMP is a National Service Requirement.
 {% endhint %}
 
-**A Data Management Plan (DMP)** is a living document that describes the purpose for collecting data and how those data will be handled. It serves a roadmap that explains where data will be housed, secured, and how it will be quality assured for the project team, data management team, and leadership. The DMP covers collection, organization, use, storage, context, preservation, and sharing of data as well as assigning staff responsibilities and identifying needed resources.
-
 ### The DMP is the primary communication tool between the project team and the data manager or data custodian.
 
 The DMP is a partner document to your project documents (i.e., proposal, investigation plan, protocols, etc.). The Alaska region offers a machine-readable Microsoft Word DMP template for region-wide use. The most recent version can be found at the link below. The form must be completed in the desktop version of Microsoft Word.
@@ -52,7 +50,7 @@ The form provides additional space to add other project staff and/or collaborato
 
 The [Service Data Management Handbook](https://doimspp.sharepoint.com/sites/fws-data/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Ffws%2Ddata%2FShared%20Documents%2FDataManagementHandbook%2Epdf\&parent=%2Fsites%2Ffws%2Ddata%2FShared%20Documents) provides additional guidance on these key roles and responsibilities.
 
-![Contacts entry table from the regional DMP template; Note the blue arrow indicated the plus (+) button to add additional rows to the table.](<../../.gitbook/assets/image (10).png>)
+![Contacts entry table from the regional DMP template; Note the blue arrow indicated the plus (+) button to add additional rows to the table.](<../../.gitbook/assets/image (10) (1).png>)
 
 #### DMP Section 3: Metadata & Data Standards
 

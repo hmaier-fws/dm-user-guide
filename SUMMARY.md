@@ -45,3 +45,4 @@
 * [Appendix A: Interim Data Management Quick Guide](appendix-a-interim-data-management-quick-guide.md)
 * [Appendix B: Tree Structure for File Organization of the Archive Record](appendix-b-tree-structure-for-file-organization-of-the-archive-record.md)
 * [Glossary](glossary.md)
+* [Considerations for Tabular Data](considerations-for-tabular-data.md)

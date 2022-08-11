@@ -6,7 +6,7 @@ description: Describes Use and Best Practices for READ ME files
 
 Also often titled a "README" file, this text tile serves as a project folder much like a table of contents of a book or a report.  It outlines what you will find inside and provides a space for noting changes in the contents.
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (11).png>)
 
 
 

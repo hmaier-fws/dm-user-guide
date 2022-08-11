@@ -86,7 +86,7 @@ Because the Service does NOT currently have officially approved repositories, th
 
 Note that Refuges are required to store data assets in ServCat.
 
-![Public Data Sharing Repositories table from the regional DMP template; The blue arrow indicates the plus (+) button for adding additional rows to the table.](<../../.gitbook/assets/image (3) (1) (1).png>)
+![Public Data Sharing Repositories table from the regional DMP template; The blue arrow indicates the plus (+) button for adding additional rows to the table.](<../../.gitbook/assets/image (3) (1).png>)
 
 #### DMP Section 5: Records Schedule and Disposition
 
@@ -127,7 +127,7 @@ Restricted data still requires metadata to be written and be publicly searchable
 If using the regional machine-readable Alaska region DMP template, a metadata record will be created for each expected product and each record will automatically be associated with the project metadata record.
 {% endhint %}
 
-![Digital Data Product table can be duplicated by clicking on the plus (+) button indicated by the blue arrow.](<../../.gitbook/assets/image (9).png>)
+![Digital Data Product table can be duplicated by clicking on the plus (+) button indicated by the blue arrow.](<../../.gitbook/assets/image (9) (1).png>)
 
 #### Digital Data Table
 

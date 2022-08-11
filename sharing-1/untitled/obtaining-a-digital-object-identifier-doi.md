@@ -2,7 +2,7 @@
 
 A digital object identifier (DOI; [www.doi.org](https://www.doi.org)) is a unique identifier permanently associated with a data resource (csv file, report, published paper, etc.). For example, below is the DOI for this guide.&#x20;
 
-![Anatomy of a Digital Object Identifier URL](../../.gitbook/assets/AnatomyDOI.png)
+![Anatomy of a Digital Object Identifier URL](../../.gitbook/assets/anatomydoi.png)
 
 The [FWS DOI Tool](https://www1.usgs.gov/fws/doi/) allows you to manage DOIs and associate metadata with them. When you 'click' on a DOI link or enter the link directly at www.doi.org, you are redirected to the website given in the resource's metadata. The main advantage of a DOI is that if the underlying web link changes, you just have to update the DOI metadata.&#x20;
 
@@ -47,7 +47,7 @@ You now have a DOI reserved for the product. You can save that information and r
 4. At this point you can save the record for publishing later by selecting 'Save unpublished record' on the left or you can publish the record by selecting 'Publish Approved Record to DataCite.' If your record has been approved, select the latter.
 5. A confirmation box titled 'Publish DOI?' will appear. To confirm and publish the DOI, select 'YES, publish this DOI'.
 
-The information is then sent to [DataCite](https://datacite.org) where the DOI is published. When someone enters the DOI link into a web browser, they are redirected to the URL you provided in the metadata.  Usually after a few minutes (it could be up 24 hours), you should be able to locate your data product by entering the DOI at [www.doi.org](https://www.doi.org). If it does not work after 24 hours or you have any other problems, contact the [FWS DOI Tool Service Desk](https://my.usgs.gov/jira/servicedesk/customer/portal/32/create/455).&#x20;
+The information is then sent to [DataCite](https://datacite.org/) where the DOI is published. When someone enters the DOI link into a web browser, they are redirected to the URL you provided in the metadata.  Usually after a few minutes (it could be up 24 hours), you should be able to locate your data product by entering the DOI at [www.doi.org](https://www.doi.org). If it does not work after 24 hours or you have any other problems, contact the [FWS DOI Tool Service Desk](https://my.usgs.gov/jira/servicedesk/customer/portal/32/create/455).&#x20;
 
 {% hint style="warning" %}
 Currently there is no official Region-wide approval process for obtaining DOIs and publishing data products. You should seek the approval of the Data Steward, Project Manager (PI), and your Supervisor.&#x20;

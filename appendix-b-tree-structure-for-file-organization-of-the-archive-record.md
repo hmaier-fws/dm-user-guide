@@ -41,5 +41,5 @@ _Descriptions or details of the file/folder given in parentheses._&#x20;
 
 &#x9;	&#x9;
 
-![Visual Example of the File Organization of the Archive Record](<.gitbook/assets/archive layout (1).PNG>)
+![Visual Example of the File Organization of the Archive Record](.gitbook/assets/archive-layout.PNG)
 

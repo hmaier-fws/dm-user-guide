@@ -1,7 +1,5 @@
 ---
-description: >-
-  Guidance on how to use and populate fields in the Alaska REgional Data
-  Management Plan (DMP) template
+description: ( Yes, this IS a national requirement)
 ---
 
 # Data Management Plan
@@ -92,7 +90,7 @@ Because the Service does NOT currently have officially approved repositories, th
 
 Note that Refuges are required to store data assets in ServCat.
 
-![Public Data Sharing Repositories table from the regional DMP template; The blue arrow indicates the plus (+) button for adding additional rows to the table.](<../../.gitbook/assets/image (3).png>)
+![Public Data Sharing Repositories table from the regional DMP template; The blue arrow indicates the plus (+) button for adding additional rows to the table.](<../../.gitbook/assets/image (3) (1).png>)
 
 #### DMP Section 5: Records Schedule and Disposition
 
@@ -104,7 +102,30 @@ Feel free to contact the Alaska Regional Records Expert is Kyle Cahill (kyle\_ca
 
 ## _Data Products_
 
+In some, but not all cases, projects have anticipated data products, whether a table, geographic dataset, or a series of photographs.  Cataloging these anticipated data products during the planning phase can help identify resource need for the project.  Additionally, use of the regional machine-readable DMP template will initiate metadata records for your data products, if needed, and create the project-product associations within the metadata records.  &#x20;
+
+For digital data products, the following are the attribute fields:
+
 Complete a Digital Data Product (required) and Physical Sample (optional) table for each data product that you expect to produce or use during your project. Data products may include (but are not limited to) data tables, shapefiles, computer code, or reports. To add a table, click on the plus (+) button in in the lower right corner of the table.
+
+* Product Name:  Enter the name or title of the data product
+* Location url:  Enter the location of the data resource.  This may be the short-term storage location of the file or the project's incoming folder RDR if the data resource is ready for review.&#x20;
+* Product History: Indicate with the check boxes if this is a new data product or an previous product.  If it is an exiting data product, please also provide the url for the product metadata, if it exists.
+* Resource Type: Select the resource type for the data product, and choose the appropriate format from the dropdown options.  If the format is not listed, choose other and enter the format type in the input box.  Refer to guidance on standard format types.
+* Description:  Enter a description of the product in the text box.  It should be descriptive, but does not require justification for data collection.
+* Data Originators: Indicate the name and email of the person who collected the data. This may or may not be a point of contact listed above for the project team.
+* Quality Assurances:  Describe the procedures and methods used to ensure the data is free of errors.
+* Quality Controls:  Describe the procedures and methods used to help prevent errors in data collection.
+* Resource Requirements:  Describe the resources needed, such as hardware, software, equipment, staff with specialized skills, or financial commitments, to maintain, store, and access this data product.  Also include the size of the storage space needed and units (i.e. MB, GB, TB, PB)
+* &#x20;Metadata Author:  Enter the name and email address for the primary metadata author for the data product.
+* Maintenance and Submission Schedule:  Select the frequency in which the data product and its metadata will be updated and submitted to the RDR.  There are plenty of options, but 'other' is not one of them.
+* Data Restrictions:  Choose from the dropdown list where or not the data is restricted.  Note that restricted data still requires metadata to be discoverable.  In the majority of cases, data is open-access or unrestricted.  If data restrictions apply, provide a justification.  See data restrictions for more information.
+* Supplemental Materials:  List data products that are needed to understand this data product.  This may include relational diagram, photo and video naming conventions, or pre-existing datasets from which this product was derived.
+* Spatial Extent:  Indicate if the spatial extent is the same as the project extent or if not, indicate the location of a spatial dataset for the data product.
+
+{% hint style="info" %}
+Restricted data still requires metadata to be written and be publicly searchable.  See constraints section in product metadata for more information.&#x20;
+{% endhint %}
 
 {% hint style="info" %}
 If using the regional machine-readable Alaska region DMP template, a metadata record will be created for each expected product and each record will automatically be associated with the project metadata record.
@@ -116,6 +137,14 @@ If using the regional machine-readable Alaska region DMP template, a metadata re
 
 A data table should be completed for each digital data type (e.g., table, database, model, geospatial layer, or photo/video collection. The following are the DMP fields for digital data.
 
+* Collection Name:&#x20;
+* Description:  Enter a description of the physical samples in the text box.  Include number of samples and how they were used.
+* Labeling Standards:  Describe how the samples were labeled and the meaning of any codes or abbreviations used. &#x20;
+* Quality Assurance and Quality Control Procedures: Describe in the text box the procedures and methods used to collect and compile the the data from the sample to ensure quality data.
+* Storage Location and Conditions: Identify the location of the physical samples and the conditions in which the samples are stored in the text box.
+* Chain of Custody:  Describe the chain of custody, controls, or transfer procedure of the physical samples in the text box.
+* Fate After Analysis:  Describe the long-term storage or disposition plan for the physical samples in the text box.&#x20;
+* Data Products Derived:   Provide the name of the data product that directly resulted from the collection of these physical samples. __&#x20;
 * **Product Title:** (Required) Enter  naa descriptive name or title of the data product
 * **Location url:** (Optional) Enter the location of the data resource. This is likely the short-term storage location of the file.
 * **Product History:** (Required) Check a box to indicate whether the data is a new product or a pre-existing data product. If metadata for the data product already exists and metadata exist, provide the URL for the location of the metadata.

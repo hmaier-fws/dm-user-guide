@@ -28,7 +28,7 @@ _When consistent with usage in this document, definitions have been pulled from 
 
 **ISO**: the International Organization for Standardization. Entity that provides standards to ensure consistency in definitions, formats, and use.
 
-**mdEditor**: a web application used to write archival-quality metadata for projects and data resources. [mdeditor.org](https://www.mdeditor.org)
+**mdEditor**: a web application used to write archival-quality metadata for projects and data resources. [mdeditor.org](https://www.mdeditor.org/)
 
 **Metadata**: data that describes and provides additional information about other data to promote discoverability and proper use.
 

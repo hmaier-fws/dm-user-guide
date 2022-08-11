@@ -56,3 +56,4 @@
 * [Appendix B: Tree Structure for File Organization of the Archive Record](appendix-b-tree-structure-for-file-organization-of-the-archive-record.md)
 * [Glossary](glossary.md)
 * [Considerations for Projects with External Partners](considerations-for-projects-with-external-partners.md)
+* [Common Data Types](common-data-types.md)

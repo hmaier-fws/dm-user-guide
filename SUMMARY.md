@@ -26,6 +26,7 @@
     * [Best Practices in Geospatial Data](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-in-geospatial-data.md)
     * [Best Practices with Collections of Similar Types of Data](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-with-collections-of-similar-types-of-data.md)
     * [Best Practices with Source Data](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-with-source-data.md)
+* [Quality Management Procedures](acquire/quality-management-procedures.md)
 
 ## MAINTAIN
 

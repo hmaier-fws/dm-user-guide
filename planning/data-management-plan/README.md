@@ -86,7 +86,7 @@ Because the Service does NOT currently have officially approved repositories, th
 
 Note that Refuges are required to store data assets in ServCat.
 
-![Public Data Sharing Repositories table from the regional DMP template; The blue arrow indicates the plus (+) button for adding additional rows to the table.](<../../.gitbook/assets/image (3) (1).png>)
+![Public Data Sharing Repositories table from the regional DMP template; The blue arrow indicates the plus (+) button for adding additional rows to the table.](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 #### DMP Section 5: Records Schedule and Disposition
 
@@ -148,7 +148,7 @@ A data table should be completed for each digital data type (e.g., table, databa
 * **Description:** (Optional) Describe the data product, including information on purpose of data and key attributes of the data collected. This is not a justification for data collected.
 * **Data Producer(s)/Originators:** (Optional)Indicate the name and email of the person(s) who collected the data. This may or may not be a point of contact listed above in the project personnel section. Use the blue plus (+) button to add additional persons.
 
-![Add additional data producers by clicking the blue plus (+) button.](<../../.gitbook/assets/image (2) (1).png>)
+![Add additional data producers by clicking the blue plus (+) button.](<../../.gitbook/assets/image (2).png>)
 
 * **Quality Assurances:** (Required) Briefly list the procedures and methods used to help prevent errors during data collection. If these procedures are already detailed in project methods documents (protocols), you may provide a link to those documents instead.
 * **Quality Controls:** (Required) Briefly list the procedures and methods used review and ensure data is free of errors after collection. If these procedures already detailed in project methods documents (protocols), you may provide a link to those documents instead.

@@ -16,13 +16,6 @@
 * [Workflow](alaska-data-management-101/workflow.md)
 * [File Organization and Best Practices](acquire/file-organization-and-best-practices/README.md)
   * [Best Practices in Naming Conventions](acquire/file-organization-and-best-practices/best-practices-in-naming-conventions.md)
-  * [Incorporating Data Standards](acquire/file-organization-and-best-practices/incorporating-data-standards.md)
-  * [Best Practices for Common Data Types](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/README.md)
-    * [Best Practices in Tabular Data](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-in-tabular-data.md)
-    * [Best Practices in Databases](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-in-databases.md)
-    * [Best Practices in Geospatial Data](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-in-geospatial-data.md)
-    * [Best Practices with Collections of Similar Types of Data](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-with-collections-of-similar-types-of-data.md)
-    * [Best Practices with Source Data](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-with-source-data.md)
   * [Best Practices for Version Control](alaska-data-management-101/file-organization-and-best-practices/best-practices-for-version-control.md)
   * [Changelog Best Practices](alaska-data-management-101/file-organization-and-best-practices/changelog-best-practices.md)
 * [Alaska Regional Data Repository](alaska-data-management-101/alaska-regional-data-repository.md)
@@ -40,8 +33,14 @@
 
 * [Common Data Types](acquire/common-data-types/README.md)
   * [Open Formats](acquire/common-data-types/open-formats.md)
-  * [Page 2](acquire/common-data-types/page-2.md)
-* [Quality Management Procedures](acquire/quality-management-procedures.md)
+  * [Best Practices for Common Data Types](acquire/common-data-types/best-practices-for-common-data-types/README.md)
+    * [Best Practices in Tabular Data](acquire/common-data-types/best-practices-for-common-data-types/best-practices-in-tabular-data.md)
+    * [Best Practices in Databases](acquire/common-data-types/best-practices-for-common-data-types/best-practices-in-databases.md)
+    * [Best Practices in Geospatial Data](acquire/common-data-types/best-practices-for-common-data-types/best-practices-in-geospatial-data.md)
+    * [Best Practices with Collections of Similar Types of Data](acquire/common-data-types/best-practices-for-common-data-types/best-practices-with-collections-of-similar-types-of-data.md)
+    * [Best Practices with Source Data](acquire/common-data-types/best-practices-for-common-data-types/best-practices-with-source-data.md)
+* [Quality Management Procedures](acquire/quality-management-procedures/README.md)
+  * [Incorporating Data Standards](acquire/quality-management-procedures/incorporating-data-standards.md)
 
 ## MAINTAIN
 

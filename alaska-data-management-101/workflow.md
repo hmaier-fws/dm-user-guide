@@ -6,7 +6,7 @@ description: >-
 
 # Workflow
 
-![Generalized Alaska Data Management Workflow](<../.gitbook/assets/image (2).png>)
+![Generalized Alaska Data Management Workflow](<../.gitbook/assets/image (8).png>)
 
 #### _#1: Complete a Data Management Plan_ <a href="#step-1-create-data-management-plan" id="step-1-create-data-management-plan"></a>
 

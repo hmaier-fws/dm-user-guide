@@ -15,6 +15,7 @@
 
 * [Workflow](alaska-data-management-101/workflow.md)
 * [Alaska Regional Data Repository](alaska-data-management-101/alaska-regional-data-repository.md)
+* [Data Management Policy](alaska-data-management-101/data-management-policy.md)
 
 ## Plan <a href="#planning" id="planning"></a>
 

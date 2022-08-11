@@ -47,3 +47,7 @@
 * [Appendix A: Interim Data Management Quick Guide](appendix-a-interim-data-management-quick-guide.md)
 * [Appendix B: Tree Structure for File Organization of the Archive Record](appendix-b-tree-structure-for-file-organization-of-the-archive-record.md)
 * [Glossary](glossary.md)
+
+## Group 1
+
+* [Alaska Regional Data Repository](group-1/alaska-regional-data-repository.md)

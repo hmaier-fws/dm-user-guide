@@ -20,6 +20,7 @@
 
 * [File Organization and Best Practices](acquire/file-organization-and-best-practices/README.md)
   * [Best Practices in Naming Conventions](acquire/file-organization-and-best-practices/best-practices-in-naming-conventions.md)
+  * [Incorporating Data Standards](acquire/file-organization-and-best-practices/incorporating-data-standards.md)
   * [Best Practices for Common Data Types](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/README.md)
     * [Best Practices in Tabular Data](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-in-tabular-data.md)
     * [Best Practices in Databases](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-in-databases.md)
@@ -27,7 +28,6 @@
     * [Best Practices with Collections of Similar Types of Data](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-with-collections-of-similar-types-of-data.md)
     * [Best Practices with Source Data](acquire/file-organization-and-best-practices/best-practices-for-common-data-types/best-practices-with-source-data.md)
 * [Quality Management Procedures](acquire/quality-management-procedures.md)
-* [Incorporating Data Standards](acquire/incorporating-data-standards.md)
 
 ## MAINTAIN
 

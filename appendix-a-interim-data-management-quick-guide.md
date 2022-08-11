@@ -1,4 +1,8 @@
-# Appendix A: Interim Data Management Quick Guide
+# Data Management Actions Quick Guide
+
+needs updated
+
+
 
 NOTE: For Completed projects, the Data Steward will often perform the actions assigned to the Data Originator and Project Manager, when those roles are unable to be filled. Whenever possible, the Data Originator should author product metadata.
 
@@ -14,7 +18,5 @@ NOTE: For Completed projects, the Data Steward will often perform the actions as
 | □ [Write product metadata records and export records to the incoming folder](https://ak-region-dst.gitbook.io/alaska-region-mdeditor-interim-user-guide/product-entry-guidance) | Data Originator | Data Steward                               |
 | □ Review products for best practices and metadata for correctness and completeness                                                                                              | Data Steward    | N/A                                        |
 | □ Revise products and/or associated metadata, when necessary                                                                                                                    | Data Originator | Data Steward                               |
-| □ Document any dependencies between source data and project-derived data                                                                                                        | Data Originator | Data Steward                               |
 | □ Move approved products to the appropriate location of the archive folder                                                                                                      | Data Custodian  | N/A                                        |
-| □ Maintain project and product metadata record associations                                                                                                                     | Data Steward    | N/A                                        |
 | □ Confirm readiness of products for discoverability and accessibility                                                                                                           | Data Custodian  | <p>Project Manager </p><p>Data Trustee</p> |

@@ -34,9 +34,13 @@
 * [Data Management Plan Templates](planning/data-management-plan/README.md)
   * [Data Standards in brief](planning/data-management-plan/data-standards-in-brief.md)
 * [Project & Data Management Integration](planning/project-and-data-management-integration.md)
+* [Considerations for Projects with External Partners](planning/considerations-for-projects-with-external-partners.md)
 
 ## ACQUIRE
 
+* [Common Data Types](acquire/common-data-types/README.md)
+  * [Open Formats](acquire/common-data-types/open-formats.md)
+  * [Page 2](acquire/common-data-types/page-2.md)
 * [Quality Management Procedures](acquire/quality-management-procedures.md)
 
 ## MAINTAIN
@@ -55,5 +59,3 @@
 * [Appendix A: Interim Data Management Quick Guide](appendix-a-interim-data-management-quick-guide.md)
 * [Appendix B: Tree Structure for File Organization of the Archive Record](appendix-b-tree-structure-for-file-organization-of-the-archive-record.md)
 * [Glossary](glossary.md)
-* [Considerations for Projects with External Partners](considerations-for-projects-with-external-partners.md)
-* [Common Data Types](common-data-types.md)

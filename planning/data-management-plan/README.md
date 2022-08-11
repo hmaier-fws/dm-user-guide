@@ -50,7 +50,7 @@ The form provides additional space to add other project staff and/or collaborato
 
 The [Service Data Management Handbook](https://doimspp.sharepoint.com/sites/fws-data/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Ffws%2Ddata%2FShared%20Documents%2FDataManagementHandbook%2Epdf\&parent=%2Fsites%2Ffws%2Ddata%2FShared%20Documents) provides additional guidance on these key roles and responsibilities.
 
-![Contacts entry table from the regional DMP template; Note the blue arrow indicated the plus (+) button to add additional rows to the table.](<../../.gitbook/assets/image (10) (1).png>)
+![Contacts entry table from the regional DMP template; Note the blue arrow indicated the plus (+) button to add additional rows to the table.](<../../.gitbook/assets/image (10).png>)
 
 #### DMP Section 3: Metadata & Data Standards
 
@@ -127,7 +127,7 @@ Restricted data still requires metadata to be written and be publicly searchable
 If using the regional machine-readable Alaska region DMP template, a metadata record will be created for each expected product and each record will automatically be associated with the project metadata record.
 {% endhint %}
 
-![Digital Data Product table can be duplicated by clicking on the plus (+) button indicated by the blue arrow.](<../../.gitbook/assets/image (9).png>)
+![Digital Data Product table can be duplicated by clicking on the plus (+) button indicated by the blue arrow.](<../../.gitbook/assets/image (9) (1).png>)
 
 #### Digital Data Table
 

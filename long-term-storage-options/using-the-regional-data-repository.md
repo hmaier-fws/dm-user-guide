@@ -14,7 +14,7 @@ To ensure that files stored in the RDR are protected from loss or corruption, ac
 
 ## Organization of the RDR
 
-![Branching tree of program sub-folders in 'datamgt' folder](<.gitbook/assets/image (4).png>)
+![Branching tree of program sub-folders in 'datamgt' folder](<../.gitbook/assets/image (16).png>)
 
 #### Directory Template
 
@@ -44,13 +44,13 @@ Completion and data manager approval of your [data management plan](broken-refer
 
 The link to your project's RDR folder is broken down as follows:
 
-![Example RDR link for an FES project](<.gitbook/assets/image (12).png>)
+![Example RDR link for an FES project](<../.gitbook/assets/image (14).png>)
 
 ## Organization of Your RDR Project Folder
 
 
 
-![Example branching tree of sub-folders in "fesafb\_001\_SockeyeFyke" folder](<.gitbook/assets/image (1).png>)
+![Example branching tree of sub-folders in "fesafb\_001\_SockeyeFyke" folder](<../.gitbook/assets/image (2).png>)
 
 #### Administration
 

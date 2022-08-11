@@ -56,6 +56,9 @@
 
 ***
 
+* [Long-term Storage Options](long-term-storage-options/README.md)
+  * [Using the Regional Data Repository](long-term-storage-options/using-the-regional-data-repository.md)
+  * [Public Accessible Repositories](long-term-storage-options/public-accessible-repositories.md)
+* [Records Schedule & Disposition](records-schedule-and-disposition.md)
 * [Appendix A: Interim Data Management Quick Guide](appendix-a-interim-data-management-quick-guide.md)
 * [Glossary](glossary.md)
-* [Using the Regional Data Repository](using-the-regional-data-repository.md)

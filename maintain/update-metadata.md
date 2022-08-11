@@ -21,9 +21,9 @@ To update your metadata, follow the steps listed below:
 
 ![](<../.gitbook/assets/image (5).png>)
 
-![Accessing mdEditor and importing initiated metadata records (Steps 3, 4, and 5).](../.gitbook/assets/image.png)
+![Accessing mdEditor and importing initiated metadata records (Steps 3, 4, and 5).](<../.gitbook/assets/image (3).png>)
 
-![Importing, editing, and exporting metadata records in mdEditor (Steps 6, 7, and 8)](<../.gitbook/assets/image (1).png>)
+![Importing, editing, and exporting metadata records in mdEditor (Steps 6, 7, and 8)](<../.gitbook/assets/image (1) (1).png>)
 
 {% hint style="info" %}
 For additional guidance on how to write metadata or use [mdEditor](https://www.mdeditor.org/), refer to the [Alaska Region Metadata Guide](https://ak-region-dst.gitbook.io/alaska-region-mdeditor-interim-user-guide/).

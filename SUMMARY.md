@@ -47,7 +47,7 @@
 
 * [Update Metadata](maintain/update-metadata.md)
 
-## SharE <a href="#sharing-1" id="sharing-1"></a>
+## Access & Share <a href="#sharing-1" id="sharing-1"></a>
 
 * [Open Data Requirements](sharing-1/untitled/README.md)
   * [Obtaining a Digital Object Identifier (DOI)](sharing-1/untitled/obtaining-a-digital-object-identifier-doi.md)
@@ -57,5 +57,5 @@
 ***
 
 * [Appendix A: Interim Data Management Quick Guide](appendix-a-interim-data-management-quick-guide.md)
-* [Appendix B: Tree Structure for File Organization of the Archive Record](appendix-b-tree-structure-for-file-organization-of-the-archive-record.md)
 * [Glossary](glossary.md)
+* [Using the Regional Data Repository](using-the-regional-data-repository.md)

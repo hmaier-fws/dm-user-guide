@@ -4,7 +4,7 @@ description: List and description of common open dat formats
 
 # Open Formats
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (13).png>)
 
 Sharing data can be greatly enhanced if you use ubiquitous, easy-to-read formats. For instance, while Microsoft Excel files are commonplace, it's better to export these spreadsheets to Comma Separated Values (CSV) text files, which can be read on any computer without having Microsoft products installed.  Open data means that anyone can read it without the need for costly software.
 

@@ -45,7 +45,7 @@
 
 ## MAINTAIN
 
-* [See Metadata Guide](maintain/see-metadata-guide.md)
+* [Update Metadata](maintain/update-metadata.md)
 
 ## SharE <a href="#sharing-1" id="sharing-1"></a>
 

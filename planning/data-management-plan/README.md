@@ -54,7 +54,7 @@ The form provides additional space to add other project staff and/or collaborato
 
 The [Service Data Management Handbook](https://doimspp.sharepoint.com/sites/fws-data/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Ffws%2Ddata%2FShared%20Documents%2FDataManagementHandbook%2Epdf\&parent=%2Fsites%2Ffws%2Ddata%2FShared%20Documents) provides additional guidance on these key roles and responsibilities.
 
-![Contacts entry table from the regional DMP template; Note the blue arrow indicated the plus (+) button to add additional rows to the table.](<../../.gitbook/assets/image (10) (1).png>)
+![Contacts entry table from the regional DMP template; Note the blue arrow indicated the plus (+) button to add additional rows to the table.](<../../.gitbook/assets/image (10).png>)
 
 #### DMP Section 3: Metadata & Data Standards
 
@@ -131,7 +131,7 @@ Restricted data still requires metadata to be written and be publicly searchable
 If using the regional machine-readable Alaska region DMP template, a metadata record will be created for each expected product and each record will automatically be associated with the project metadata record.
 {% endhint %}
 
-![Digital Data Product table can be duplicated by clicking on the plus (+) button indicated by the blue arrow.](<../../.gitbook/assets/image (9).png>)
+![Digital Data Product table can be duplicated by clicking on the plus (+) button indicated by the blue arrow.](<../../.gitbook/assets/image (9) (1).png>)
 
 #### Digital Data Table
 
@@ -152,7 +152,7 @@ A data table should be completed for each digital data type (e.g., table, databa
 * **Description:** (Optional) Describe the data product, including information on purpose of data and key attributes of the data collected. This is not a justification for data collected.
 * **Data Producer(s)/Originators:** (Optional)Indicate the name and email of the person(s) who collected the data. This may or may not be a point of contact listed above in the project personnel section. Use the blue plus (+) button to add additional persons.
 
-![Add additional data producers by clicking the blue plus (+) button.](<../../.gitbook/assets/image (2).png>)
+![Add additional data producers by clicking the blue plus (+) button.](<../../.gitbook/assets/image (2) (1).png>)
 
 * **Quality Assurances:** (Required) Briefly list the procedures and methods used to help prevent errors during data collection. If these procedures are already detailed in project methods documents (protocols), you may provide a link to those documents instead.
 * **Quality Controls:** (Required) Briefly list the procedures and methods used review and ensure data is free of errors after collection. If these procedures already detailed in project methods documents (protocols), you may provide a link to those documents instead.

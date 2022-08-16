@@ -35,6 +35,8 @@ Much of the Region’s data is contained in spreadsheets (i.e., tabular data, mo
 
 [How to merge and tidy data with Excel](http://www.ttdatavis.onthinktanks.org/how-tos/how-to-merge-and-tidy-data-with-excel)
 
+[How to tidy data with Python](https://www.jeannicholashould.com/tidy-data-in-python.html)
+
 
 
 

@@ -4,7 +4,7 @@ description: aka RDR
 
 # Alaska Regional Data Repository
 
-The Alaska Regional Data Repository is a centralized server dedicated to the storage of regional projects, data assets, and products and metadata. T**he RDR is intended to be the regionally accessible, secure, authoritative storage archive for project documents, records, data and metadata and as a single source for serving data and metadata to publicly accessible catalogs and other repositories.**
+The Alaska Regional Data Repository is a centralized server dedicated to the storage of regional projects, data assets, and products and metadata. T**he RDR is intended to be the regionally accessible, secure, authoritative storage location for project documents, records, data and metadata and as a single source for serving data and metadata to publicly accessible catalogs and other repositories.**
 
 The regional repository is for the storage of _completed resources_ (this does not mean they can never be replaced or updated); it is not intended for active working files. The process of depositing files in the RDR was designed to implement a data management quality control process where: 1) a digital resource passes from the "data producer" to 2) the "data steward" (who reviews metadata quality) then on to 3) the "data custodian" (who moves the resource to an appropriate storage location). The program repositories are managed by the respective program data managers (i.e. Custodians).\
 This process helps to ensure that all assets in the repository have metadata that meet a minimum regional metadata standard and the project directory does not become a disorganized collection files that is often present in shared file systems.

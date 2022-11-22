@@ -19,8 +19,7 @@ For information related to U.S. Fish and Wildlife Service (USFWS) data managemen
 
 | Program                           | Contact information                                                                                                                                                                                 |
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Fisheries and Ecological Services | <p><img src="broken-reference" alt="" data-size="line"> Theresa Wisneskie, Data Manager</p><p><a href="https://app.gitbook.com/u/7RKg33WxHbPxaBb7UbNNeKyISjt2">theresa_wisneskie@fws.gov</a></p>    |
-|                                   | <p><img src="broken-reference" alt="" data-size="line"> Samantha Hamilton, Data Technician</p><p><a href="https://app.gitbook.com/u/Lxfy8gvMHUWskO1MGHecE9Sb4M72">samantha_hamilton@fws.gov</a></p> |
+| Fisheries and Ecological Services | <p><img src="broken-reference" alt="" data-size="line"> Jonah Withers, Data Manager</p><p>jonah_withers@fws.gov</p>                                                                                 |
 | Migratory Birds                   | <p><img src="broken-reference" alt="" data-size="line"> Tammy Patterson, Data Manager</p><p><a href="https://app.gitbook.com/u/tfpKEfytBhZAM8ga2Ihi8kQPcqC3">tamatha_patterson@fws.gov</a></p>      |
 |                                   | <p><img src="broken-reference" alt="" data-size="line"> Hannah Vincelette, Data Technician</p><p><a href="https://app.gitbook.com/u/X30hpltQUnMC3gQgzixKVdu6YaZ2">hannah_vincelette@fws.gov</a></p> |
 | Refuges                           | <p><img src="broken-reference" alt="" data-size="line"> Caylen Kelsey, Data Manager</p><p><a href="https://app.gitbook.com/u/O15eW17GQiOtRJu7axv3cUiNkYw1">caylen_kelsey@fws.gov</a></p>            |

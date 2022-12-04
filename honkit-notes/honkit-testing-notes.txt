@@ -1,0 +1,26 @@
+20221202:
+	Install honkit as per https://github.com/honkit/honkit
+	
+		npm init --yes
+		npm install honkit --save-dev
+		
+
+
+---------------------------------------
+Build book:
+---------------------------------------
+
+npx honkit serve --live true --open
+npx honkit serve
+
+	Page served at: http://localhost:4000/
+	
+	Works. Both commands work the same. Edits to source file are displayed without the need to reload the page.
+	
+npx honkit build --format ebook --log debug C:\Users\HMaier\Documents\projects\hmaier_git_repo\dm-user-guide ebook1
+	Builds ebook1 directory with .md files converted to html
+	
+	
+	npx honkit pdf --log debug C:\Users\HMaier\Documents\projects\hmaier_git_repo\dm-user-guide pdf-test
+		Didn't work. Need to install ebook-convert (npm install ebook-convert)
+		

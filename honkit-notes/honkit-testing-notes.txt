@@ -32,7 +32,18 @@
 		}
 		
 		Page size successfully changes.
-	
+
+20221206:
+	Install honkit-plugin-alert-msg (npmjs.com/package/honkit-plugin-alert-msg)
+		npm install honkit-plugin-alert-msg
+		
+	Update book.json to include
+		{
+			"plugins": [
+					"alert-msg"
+			]
+		}
+		
 
 ---------------------------------------
 Build book:

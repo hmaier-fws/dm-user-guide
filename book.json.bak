@@ -1,8 +1,8 @@
 {
-	"pdf": {
+	"pdf": [
 		"pageNumbers": true,
 		"paperSize": "legal"
-	},
+	],
 	
 	"plugins": [
 		"alert-msg"

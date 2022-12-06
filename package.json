@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "honkit": "^4.0.4",
+    "honkit-plugin-alert-msg": "^0.0.2"
+  }
+}

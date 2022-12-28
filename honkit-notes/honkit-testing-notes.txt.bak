@@ -68,5 +68,16 @@ npx honkit build --format ebook --log debug C:\Users\HMaier\Documents\projects\h
 		npx honkit pdf ./_book newpdf
 		
 20221213
+	Install https://www.npmjs.com/package/gitbook-plugin-styled-blockquotes
+	
 	npm install gitbook-plugin-styled-blockquotes
 	[Not installed: npm install gitbook-plugin-hints]
+	
+20221227
+	Install https://www.npmjs.com/package/gitbook-plugin-hints
+	
+		npm install gitbook-plugin-hints
+	
+	Edited book.json file to include:
+		"plugins": ["hints"]
+	

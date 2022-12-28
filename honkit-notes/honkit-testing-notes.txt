@@ -80,4 +80,9 @@ npx honkit build --format ebook --log debug C:\Users\HMaier\Documents\projects\h
 	
 	Edited book.json file to include:
 		"plugins": ["hints"]
-	
+
+20221228
+	GitBook images do not render. Images names includes parenthesis and spaces and must be url encoded e.g.
+		"../.gitbook/assets/image (9).png" -> "../.gitbook/assets/image%20%289%29.png"
+
+

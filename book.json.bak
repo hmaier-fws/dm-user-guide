@@ -1,10 +1,11 @@
 {
-	"pdf": [
+	"pdf": {
 		"pageNumbers": true,
 		"paperSize": "legal"
-	],
+	},
 	
 	"plugins": [
-		"alert-msg"
+		"alert-msg",
+    "hints"
 	]
 }

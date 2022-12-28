@@ -30,12 +30,19 @@
 				"paperSize": "legal"
 			}
 		}
-		
+
 		Page size successfully changes.
 
 20221206:
 	Install honkit-plugin-alert-msg (npmjs.com/package/honkit-plugin-alert-msg)
 		npm install honkit-plugin-alert-msg
+		
+	Update book.json to include
+		{
+			"plugins": [
+					"alert-msg"
+			]
+		}
 		
 
 ---------------------------------------
@@ -59,3 +66,7 @@ npx honkit build --format ebook --log debug C:\Users\HMaier\Documents\projects\h
 	Create PDF
 		npx honkit build
 		npx honkit pdf ./_book newpdf
+		
+20221213
+	npm install gitbook-plugin-styled-blockquotes
+	[Not installed: npm install gitbook-plugin-hints]

@@ -4,6 +4,20 @@ description: AK Region Data Stewardship Team (v.3)
 
 # Alaska Region Interim Data Management User Guide2
 
+---
+Production version can be found at https://ak-region-dst.gitbook.io/alaska-region-interim-data-management-user-guide/ ([doi:10.7944/P9JF0RT6](https://doi.org/10.7944/P9JF0RT6))
+
+Test of liquid tag variables:
+  - `page.description`[^1]: {{ page.description }}
+  - `honkit.time`: {{ honkit.time }}
+  - `file.path`: {{ file.path }}
+  - `page.title`[^2]: {{ page.title }}
+
+[^1]: From page front matter.
+[^2]: Value is obtained from summary.md (not H1).
+---
+
+
 Planning, acquiring, maintaining, sharing, and archiving are all important steps of proper data management. The Alaska Region Data Management User Guide was designed to walk staff through each of these steps, with procedures, documents, and best practices specific to Region 7. Fisheries and Ecological Services, Migratory Bird Management, National Wildlife Refuge System, and the Office of Subsistence Management staff should look to this guide for **regional** data management support. Supplementing this document are additional region-specific resources, including:
 
 {% alert type="note", style="callout" %}

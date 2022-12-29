@@ -96,3 +96,8 @@ npx honkit build --format ebook --log debug C:\Users\HMaier\Documents\projects\h
 		- Apparently unreferenced markdown files are carrried over with the rendered files.
 		- Extra .md files were removed and pages were properly rendered.
 		
+	Update .gitignore to include *.txt.bak
+	
+		Untrack file that is already checked in before adding a rule to ignore it. (as per https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files)
+		
+			git rm --cached FILENAME

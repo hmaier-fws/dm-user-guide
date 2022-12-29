@@ -2,3 +2,4 @@ _book/*
 ebook*/
 node_modules/*
 *.bak
+docs/*.md

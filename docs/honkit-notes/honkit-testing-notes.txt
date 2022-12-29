@@ -85,8 +85,4 @@ npx honkit build --format ebook --log debug C:\Users\HMaier\Documents\projects\h
 	GitBook images do not render. Images names includes parenthesis and spaces and must be url encoded e.g.
 		"../.gitbook/assets/image (9).png" -> "../.gitbook/assets/image%20%289%29.png"
 
-20221229
-	Build booh to docs subdirectory:
-		C:\Users\HMaier\Documents\projects\hmaier_git_repo\dm-user-guide>npx honkit build --format website ./ ./docs/
-		
-		
+

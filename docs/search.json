@@ -1,0 +1,189 @@
+[
+  {
+    "objectID": "source-files/glossary.html",
+    "href": "source-files/glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "Glossary\nWhen consistent with usage in this document, definitions have been pulled from various other resources including Wikipedia, Open Data Handbook glossary, Duke Law EDRM glossary, and the Open Government Data Act codification of act definitions 44 usc 3502. It is possible to find alternative and contradictory definitions in other data management resources resources. The definitions provided here are those implied by the term’s usage in this document.\nAccessibility: the degree to which the resource is obtainable by an interested party. Direct access without constraint would be the most accessible (e.g. resources that may be downloaded without requiring a login), whereas resources that require third-party intervention would be less accessible. \nArchive Folder: a consistent file structure with use constraints and backup schedule that houses the definitive record of a project’s data resources. Products in the archive folder are the subject of metadata records and are the versions intended for use and dissemination. Contrast with working folder.\nData Catalog: database comprised of metadata allowing for the discovery of data resources.\nData Custodian: individual responsible for the storage and security of a data resource.\nData Trustee: individual having the authority to: 1) ensure resources are available to implement the complete project and data lifecycle and 2) ensure compliance with all data governance policies.\nData Dictionary: provides information on the contents of a dataset to support data quality and use. Such information includes entity (i.e., variable) definitions and allowable values. In the case of databases, or a collection of datasets, relationships between tables are also defined in the data dictionary.\nData Integrity: property describing foundational soundness of a data resource. Data with strong integrity have undergone quality control and assurance procedures throughout their lifespan, have permanence over a reasonable timeframe and changes to the data are appropriately documented.\nData Management: an administrative process that includes acquiring, validating, storing, and securing data to ensure the accessibility, integrity, and timeliness of the data for its users.\nData Management Plan: document that describes the data expected from the project, how such data will be handled throughout the project to protect data integrity, and stored at the conclusion of the project to ensure security, discoverability, and accessibility.\nData Resources: data. Recorded information, regardless of form or the media on which the data is recorded. aka Products.\nData Steward: individual responsible for reviewing the quality and metadata of a resource.\nDiscoverability: the degree to which information about a data resource’s existence is readily obtained via searching an information system (e.g., Data.gov). Certain aspects of the metadata for the resource may be useful in enhancing discoverability, such as keywords or spatial bounds. Data catalogs can enhance discoverability by providing a standard location for searching and organizing resources. A data resource may be discoverable (e.g. found in a search result) but not accessible (see accessibility).\nISO: the International Organization for Standardization. Entity that provides standards to ensure consistency in definitions, formats, and use.\nmdEditor: a web application used to write archival-quality metadata for projects and data resources. mdeditor.org\nMetadata: data that describes and provides additional information about other data to promote discoverability and proper use.\nOpen Format: data format that is platform independent, machine readable, and made available to the public without restrictions that would impede the re-use of that information.\nProject: a discrete effort on a particular topic with defined objectives or goals.\nProject Management: the practice of initiating, planning, executing, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time. \nQuality Assurance: preventing errors. The maintenance of a desired level of quality in a product, by means of attention to every stage of the process of acquisition, manipulation, and use\nQuality Control: identifying and correcting errors. Process of review to reduce or eliminate errors made during data acquisition and manipulation.\nReproducible (analyses, workflow, or research): structuring activities so that a product (e.g., a data set, analysis result, or report) can be repeated and the same results achieved. Replication could be achieved by either the same person or team that created the original product or a different team. Documentation and scripted work flows play a key role in reproducibility. \nTidy Data: standard way of relating the structure of a dataset to its meaning. Specifically, each row represents an observation and each column represents a variable recorded on an observation.\nWorking Folder: a file structure used by an individual, or a group in collaboration, to store data resources under production during the course of a project’s implementation. Contrast with archive folder.",
+    "crumbs": [
+      "Source Files",
+      "Glossary"
+    ]
+  },
+  {
+    "objectID": "source-files/SUMMARY.html",
+    "href": "source-files/SUMMARY.html",
+    "title": "Table of contents",
+    "section": "",
+    "text": "Alaska Region Interim Data Management User Guide\nBackground\n\nWhy Data Managment?\nThe Big Picture: Integrating Data Management with Project Management\nDefinition of Project and Product (aka Data Resources)\n\nFour Fundamental Activities of Data Management\n\nEstablish Roles and Responsibilities\nQuality Management\nSecurity and Preservation\nDocumentation\n\n\n\n\n\nWorkflow\nFile Organization and Best Practices\n\nBest Practices in Naming Conventions\nBest Practices for Version Control\nChangelog Best Practices\n\nAlaska Regional Data Repository\nData Management Policy\n\n\n\n\n\nWhy Data Planning?\nData Management Plan Templates\n\nData Standards in brief\n\nProject & Data Management Integration\nConsiderations for Projects with External Partners\n\n\n\n\n\nCommon Data Types\n\nOpen Formats\nBest Practices in Tabular Data\nBest Practices in Databases\nBest Practices in Geospatial Data\nBest Practices with Collections of Similar Types of Data\nBest Practices with Source Data\n\nQuality Management Procedures\n\nIncorporating Data Standards\nUsing Unique Identifiers\n\n\n\n\n\n\nUpdate Metadata\n\n\n\n\n\nOpen Data Requirements\n\nObtaining a Digital Object Identifier (DOI)\nObtaining a URL\nSharing without a URL\n\n\n\n\nLong-term Storage Options\n\nUsing the Regional Data Repository\nPublic Accessible Repositories\n\nRecords Schedule & Disposition\nData Management Actions Quick Guide\nGlossary",
+    "crumbs": [
+      "Source Files",
+      "Table of contents"
+    ]
+  },
+  {
+    "objectID": "source-files/SUMMARY.html#alaska-data-management-101",
+    "href": "source-files/SUMMARY.html#alaska-data-management-101",
+    "title": "Table of contents",
+    "section": "",
+    "text": "Workflow\nFile Organization and Best Practices\n\nBest Practices in Naming Conventions\nBest Practices for Version Control\nChangelog Best Practices\n\nAlaska Regional Data Repository\nData Management Policy",
+    "crumbs": [
+      "Source Files",
+      "Table of contents"
+    ]
+  },
+  {
+    "objectID": "source-files/SUMMARY.html#plan",
+    "href": "source-files/SUMMARY.html#plan",
+    "title": "Table of contents",
+    "section": "",
+    "text": "Why Data Planning?\nData Management Plan Templates\n\nData Standards in brief\n\nProject & Data Management Integration\nConsiderations for Projects with External Partners",
+    "crumbs": [
+      "Source Files",
+      "Table of contents"
+    ]
+  },
+  {
+    "objectID": "source-files/SUMMARY.html#acquire",
+    "href": "source-files/SUMMARY.html#acquire",
+    "title": "Table of contents",
+    "section": "",
+    "text": "Common Data Types\n\nOpen Formats\nBest Practices in Tabular Data\nBest Practices in Databases\nBest Practices in Geospatial Data\nBest Practices with Collections of Similar Types of Data\nBest Practices with Source Data\n\nQuality Management Procedures\n\nIncorporating Data Standards\nUsing Unique Identifiers",
+    "crumbs": [
+      "Source Files",
+      "Table of contents"
+    ]
+  },
+  {
+    "objectID": "source-files/SUMMARY.html#maintain",
+    "href": "source-files/SUMMARY.html#maintain",
+    "title": "Table of contents",
+    "section": "",
+    "text": "Update Metadata",
+    "crumbs": [
+      "Source Files",
+      "Table of contents"
+    ]
+  },
+  {
+    "objectID": "source-files/SUMMARY.html#access-share",
+    "href": "source-files/SUMMARY.html#access-share",
+    "title": "Table of contents",
+    "section": "",
+    "text": "Open Data Requirements\n\nObtaining a Digital Object Identifier (DOI)\nObtaining a URL\nSharing without a URL\n\n\n\n\nLong-term Storage Options\n\nUsing the Regional Data Repository\nPublic Accessible Repositories\n\nRecords Schedule & Disposition\nData Management Actions Quick Guide\nGlossary",
+    "crumbs": [
+      "Source Files",
+      "Table of contents"
+    ]
+  },
+  {
+    "objectID": "source-files/appendix-a-interim-data-management-quick-guide.html",
+    "href": "source-files/appendix-a-interim-data-management-quick-guide.html",
+    "title": "Data Management Actions Quick Guide",
+    "section": "",
+    "text": "Data Management Actions Quick Guide\nneeds updated\nNOTE: For Completed projects, the Data Steward will often perform the actions assigned to the Data Originator and Project Manager, when those roles are unable to be filled. Whenever possible, the Data Originator should author product metadata.\n\n\n\nTask\nPerforms\nApproves\n\n\n\n\n□Establish roles and responsibilities\nProject Manager\nData Trustee\n\n\n□ Create the archive folder and establish security and access controls\nData Custodian\nN/A\n\n\n□ Establish procedures among project members for adding products to the incoming folder, review, and accepting files to the archive\nProject Manager\nData Steward\n\n\n□ Identify anticipated products from the project and assess any sharing constraints\nProject Manager\n\n\n\n□ Document QA/QC procedures used for the data products\nData Originator\nData Steward\n\n\n□ Create the project metadata record\nProject Manager\nData Steward\n\n\n□ Use data type-specific best practices to prepare products for the archive\nData Originator\nData Steward\n\n\n□ Write product metadata records and export records to the incoming folder\nData Originator\nData Steward\n\n\n□ Review products for best practices and metadata for correctness and completeness\nData Steward\nN/A\n\n\n□ Revise products and/or associated metadata, when necessary\nData Originator\nData Steward\n\n\n□ Move approved products to the appropriate location of the archive folder\nData Custodian\nN/A\n\n\n□ Confirm readiness of products for discoverability and accessibility\nData Custodian",
+    "crumbs": [
+      "Source Files",
+      "Data Management Actions Quick Guide"
+    ]
+  },
+  {
+    "objectID": "source-files/acquire/common-data-types/page-2.html",
+    "href": "source-files/acquire/common-data-types/page-2.html",
+    "title": "Page 2",
+    "section": "",
+    "text": "Page 2",
+    "crumbs": [
+      "Source Files",
+      "Acquire",
+      "Common Data Types",
+      "Page 2"
+    ]
+  },
+  {
+    "objectID": "source-files/background/the-big-picture-integrating-data-management-with-project-management.html",
+    "href": "source-files/background/the-big-picture-integrating-data-management-with-project-management.html",
+    "title": "The Big Picture: Integrating Data Management with Project Management",
+    "section": "",
+    "text": "The Big Picture: Integrating Data Management with Project Management\nProject management and data management are different. Project management is the application of knowledge, skills, tools, and techniques to oversee a project to completion in the desired time and to a specified quality. Data management is concerned with the handling of data to ensure long-lasting integrity and usability. The figure below shows the relationship between the project and data management life cycles. Data management is most effective when fully integrated into project workflows, project oversight, and staff supervision (i.e., project management). The purpose of this document is to provide knowledge and guidance for the data management aspect of projects. Guidance on project management is beyond the scope of this document.\n\n\n\nIntegrating Data Management with Project Management.",
+    "crumbs": [
+      "Source Files",
+      "Background",
+      "The Big Picture: Integrating Data Management with Project Management"
+    ]
+  },
+  {
+    "objectID": "source-files/acquire/common-data-types/best-practices-in-geospatial-data.html",
+    "href": "source-files/acquire/common-data-types/best-practices-in-geospatial-data.html",
+    "title": "Best Practices in Geospatial Data",
+    "section": "",
+    "text": "Best Practices in Geospatial Data\nGeospatial data are often stored in a complex proprietary format (e.g. ESRI geodatabase) that is extremely difficult to archive for long-term preservation and access. A single geodatabase can contain many individual data sets. Each individual data set, within a geodatabase, typically consists of multiple individual files (in proprietary formats) that record the spatial information, attribute information, and other essential database properties required to use the data. The complexity of the geodatabase (e.g. a few individual feature classes or many feature classes with related tables and attribute domains) will determine the best methods to use when creating open data formats for archival purposes. Please consult with your program Data Manager and/or GIS Analyst, prior to archiving geospatial data. Broad steps for managing geospatial data include:\n\nFully document each individual feature class or shapefile.\nStore individual geodatabases and shapefiles in the archive folder directory structure as with other data types.\nConvert the geodatabase or shapefile to an open format (e.g. GeoPackage) and store in the archive folder.\n\nAdditional guidance relevant to this data type is currently under development.",
+    "crumbs": [
+      "Source Files",
+      "Acquire",
+      "Common Data Types",
+      "Best Practices in Geospatial Data"
+    ]
+  },
+  {
+    "objectID": "source-files/acquire/quality-management-procedures.html",
+    "href": "source-files/acquire/quality-management-procedures.html",
+    "title": "Quality Management Procedures",
+    "section": "",
+    "text": "Quality Management Procedures\nManaging data quality is an important component of the data lifecycle. Data quality management is the prevention and correction of data defects or issues within a dataset that reduce our ability to apply data towards our science-based conservation efforts. There are two distinct components of data quality management that are often lumped together: quality assurance and quality control. \n\nQuality Assurance (QA) – Implementing processes that prevent data defects from occurring. For example, writing a detailed protocol for a long-term survey so the methodology is maintained as new staff come on board. Quality assurance begins before the data are collected and includes processes and procedures used to prevent errors while collecting or entering the data.\nQuality Control (QC) – Detecting and repairing defects once you have the data. For example, noticing a negative value in a count field may indicate a data-entry error, which might be fixed by reviewing a field data sheet. Quality control should occur as soon as possible after collecting the data and before submitting, archiving, or sharing data.\n\nWhile this topic is listed in this handbook under the “Acquire” section, it is important to note that quality management can be applied at any stage in the data management lifecycle.\n\nQuality Assurance\nThe following are examples of quality assurance measures that can be incorporated into your project workflow:\n\nCreating Standard Operating Procedures\nStaff training and testing\nIncorporating data standards\nCreating standard data sheets for field data collection\nCreating defined value lists (data domains) for computer data entry\nDesignating missing value codes\nIdentifying required fields\n\n\n\nQuality Control\nThe following are examples of quality control that can be incorporated into your workflow:\n\nCheck for outliers and anomalous values or gaps.\nReview the file content and descriptors to ensure that there are no missing data values for key parameters.\nSort the records by key parameters to highlight discrepancies.\nCheck the validity of measured or derived values and scan for impossible values (e.g., a pH of 74).\nCheck the time frame and the temporal units. Generate time series plots to detect anomalous values or data gaps.\nReview statistical summaries (e.g., mean, median, minimum values, maximum values, etc.).\nIf geolocation is a parameter, use scatter plots or GIS software to map each location to check for errors in coordinates. For GIS image and vector files, ensure the projection parameters have been accurately stated.\nAdditional information such as data type, scale, corner coordinates, missing data value, size of an image, and the number of bands should be checked for accuracy.\nRemove any unnecessary parameters or columns used in processing that are uninformative.",
+    "crumbs": [
+      "Source Files",
+      "Acquire",
+      "Quality Management Procedures"
+    ]
+  },
+  {
+    "objectID": "source-files/alaska-data-management-101/file-organization-and-best-practices/best-practices-for-version-control.html",
+    "href": "source-files/alaska-data-management-101/file-organization-and-best-practices/best-practices-for-version-control.html",
+    "title": "Best Practices for Version Control",
+    "section": "",
+    "text": "Best Practices for Version Control\nunder development\nhttps://homes.cs.washington.edu/~mernst/advice/version-control.html",
+    "crumbs": [
+      "Source Files",
+      "Alaska Data Management 101",
+      "File Organization and Best Practices",
+      "Best Practices for Version Control"
+    ]
+  },
+  {
+    "objectID": "source-files/alaska-data-management-101/alaska-regional-data-repository.html",
+    "href": "source-files/alaska-data-management-101/alaska-regional-data-repository.html",
+    "title": "Alaska Regional Data Repository",
+    "section": "",
+    "text": "The Alaska Regional Data Repository is a centralized server dedicated to the storage of regional projects, data assets, and products and metadata. The RDR is intended to be the regionally accessible, secure, authoritative storage location for project documents, records, data and metadata and as a single source for serving data and metadata to publicly accessible catalogs and other repositories.\nThe regional repository is for the storage of completed resources (this does not mean they can never be replaced or updated); it is not intended for active working files. The process of depositing files in the RDR was designed to implement a data management quality control process where: 1) a digital resource passes from the “data producer” to 2) the “data steward” (who reviews metadata quality) then on to 3) the “data custodian” (who moves the resource to an appropriate storage location). The program repositories are managed by the respective program data managers (i.e. Custodians).\nThis process helps to ensure that all assets in the repository have metadata that meet a minimum regional metadata standard and the project directory does not become a disorganized collection files that is often present in shared file systems.\nYou can reach the Repository by typing **\\7ro-file.fws.doi.net* into the address bar in File Explorer on any computer that is on, or has access to, the internal network. Telework computers will need to use a VPN service like Pulse Secure to access the location.\nTo insure that files placed in the Repository are protected from loss or corruption, access to files within the Repository are controlled through permissions. You, and everyone on the network, may read and copy anything in the Repository, but write and modify permissions are limited. \n\n\nTo obtain an archive folder for your project, complete a Data Management Plan (DMP) and submit it to your data manager. The DMP is a working communication document between the project team and your data manager. \nAfter submission of a DMP, you will be provided with the address to your project archive folder in the RDR. It will look something like this: \n\n\n\nExample RDR digital location\n\n\n\n\n\nThe Regional Data Repository contains a folder for each program using the RDR (Fisheries and Ecological Services = FES, Migratory Bird Management = MBM, National Wildlife Refuge System = NWRS, Office of Subsistence Management = OSM, and Science Applications = SA. Within each program folder is a folder for each project that will serve as an archive.\nThe project archive folder name takes the format: ProgramAcronym_SequentialNumber_ShortTitle, i.e. MBMwa_011_YKDeltaNestPlot would stand for the Migratory Bird Management Waterfowl Program, YK Delta Nest Plot Survey, and it was the 11th archive record created for that program. \nListed and described below is the basic folder structure of the RDR. Top level folders (BOLD) are generally maintained for every project. Projects vary and the use of sub-folders, naming, and organization are at the discretion of the project staff and your data manager. \n\nchangelog.txt ReadMe text file to record additions, subtractions and alterations to contents of the archive record.\nadmin material related to general project administration; could be replicated each year for multiyear projects, i.e., admin2019, admin2020. Contents of the admin folder are often important record related to the project implementation and may include:\n\ncontracts final executed agreements\ncorrespondence important information relating to the execution of the project including permits obtained for the project\npurchasing significant or unique purchasing information that is deemed important to archive\ntraining training materials developed for the project\ntravel significant or unique travel information that is deemed important to archive\n\ncode computer processing code i.e. R or Python scripts\ndata generated from the project, and can be sorted in sub-folders, if needed. Otherwise, naming conventions noted below, should be used to identify the data type.\n\nraw data is unprocessed data as initially recorded. File structure may vary by project and it is recommended to organize data by data type. File names of raw data may reflect the format raw_type_of_data_x and repeated as needed. Raw data may consist of spreadsheets, databases, images, text notes, sounds, geo points or lines, etc.\nfinal data is data that has passed all quality control checks and are typically the data products destined for public release and used for analysis and reporting. The structure and file names should mirror that of the raw data suck as final_type_of_data_x and repeated as needed. ****\nanalysis output are result files of computer code or model, or other processing step or other derived tables needed from analysis. i.e. an observer matrix table, model output file, etc. These should follow similar file naming format such as output_type_x and repeated as needed.\n\ndocuments include materials generated by the project; these products may also be described in metadata. Some documents are internal work products and may not be intended for public consumption. The contents of the documents folder may include:\n\ndata management plan for the project\nproposal documents prepared to solicit both internal or external funding\npublic relations materials such as project photographs, maps, graphics, drawings, etc. \npublications peer-reviewed, final manuscripts\nreports white papers that are not peer-reviewed, but provide results or information from the project\ntalks recordings or presentation slides related to the project\nposters stand-alone posters related to the project\nprotocols may be a sub-folder and may include investigation plans, methods and protocol documents that guide project procedures\n\nform_template may include data sheets, or templates for data entry, etc. that are important for understanding the project\n\n\nincoming serves as a holding location for materials that should be filed under one of the other subfolder locations after review\nmetadata contains the mdEditor JSON file for the project, associated products, project contacts, and data dictionaries. All files in the RDR should be accompanied by metadata.\nsource_data may or may not be part of the project. It is designated to house data that is NOT generated by the project, but used during the course of the project. It is generally existing pubished or freely available data. These items may be placed in a separate folder or within the data folder if appropriately named. File naming may follow a designated format such as source_type_of_data_x.\n\n\n\n\nGraphical representation of possible RDR project archive folder structure. Green folders are common across all projects and should be maintained if appropriate, blue sub-folders may or may not apply to a given project or may or may not be used. Subsequent orange and dark blue boxes represent example naming conventions or file types\n\n\nUpdated August 2022",
+    "crumbs": [
+      "Source Files",
+      "Alaska Data Management 101",
+      "Alaska Regional Data Repository"
+    ]
+  },
+  {
+    "objectID": "source-files/alaska-data-management-101/alaska-regional-data-repository.html#obtaining-your-project-archive-folder-in-the-rdr",
+    "href": "source-files/alaska-data-management-101/alaska-regional-data-repository.html#obtaining-your-project-archive-folder-in-the-rdr",
+    "title": "Alaska Regional Data Repository",
+    "section": "",
+    "text": "To obtain an archive folder for your project, complete a Data Management Plan (DMP) and submit it to your data manager. The DMP is a working communication document between the project team and your data manager. \nAfter submission of a DMP, you will be provided with the address to your project archive folder in the RDR. It will look something like this: \n\n\n\nExample RDR digital location",
+    "crumbs": [
+      "Source Files",
+      "Alaska Data Management 101",
+      "Alaska Regional Data Repository"
+    ]
+  },
+  {
+    "objectID": "source-files/alaska-data-management-101/alaska-regional-data-repository.html#organization-of-the-regional-data-repository",
+    "href": "source-files/alaska-data-management-101/alaska-regional-data-repository.html#organization-of-the-regional-data-repository",
+    "title": "Alaska Regional Data Repository",
+    "section": "",
+    "text": "The Regional Data Repository contains a folder for each program using the RDR (Fisheries and Ecological Services = FES, Migratory Bird Management = MBM, National Wildlife Refuge System = NWRS, Office of Subsistence Management = OSM, and Science Applications = SA. Within each program folder is a folder for each project that will serve as an archive.\nThe project archive folder name takes the format: ProgramAcronym_SequentialNumber_ShortTitle, i.e. MBMwa_011_YKDeltaNestPlot would stand for the Migratory Bird Management Waterfowl Program, YK Delta Nest Plot Survey, and it was the 11th archive record created for that program. \nListed and described below is the basic folder structure of the RDR. Top level folders (BOLD) are generally maintained for every project. Projects vary and the use of sub-folders, naming, and organization are at the discretion of the project staff and your data manager. \n\nchangelog.txt ReadMe text file to record additions, subtractions and alterations to contents of the archive record.\nadmin material related to general project administration; could be replicated each year for multiyear projects, i.e., admin2019, admin2020. Contents of the admin folder are often important record related to the project implementation and may include:\n\ncontracts final executed agreements\ncorrespondence important information relating to the execution of the project including permits obtained for the project\npurchasing significant or unique purchasing information that is deemed important to archive\ntraining training materials developed for the project\ntravel significant or unique travel information that is deemed important to archive\n\ncode computer processing code i.e. R or Python scripts\ndata generated from the project, and can be sorted in sub-folders, if needed. Otherwise, naming conventions noted below, should be used to identify the data type.\n\nraw data is unprocessed data as initially recorded. File structure may vary by project and it is recommended to organize data by data type. File names of raw data may reflect the format raw_type_of_data_x and repeated as needed. Raw data may consist of spreadsheets, databases, images, text notes, sounds, geo points or lines, etc.\nfinal data is data that has passed all quality control checks and are typically the data products destined for public release and used for analysis and reporting. The structure and file names should mirror that of the raw data suck as final_type_of_data_x and repeated as needed. ****\nanalysis output are result files of computer code or model, or other processing step or other derived tables needed from analysis. i.e. an observer matrix table, model output file, etc. These should follow similar file naming format such as output_type_x and repeated as needed.\n\ndocuments include materials generated by the project; these products may also be described in metadata. Some documents are internal work products and may not be intended for public consumption. The contents of the documents folder may include:\n\ndata management plan for the project\nproposal documents prepared to solicit both internal or external funding\npublic relations materials such as project photographs, maps, graphics, drawings, etc. \npublications peer-reviewed, final manuscripts\nreports white papers that are not peer-reviewed, but provide results or information from the project\ntalks recordings or presentation slides related to the project\nposters stand-alone posters related to the project\nprotocols may be a sub-folder and may include investigation plans, methods and protocol documents that guide project procedures\n\nform_template may include data sheets, or templates for data entry, etc. that are important for understanding the project\n\n\nincoming serves as a holding location for materials that should be filed under one of the other subfolder locations after review\nmetadata contains the mdEditor JSON file for the project, associated products, project contacts, and data dictionaries. All files in the RDR should be accompanied by metadata.\nsource_data may or may not be part of the project. It is designated to house data that is NOT generated by the project, but used during the course of the project. It is generally existing pubished or freely available data. These items may be placed in a separate folder or within the data folder if appropriately named. File naming may follow a designated format such as source_type_of_data_x.\n\n\n\n\nGraphical representation of possible RDR project archive folder structure. Green folders are common across all projects and should be maintained if appropriate, blue sub-folders may or may not apply to a given project or may or may not be used. Subsequent orange and dark blue boxes represent example naming conventions or file types\n\n\nUpdated August 2022",
+    "crumbs": [
+      "Source Files",
+      "Alaska Data Management 101",
+      "Alaska Regional Data Repository"
+    ]
+  }
+]

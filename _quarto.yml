@@ -1,0 +1,34 @@
+project:
+  type: website
+  render:
+#    - "*.md"
+    - source-files/*
+
+website:
+  title: "DM User Guide Web-test"
+  sidebar:
+    style: docked
+    background: light
+    contents: auto
+#    contents:
+#      - section: "section 1"
+#        contents:
+#          - href: readme.md
+#            text: Home
+#          - href: summary.md
+#            text: sum
+#      - section: Acquire
+#        contents:
+#          - text: Quality
+#            href: acquire/quality-management-procedures.md
+#          - text: file
+#            href: acquire/file-organization-and-best-practices/README.md
+
+format:
+  html:
+    theme: cerulean
+    css: styles.css
+    toc: true
+
+# quarto preview --log log.txt --log-level info
+# quarto preview source-files --log log.txt --log-level debug

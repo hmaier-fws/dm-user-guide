@@ -1,3 +1,6 @@
+---
+title: "File Organization and Best Practices"
+---
 # File Organization and Best Practices
 
 There is a distinction between working folders and archive folders; development of the latter is the focus of this document. Working folders often exist on an individual’s computer hard drive and are used to collect, organize, and analyze products during the course of the project. In contrast, we use archive folders to store products that need to be retained over time. The products in the archive folders are the subject of metadata records to ensure that they are discoverable.&#x20;

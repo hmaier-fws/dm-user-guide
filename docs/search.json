@@ -620,5 +620,27 @@
       "Untitled",
       "Obtaining a URL"
     ]
+  },
+  {
+    "objectID": "source-files/records-schedule-and-disposition.html",
+    "href": "source-files/records-schedule-and-disposition.html",
+    "title": "Records Schedule & Disposition",
+    "section": "",
+    "text": "Records Schedule & Disposition\nHow long records must be maintained and when they must be archived or destroyed is based on Service policy. The Service’s Records Schedule and Disposition Manual provides detailed guidance on retention and disposal, which are based on the format, content, and importance of project records. The Records Schedule and Disposition undergoes regular review and approval by the National Archives and Records Administration (NARA).\nThe disposition schedules that apply to your project and its products must be stated in your data management plan. This information is important to include to ensure compliance with Service policy and restrict limited permanent archive space in NARA to resources that truly need to be preserved.\nProject records that need to be sent to Federal Records Centers or NARA for permanent storage will be transferred by your project’s data custodian (most likely your data manager). Project records slated for disposal can be properly discarded from the RDR by your data manger at the appropriate time, if desired.\n{% hint style=“info” %} Your data manager or the Regional Records Manager Kyle Cahill (kyle_cahill@fws.gov) can assist you in determining the correct records schedule and disposition for your project records and data products. {% endhint %}\nUpdated July 2022",
+    "crumbs": [
+      "Source Files",
+      "Records Schedule & Disposition"
+    ]
+  },
+  {
+    "objectID": "source-files/README2.html",
+    "href": "source-files/README2.html",
+    "title": "AK Region Data Stewardship Team (v.3)",
+    "section": "",
+    "text": "Alaska Region Interim Data Management User Guide\nPlanning, acquiring, maintaining, sharing, and archiving are all important steps of proper data management. The Alaska Region Data Management User Guide was designed to walk staff through each of these steps, with procedures, documents, and best practices specific to Region 7. Fisheries and Ecological Services, Migratory Bird Management, National Wildlife Refuge System, and the Office of Subsistence Management staff should look to this guide for regional data management support. Supplementing this document are additional region-specific resources, including:\n\n****Alaska Region Metadata Guide, which provides region-specific guidance on how to create archive-quality metadata using mdEditor.\n****Trainings with accompanying handouts developed to assist staff with particular data management topics like file organization and tidy tabular data.\n****AK Data Forum, a Microsoft Team with a channel dedicated to receiving and answering staff inquiries.\n****Alaska Region Data Management **** SharePoint site, which contains important templates and the latest data management news.\n\nFor information related to U.S. Fish and Wildlife Service (USFWS) data management, consult the National Data Management Handbook. This document offers information on data management basics as well as a breakdown of data management lifecycle components and related USFWS policies.\n\n\n\n\n\n\nTip\n\n\n\ntip - Need help? Contact your program’s data manager or technician with any questions.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nwarning - Need help? Contact your program’s data manager or technician with any questions.\n\n\n\n\n\n\n\n\nCaution\n\n\n\ncaution - Need help? Contact your program’s data manager or technician with any questions.\n\n\n\n\n\n\n\n\nNote\n\n\n\nnote - Need help? Contact your program’s data manager or technician with any questions.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nimportant - Need help? Contact your program’s data manager or technician with any questions.",
+    "crumbs": [
+      "Source Files",
+      "AK Region Data Stewardship Team (v.3)"
+    ]
   }
 ]

@@ -13,16 +13,22 @@ Planning, acquiring, maintaining, sharing, and archiving are all important steps
 
 For information related to U.S. Fish and Wildlife Service (USFWS) data management, consult the [**National Data Management Handbook**](https://doimspp.sharepoint.com/:b/r/sites/fws-data/Shared%20Documents/DataManagementHandbook.pdf?csf=1\&web=1\&e=wGT4M3). This document offers information on data management basics as well as a breakdown of data management lifecycle components and related USFWS policies.
 
-{% hint style="info" %}
-**Need help?** Contact your program's data manager or technician with any questions.
-{% endhint %}
+::: {.callout-tip}
+tip - **Need help?** Contact your program's data manager or technician with any questions.
+:::
 
-| Program                           | Contact information                                                                                                                                                                                 |
-| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Fisheries and Ecological Services | <p><img src="broken-reference" alt="" data-size="line"> Jonah Withers, Data Manager</p><p>jonah_withers@fws.gov</p>                                                                                 |
-| Migratory Birds                   | <p><img src="broken-reference" alt="" data-size="line"> Tammy Patterson, Data Manager</p><p><a href="https://app.gitbook.com/u/tfpKEfytBhZAM8ga2Ihi8kQPcqC3">tamatha_patterson@fws.gov</a></p>      |
-|                                   | <p><img src="broken-reference" alt="" data-size="line"> Hannah Vincelette, Data Technician</p><p><a href="https://app.gitbook.com/u/X30hpltQUnMC3gQgzixKVdu6YaZ2">hannah_vincelette@fws.gov</a></p> |
-| Refuges                           | <p><img src="broken-reference" alt="" data-size="line"> Caylen Kelsey, Data Manager</p><p><a href="https://app.gitbook.com/u/O15eW17GQiOtRJu7axv3cUiNkYw1">caylen_kelsey@fws.gov</a></p>            |
-| Other                             | <p><img src="broken-reference" alt="" data-size="line"> Hilmar Maier, Regional Data Manager</p><p><a href="https://app.gitbook.com/u/580681dfe8591f10000a2a40">hilmar_maier@fws.gov</a></p>         |
+::: {.callout-warning}
+warning - **Need help?** Contact your program's data manager or technician with any questions.
+:::
 
-_Updated May 2022_
+::: {.callout-caution}
+caution - **Need help?** Contact your program's data manager or technician with any questions.
+:::
+
+::: {.callout-note}
+note - **Need help?** Contact your program's data manager or technician with any questions.
+:::
+
+::: {.callout-important}
+important - **Need help?** Contact your program's data manager or technician with any questions.
+:::

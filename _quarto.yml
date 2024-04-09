@@ -24,10 +24,16 @@ website:
 #            href: acquire/quality-management-procedures.md
 #          - text: file
 #            href: acquire/file-organization-and-best-practices/README.md
+  navbar:
+    right:
+      - icon: github
+        href: https://github.com/hmaier-fws/ak-dm-userguide
+        text: GitHub Source
 
 format:
   html:
-    theme: cerulean
+#    theme: cerulean
+    theme: default
     css: styles.css
     toc: true
 

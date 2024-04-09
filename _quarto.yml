@@ -7,18 +7,23 @@ project:
 
 website:
   title: "DM User Guide Web-test"
+  page-navigation: true
+  search:
+    location: sidebar
+    type: textbox
   sidebar:
     style: docked
     background: light
-    contents: auto
-#    contents:
-#      - section: "section 1"
-#        contents:
-#          - href: readme.md
-#            text: Home
+#    contents: auto
+    contents:
+      - section: "section 1"
+        contents:
+          - href: "alaska-data-management-101"
 #          - href: summary.md
 #            text: sum
-#      - section: Acquire
+      - text: "-"
+      - section: "section 2"
+        contents: auto
 #        contents:
 #          - text: Quality
 #            href: acquire/quality-management-procedures.md
@@ -33,9 +38,17 @@ website:
 format:
   html:
 #    theme: cerulean
+#    smooth-scroll: true
     theme: default
     css: styles.css
     toc: true
+    toc-title: TOC title
+#    number-sections: true
+#
+    other-links:
+      - text: Submit an issue
+        icon: github
+        href: https://github.com/hmaier-fws/ak-dm-userguide
 
 # quarto preview --log log.txt --log-level info
 # quarto preview source-files --log log.txt --log-level debug

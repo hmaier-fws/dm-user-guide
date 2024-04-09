@@ -1,12 +1,24 @@
 ---
-description: >-
-  Brief workflow checklist and descriptions of data management steps and
-  workflow
+description: Brief workflow checklist and descriptions of data management steps and workflow
+updated: 2025-01-02
+date: last-modified
+date-format: YYYY-MM-DDTHH:mm:ssZ
+order: 1
 ---
 
 # Workflow
 
 ![Generalized Alaska Data Management Workflow](<../.gitbook/assets/image (10).png>)
+
+<!-- COMMENT
+
+meta updated {{< meta updated >}}
+
+Meta order: {{<meta order>}}
+
+file last-modified: {{< meta date >}}
+
+-->
 
 #### _#1: Complete a Data Management Plan_ <a href="#step-1-create-data-management-plan" id="step-1-create-data-management-plan"></a>
 

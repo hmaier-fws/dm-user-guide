@@ -3,32 +3,44 @@ project:
   output-dir: docs
   render:
 #    - "*.md"
-    - source-files/*
+    - source-files
 
 website:
-  title: "DM User Guide Web-test"
+  title: "TEST: Alaska Region Data Management User Guide"
   page-navigation: true
+
   search:
     location: sidebar
     type: textbox
+
   sidebar:
     style: docked
-    background: light
-#    contents: auto
-    contents:
-      - section: "section 1"
-        contents:
-          - href: "alaska-data-management-101"
-#          - href: summary.md
-#            text: sum
-      - text: "-"
-      - section: "section 2"
-        contents: auto
+    background: dark
+    contents: auto
+#    contents:    
+#      - alaska-data-management-101/*
+#      - planning/index.md
+#      
+#      - section: "section 1"
+#        contents: index.md
+#        
+#          - href: "alaska-data-management-101"
+#          
+#      - section: "Section 2"
+#        contents: auto
+#        
 #        contents:
-#          - text: Quality
-#            href: acquire/quality-management-procedures.md
-#          - text: file
-#            href: acquire/file-organization-and-best-practices/README.md
+#          - text: Plan
+#            href: "planning"
+#          
+#      - section: "Acquire"
+#        contents:
+#          - auto: "acquire/*"
+#        
+#      - section: "Maintain"
+#        contents: maintain
+#        
+#      - section: "Access & Share"
   navbar:
     right:
       - icon: github

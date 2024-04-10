@@ -1,10 +1,11 @@
 ---
 description: Introduction to the goals and benefits of data management
+order: 1
 ---
 
 # Why Data Managment?
 
-**​​​​​​​"If a biologist counts a bird, and no one knows, does it really count?"**
+**"If a biologist counts a bird, and no one knows, does it really count?"**
 
 To make data count, data must go beyond its immediate need. Staff must take additional steps to preserve data in a useful form and make it accessible and discoverable far into the future.  This is data management.&#x20;
 

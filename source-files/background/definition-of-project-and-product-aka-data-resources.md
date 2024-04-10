@@ -1,3 +1,7 @@
+---
+order: 3
+---
+
 # Definition of Project and Product (aka Data Resources)
 
 The interim plan is focused on projects and their derived products. Projects are discrete efforts on a particular topic with defined objectives or goals. At this time, programs determine which projects (completed, ongoing, or proposed) should undergo data management. For example, use in management decisions and partner needs may be criteria managers could adopt to prioritize projects for data management.&#x20;

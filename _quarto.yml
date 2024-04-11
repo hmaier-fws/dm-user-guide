@@ -46,6 +46,9 @@ website:
       - icon: github
         href: https://github.com/hmaier-fws/ak-dm-userguide
         text: GitHub Source
+      - href: https://ak-region-dst.gitbook.io/alaska-region-interim-data-management-user-guide
+        text: Original Site
+        icon: tencent-qq
 
 format:
   html:

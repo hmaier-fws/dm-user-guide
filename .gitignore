@@ -1,2 +1,7 @@
+# Quarto files (https://quarto.org/)
+
 /.quarto/
+log-quarto.txt
+
 *.bak
+npp-workspace

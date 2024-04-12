@@ -1,9 +1,8 @@
 project:
   type: website
   output-dir: docs
-  render:
-#    - "*.md"
-    - source-files
+#  render:
+#    - source-files
 
 website:
   title: "TEST: Alaska Region Data Management User Guide"
@@ -15,7 +14,7 @@ website:
 
   sidebar:
     style: docked
-    background: dark
+    background: light
     contents: auto
 #    contents:    
 #      - alaska-data-management-101/*
@@ -60,10 +59,10 @@ format:
     toc-title: TOC title
 #    number-sections: true
 #
-    other-links:
-      - text: Submit an issue
-        icon: github
-        href: https://github.com/hmaier-fws/ak-dm-userguide
+#    other-links:
+#      - text: Submit an issue
+#        icon: github
+#        href: https://github.com/hmaier-fws/ak-dm-userguide
 
 # quarto preview --log log.txt --log-level info
 # quarto preview source-files --log log.txt --log-level debug

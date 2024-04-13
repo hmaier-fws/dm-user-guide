@@ -1,8 +1,10 @@
 project:
   type: website
   output-dir: docs
-#  render:
-#    - source-files
+  render:
+    - "*"
+    - "!CHANGELOG.md"
+    - "!docs/"
 
 website:
   title: "TEST: Alaska Region Data Management User Guide"
@@ -66,3 +68,6 @@ format:
 
 # quarto preview --log log.txt --log-level info
 # quarto preview source-files --log log.txt --log-level debug
+
+  latex:
+    toc: true

@@ -13,9 +13,9 @@ Planning, acquiring, maintaining, sharing, and archiving are all important steps
 
 For information related to U.S. Fish and Wildlife Service (USFWS) data management, consult the [**National Data Management Handbook**](https://doimspp.sharepoint.com/:b/r/sites/fws-data/Shared%20Documents/DataManagementHandbook.pdf?csf=1\&web=1\&e=wGT4M3). This document offers information on data management basics as well as a breakdown of data management lifecycle components and related USFWS policies.
 
-{% hint style="info" %}
+::: {.callout-note}
 **Need help?** Contact your program's data manager or technician with any questions.
-{% endhint %}
+:::
 
 | Program                           | Contact information                                                                                                                                                                                 |
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

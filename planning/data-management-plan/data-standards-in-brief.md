@@ -2,9 +2,9 @@
 
 Data standards are simply a pre-defined format and field name for a value or attribute.  Using the same attribute fields and formats across the Service increases the re-usability of our data, both internally and externally.  For example, when the the date or year is collected in a dataset, the standard field name is YEAR, and the format is YYYY where Y represents a number 0 to 9.
 
-{% hint style="info" %}
+::: {.callout-note}
 All FWS approved data standards are detailed [here](https://doimspp.sharepoint.com/sites/fws-data/SitePages/DataStandards.aspx?xsdata=MDV8MDF8fDM5ZDUxMGRhZDljYjRiOGY2Mzc0MDhkYTliMzQzNTM5fDA2OTNiNWJhNGIxODRkN2I5MzQxZjMyZjQwMGE1NDk0fDF8MHw2Mzc5OTI5NDU3NTk5MDQ2Mjh8R29vZHxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxNVGs2YldWbGRHbHVaMTlQVjFwcFQwUmplRTVFUlhST1JHc3lXa013TUZsdFdtbE1WMFY2V20xSmRFNHlVVFZQVjFVMVRVUk5lRnBFYkd0QWRHaHlaV0ZrTG5ZeXx8\&sdata=cEtNLytqNEdDQWtrRmwrSy9MTC9EbGpPVTBGeWhKYlhjejZVZ3JQWm9RQT0%3D\&ovuser=0693b5ba-4b18-4d7b-9341-f32f400a5494%2Ctamatha\_patterson%40fws.gov\&OR=Teams-HL\&CT=1663697791572\&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yMjA3MzEwMTAwNSIsIkhhc0ZlZGVyYXRlZFVzZXIiOnRydWV9).
-{% endhint %}
+:::
 
 Some common data standards are listed below.
 

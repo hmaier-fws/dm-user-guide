@@ -4,9 +4,9 @@ See that [Alaska Region Metadata Guide](https://ak-region-dst.gitbook.io/alaska-
 
 In the [Plan](broken-reference) phase of the data management lifecycle, you selected a metadata standard and began creating metadata for your proposed data products. Now is the time to revisit the initiated metadata records, update them as necessary, and create any additional records to ensure your project is well documented.
 
-{% hint style="info" %}
+::: {.callout-note}
 It is **highly recommended** that you regularly update your data management plan and metadata throughout the data management lifecycle. This will save you time and labor in the long run.
-{% endhint %}
+:::
 
 To update your metadata, follow the steps listed below:
 
@@ -25,6 +25,6 @@ To update your metadata, follow the steps listed below:
 
 ![Importing, editing, and exporting metadata records in mdEditor (Steps 6, 7, and 8)](</assets/image (1).png>)
 
-{% hint style="info" %}
+::: {.callout-note}
 For additional guidance on how to write metadata or use [mdEditor](https://www.mdeditor.org/), refer to the [Alaska Region Metadata Guide](https://ak-region-dst.gitbook.io/alaska-region-mdeditor-interim-user-guide/).
-{% endhint %}
+:::

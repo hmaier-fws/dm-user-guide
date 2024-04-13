@@ -11,6 +11,6 @@ Explicitly identify a person or position in the following roles:
 5. **Data Steward**: The subject-matter expert(s) responsible for ensuring that data products are clean and tidy and documentation and metadata are complete. The data steward is responsible for building the project-product associations between metadata records.
 6. **Data Trustee**: An upper level position in the organization who has the ultimate responsibility for ensuring that the allocation of resources (e.g. staff and funding) are adequate to allow for the completion of all aspects of data management. The trustee also has the ultimate responsibility to ensure the application of governance policies to the project and resultant data resources. The trustee will most likely not be involved with data management, but rather with data governance.
 
-{% hint style="info" %}
+::: {.callout-note}
 &#x20;**Note**: An individual may fill many roles. Often the Project Manager covers all of the roles, with the exception of Data Trustee. It is best practice for the Project Manager and the Data Steward to be different individuals, however project-staffing levels may not allow for this.
-{% endhint %}
+:::

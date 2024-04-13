@@ -7,6 +7,6 @@ Archiving project data and their associated metadata is critical for preserving 
 1. [Alaska Regional Data Repository](broken-reference), which is a shared internal drive accessible to Service staff.
 2. [Public-facing repositories](broken-reference) such as [ServCat](https://ecos.fws.gov/ServCat/) and [ScienceBase](https://www.sciencebase.gov/catalog/).
 
-{% hint style="info" %}
+::: {.callout-note}
 While the type of short-term storage used is at the project leader's full discretion, all data **must** eventually be stored within a FWS repository.
-{% endhint %}
+:::

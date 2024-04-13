@@ -6,8 +6,8 @@ The disposition schedules that apply to your project and its products must be st
 
 Project records that need to be sent to [Federal Records Centers](https://www.archives.gov/frc) or [NARA](https://www.archives.gov/) for permanent storage will be transferred by your project’s data custodian (most likely your data manager). Project records slated for disposal can be properly discarded from the [RDR](broken-reference) by your data manger at the appropriate time, if desired.
 
-{% hint style="info" %}
+::: {.callout-note}
 Your data manager or the Regional Records Manager Kyle Cahill ([kyle\_cahill@fws.gov](mailto:kyle\_cahill@fws.gov)) can assist you in determining the correct records schedule and disposition for your project records and data products.
-{% endhint %}
+:::
 
 Updated July 2022

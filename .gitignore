@@ -4,4 +4,4 @@
 log-quarto.txt
 
 *.bak
-npp-workspace
+*.npp

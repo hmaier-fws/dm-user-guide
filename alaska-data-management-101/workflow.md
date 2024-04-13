@@ -50,9 +50,9 @@ When your metadata is complete, ask your data manager if a persistent identifier
 
 Your data and completed metadata is required to be made publicly available.  The [Alaska Regional Data Repository](https://ak-region-dst.gitbook.io/alaska-region-interim-data-management-user-guide/four-fundamental-activities-of-data-management/security-and-preservation) is a regional home for the preservation of Alaska authoritative data and completed metadata.  Use of the RDR enables data managers to access and share your metadata and data with public repositories as appropriate.
 
-{% hint style="danger" %}
+::: {.callout-important}
 Currently, FWS does not have approved data repositories for Service-wide use. &#x20;
-{% endhint %}
+:::
 
 **#6: Share metadata and data publicly**
 

@@ -1,8 +1,8 @@
 # Data Management Plan Templates
 
-{% hint style="success" %}
+::: {.callout-tip}
 Completing a DMP is a National Service Requirement.
-{% endhint %}
+:::
 
 ### The DMP is the primary communication tool between the project team and the data manager or data custodian.
 
@@ -10,9 +10,9 @@ The DMP is a partner document to your project documents (i.e., proposal, investi
 
 [\<DOWNLOAD TEMPLATE HERE>](https://doi.org/10.7944/P9XUYMQT)
 
-{% hint style="info" %}
+::: {.callout-note}
 A DMP is required to be completed for any new or ongoing projects. Ongoing projects may just need to review and update an existing DMP. Completed DMPs are housed in the project folder in the Regional Data Repository. A DMP is a living document that can be updated as needed throughout the course of a project.
-{% endhint %}
+:::
 
 #### Benefits of using the regional machine-readable DMP template:
 
@@ -66,9 +66,9 @@ This section ends with a reminder that data collection must follow Service-wide 
 
 **Short-term storage, backup and security**: The primary causes of data loss are human error and hardware corruption; therefore, it is critically important that short-term data storage is backed up and secure. Identify here where the short-term, primary working project and data files will be located. This is NOT the Regional Data Repository (RDR) and should NOT be your computer hard drive. This should be a shared digital storage location with a backup and recovery protocol in place. Good options include OneDrive, Teams file folders, or a network drive. If there are internet connectivity concerns, working files may be stored on your computer hard drive for ease of use or on an additional external hard drive as a back-up, but must also be maintained in an accessible Service location.  Files stored locally should have backups and version controls.
 
-{% hint style="warning" %}
+::: {.callout-warning}
 We highly recommend mirroring the RDR files top-level folder structure for your short-term storage since it will provide continuity across storage platforms. In this way, anyone can generally find items within other project, data, and metadata file folders.
-{% endhint %}
+:::
 
 Indicate how frequently the primary, short-term storage location back-up is done during the project. Choose from a drop-down list of options or choose other and describe the back-up frequency in the input box. Be sure to implement this!
 
@@ -78,9 +78,9 @@ If there are any data access restrictions that should apply to the short-term fi
 
 From the RDR, copies of data and metadata may be shared, as appropriate, to other federal or external repositories and catalogs. Enter the URL location of the Regional Data Repository for your project if one already exists. If one does not currently exist, enter an abbreviated project title that you would like to use for your RDR folder. Check the box to indicate if you will be using the RDR as the authoritative long-term storage location for your project data assets. Some programs may require use of the RDR (as your data manager).
 
-{% hint style="info" %}
+::: {.callout-note}
 Because the Service does NOT currently have officially approved repositories, the RDR serves as an authoritative staging and secure preservation location for regional project, data assets, products and associated metadata that are readily available for distribution to other catalogs and repositories, as appropriate.
-{% endhint %}
+:::
 
 **Public Data Sharing Repositories**: A copy of the data and metadata may be shared with other federal or external catalogs or repositories. List the public repositories you intend to use here. Use the plus (+) to add additional rows to the table.
 
@@ -92,9 +92,9 @@ Note that Refuges are required to store data assets in ServCat.
 
 Permanent electronic records must be transferred to the National Archive according to records schedules. The most relevant records disposition schedules most commonly applicable to biological data collection are presented as dropdown options. Choose the records schedule that best classifies your data type, then visit thee[ Combined USFWS Disposition Manual (2006)](https://www.fws.gov/policy/a1283fw2.html) weblink to select your the record type and find your disposition schedule. Use the plus (+) button to add rows, if more than one record type applies. If a record type applies that is not present in the shortlist, you can also manually enter a value in the record type field.
 
-{% hint style="success" %}
+::: {.callout-tip}
 Feel free to contact the Alaska Regional Records Expert is Kyle Cahill (kyle\_cahill@fws.gov or (907)786-3351) for assistance.
-{% endhint %}
+:::
 
 ## _Data Products_
 
@@ -119,13 +119,13 @@ Complete a Digital Data Product (required) and Physical Sample (optional) table 
 * Supplemental Materials:  List data products that are needed to understand this data product.  This may include relational diagram, photo and video naming conventions, or pre-existing datasets from which this product was derived.
 * Spatial Extent:  Indicate if the spatial extent is the same as the project extent or if not, indicate the location of a spatial dataset for the data product.
 
-{% hint style="info" %}
+::: {.callout-note}
 Restricted data still requires metadata to be written and be publicly searchable.  See constraints section in product metadata for more information.&#x20;
-{% endhint %}
+:::
 
-{% hint style="info" %}
+::: {.callout-note}
 If using the regional machine-readable Alaska region DMP template, a metadata record will be created for each expected product and each record will automatically be associated with the project metadata record.
-{% endhint %}
+:::
 
 ![Digital Data Product table can be duplicated by clicking on the plus (+) button indicated by the blue arrow.](</assets/image (9) (1).png>)
 

@@ -31,9 +31,9 @@ Drag the cell with the formula to the bottom of the dataset. When each record ha
 
 You can generate UUIDs in [**R**](https://www.r-project.org/about.html) using various package. One option is the function [`UUIDgenerate()` ](https://www.rdocumentation.org/packages/uuid/versions/1.0-4/topics/UUIDgenerate)from the [**uuid package**](https://cran.r-project.org/web/packages/uuid/index.html). The following code demonstrates how to add an identifier column with UUIDs to a example data frame. Paste and run the code in [RStudio ](https://www.rstudio.com/products/rstudio/#rstudio-desktop)to see how it works.
 
-{% hint style="info" %}
+::: {.callout-note}
 FWS employees can install R and RStudio on a DOI Windows computer from FWS Apps-to-Go. Search "IFW-R" in the search bar and install the latest versions of the applications.
-{% endhint %}
+:::
 
 ```r
 # Install tibble and uuid packages

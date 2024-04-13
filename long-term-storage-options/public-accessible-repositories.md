@@ -28,6 +28,6 @@ ScienceBase is a digital repository created by USGS for the long-term storage of
 
 Access ScienceBase here: [**https://www.sciencebase.gov/catalog/**](https://www.sciencebase.gov/catalog/)****
 
-{% hint style="warning" %}
+::: {.callout-warning}
 Uploading project files to public-facing repositories is best accomplished with help from your data manager.
-{% endhint %}
+:::

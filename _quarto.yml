@@ -69,5 +69,5 @@ format:
 # quarto preview --log log.txt --log-level info
 # quarto preview source-files --log log.txt --log-level debug
 
-  latex:
-    toc: true
+#  latex:
+#    toc: true

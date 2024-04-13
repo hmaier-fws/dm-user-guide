@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.553">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>TEST: Alaska Region Data Management User Guide</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../planning/data-management-plan/data-standards-in-brief.html" rel="next">
+<link href="../../planning/why-data-planning.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">TEST: Alaska Region Data Management User Guide</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/hmaier-fws/ak-dm-userguide"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text">GitHub Source</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://ak-region-dst.gitbook.io/alaska-region-interim-data-management-user-guide"> <i class="bi bi-tencent-qq" role="img">
+</i> 
+<span class="menu-text">Original Site</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../planning/index.html">Plan</a></li><li class="breadcrumb-item"><a href="../../planning/data-management-plan/index.html">Data Management Plan Templates</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../alaska-data-management-101/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ak DM 101</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../alaska-data-management-101/workflow.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Workflow</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../alaska-data-management-101/data-management-policy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Management Policy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../alaska-data-management-101/alaska-regional-data-repository.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Alaska Regional Data Repository</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+ <span class="menu-text">File Organization and Best Practices</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../alaska-data-management-101/file-organization-and-best-practices/best-practices-for-version-control.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Best Practices for Version Control</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../alaska-data-management-101/file-organization-and-best-practices/changelog-best-practices.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Changelog Best Practices</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../CONTRIBUTING.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CONTRIBUTING</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Acquire</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../acquire/quality-management-procedures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quality Management Procedures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../acquire/common-data-types/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Common Data Types</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../acquire/common-data-types/best-practices-in-databases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Best Practices in Databases</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../acquire/common-data-types/best-practices-in-geospatial-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Best Practices in Geospatial Data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../acquire/common-data-types/best-practices-in-tabular-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Best Practices in Tabular Data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../acquire/common-data-types/best-practices-with-collections-of-similar-types-of-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Best Practices with Collections of Similar Types of Data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../acquire/common-data-types/best-practices-with-source-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Best Practices with Source Data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../acquire/common-data-types/open-formats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Open Formats</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../acquire/common-data-types/page-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Page 2</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../acquire/file-organization-and-best-practices/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">File Organization and Best Practices</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../acquire/file-organization-and-best-practices/best-practices-in-naming-conventions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Best Practices in Naming Conventions</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">
+ <span class="menu-text">Quality Management Procedures</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../acquire/quality-management-procedures/incorporating-data-standards.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Incorporating Data Standards</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../acquire/quality-management-procedures/using-unique-identifiers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Using Unique Identifiers</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+ <span class="menu-text">Appendix</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../appendix/appendix-a-interim-data-management-quick-guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Management Actions Quick Guide</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../appendix/glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../appendix/records-schedule-and-disposition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Records Schedule &amp; Disposition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../appendix/summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Table of contents</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../background/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Background</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../background/why-data-managment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Why Data Managment?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../background/the-big-picture-integrating-data-management-with-project-management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Big Picture: Integrating Data Management with Project Management</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../background/definition-of-project-and-product-aka-data-resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Definition of Project and Product (aka Data Resources)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../four-fundamental-activities-of-data-management/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Four Fundamental Activities of Data Management</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../four-fundamental-activities-of-data-management/documentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Documentation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../four-fundamental-activities-of-data-management/establish-roles-and-responsibilities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Establish Roles and Responsibilities</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../four-fundamental-activities-of-data-management/quality-management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quality Management</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../four-fundamental-activities-of-data-management/security-and-preservation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Security and Preservation</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../long-term-storage-options/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Long-term Storage Options</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../long-term-storage-options/public-accessible-repositories.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Public Accessible Repositories</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../long-term-storage-options/using-the-regional-data-repository.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Using the Regional Data Repository</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../planning/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Plan</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../planning/considerations-for-projects-with-external-partners.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Considerations for Projects with External Partners</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../planning/project-and-data-management-integration.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project &amp; Data Management Integration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../planning/why-data-planning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Why Data Planning?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../planning/data-management-plan/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Data Management Plan Templates</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../planning/data-management-plan/data-standards-in-brief.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Standards in brief</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="true">
+ <span class="menu-text">Maintain</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../maintain/update-metadata.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Update Metadata</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="true">
+ <span class="menu-text">Sharing 1</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../sharing-1/untitled/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Open Data Requirements</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sharing-1/untitled/obtaining-a-digital-object-identifier-doi.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Obtaining a Digital Object Identifier (DOI)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sharing-1/untitled/obtaining-a-url.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Obtaining a URL</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sharing-1/untitled/sharing-without-a-url.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sharing without a URL</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">TOC title</h2>
+   
+  <ul>
+  <li><a href="#data-management-plan-templates" id="toc-data-management-plan-templates" class="nav-link active" data-scroll-target="#data-management-plan-templates">Data Management Plan Templates</a>
+  <ul class="collapse">
+  <li><a href="#the-dmp-is-the-primary-communication-tool-between-the-project-team-and-the-data-manager-or-data-custodian." id="toc-the-dmp-is-the-primary-communication-tool-between-the-project-team-and-the-data-manager-or-data-custodian." class="nav-link" data-scroll-target="#the-dmp-is-the-primary-communication-tool-between-the-project-team-and-the-data-manager-or-data-custodian.">The DMP is the primary communication tool between the project team and the data manager or data custodian.</a></li>
+  <li><a href="#regional-template-guidance" id="toc-regional-template-guidance" class="nav-link" data-scroll-target="#regional-template-guidance">Regional Template Guidance</a></li>
+  <li><a href="#data-products" id="toc-data-products" class="nav-link" data-scroll-target="#data-products"><em>Data Products</em></a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="data-management-plan-templates" class="level1">
+<h1>Data Management Plan Templates</h1>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Completing a DMP is a National Service Requirement.</p>
+</div>
+</div>
+<section id="the-dmp-is-the-primary-communication-tool-between-the-project-team-and-the-data-manager-or-data-custodian." class="level3">
+<h3 class="anchored" data-anchor-id="the-dmp-is-the-primary-communication-tool-between-the-project-team-and-the-data-manager-or-data-custodian.">The DMP is the primary communication tool between the project team and the data manager or data custodian.</h3>
+<p>The DMP is a partner document to your project documents (i.e., proposal, investigation plan, protocols, etc.). The Alaska region offers a machine-readable Microsoft Word DMP template for region-wide use. The most recent version can be found at the link below. The form must be completed in the desktop version of Microsoft Word.</p>
+<p><a href="https://doi.org/10.7944/P9XUYMQT">&lt;DOWNLOAD TEMPLATE HERE&gt;</a></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A DMP is required to be completed for any new or ongoing projects. Ongoing projects may just need to review and update an existing DMP. Completed DMPs are housed in the project folder in the Regional Data Repository. A DMP is a living document that can be updated as needed throughout the course of a project.</p>
+</div>
+</div>
+<section id="benefits-of-using-the-regional-machine-readable-dmp-template" class="level4">
+<h4 class="anchored" data-anchor-id="benefits-of-using-the-regional-machine-readable-dmp-template">Benefits of using the regional machine-readable DMP template:</h4>
+<p>1) This template can be used to initiate your PROJECT and PRODUCT metadata records for import into mdEditor. A computer code (i.e., Python script) extracts information from a completed DMP and writes metadata field equivalents into an mdEditor file. This automation eliminates the redundancy of having to manually input the same information from the DMP into your metadata.</p>
+<p>2) A completed DMP is the mechanism to allocate a project space in the Regional Data Repository. There is no need to complete the RDR Project Folder Request form when using the regional DMP template.</p>
+<p>3) Lastly, this template is designed to meet the policy requirements of the Service National DMP template.</p>
+</section>
+</section>
+<section id="regional-template-guidance" class="level3">
+<h3 class="anchored" data-anchor-id="regional-template-guidance">Regional Template Guidance</h3>
+<section id="dmp-section-1-project-details" class="level4">
+<h4 class="anchored" data-anchor-id="dmp-section-1-project-details">DMP Section 1: Project Details <a href="#dmp-section-1-project-details" id="dmp-section-1-project-details"></a></h4>
+<p>The first section collects basic project information and includes:</p>
+<ul>
+<li><strong>Program Name</strong>: (Required) Choose your program name from the dropdown list. While hidden, the default region is the USFWS Alaska Region. Multiple programs can be added.</li>
+<li><strong>Cost Center</strong>: (Required) Choose your cost center from the dropdown list. Please let your data manager know if there are any discrepancies to this list. Multiple cost centers can be added.</li>
+<li><strong>Project Title</strong>: (Required) Enter a descriptive, yet succinct title. Include species, time frame, geography, season, method or purpose, as appropriate.</li>
+<li><strong>Start and End Dates</strong>: (Required) Enter a start date and end date from the calendar pick tools. Project start date is generally when the project is approved, funded, or when work actually began. End date is the date that a final product is completed (i.e.&nbsp;report) or funding ends and may be an estimated date. If the project is a long-term monitoring effort, check the ongoing box rather than selecting an end date.</li>
+<li><strong>Abstract</strong>: (Required) Enter a description of the project into the text box. This can be copy and pasted from a proposal or investigation plan. Note: multiple paragraphs are not allowed, so limit the abstract to a single, succinct paragraph.</li>
+<li><strong>Keywords</strong>: (Optional) Enter comma-separated keywords in the text box. Keywords may be location, species, survey method, or biological event of interest. For example: Eastern red knot, Maine, migration, stopover sites</li>
+<li><strong>Unique Project Identifier or Tracking Number</strong>: (Optional) Enter the project identifier(s) into the text box, if applicable. This can be a funding agreement number, contract number, or any other identifier that can link your data products to the project effort. If the project is refuge initiative, enter the PRIMR survey ID. Internal projects may not have any project tracking identifiers.</li>
+<li><strong>Spatial Extent</strong>: (Required) Enter a brief text description and/or the URL location of the project spatial extent, if available. The URL may reference a shapefile, geoJSON, KML, geopackage, geoTIFF or other. Spatial features should be provided in latitude and longitude coordinates (WGS84). Note: In order to include extent features in the metadata generated by the script, files must be in geoJSON format and on a shared server location, not a local computer. File paths must include the full server name instead of the mapped drive letter (i.e., “\7ro-file.fws.doi.net&nbsp;simplified_refuge.geojson” instead of “D:&nbsp;simplified_refuge.geojson”). Simplified refuge boundaries can be found <a href="file://ifw7ro-file.fws.doi.net/datamgt/extents-json/simplified_refuge_boundaries_AlaskaRegion/">in the RDR</a>. Other simplified boundaries can be created and shared upon request.</li>
+</ul>
+</section>
+<section id="dmp-section-2-project-personnel" class="level4">
+<h4 class="anchored" data-anchor-id="dmp-section-2-project-personnel">DMP Section 2: Project Personnel <a href="#dmp-section-2-project-personnel" id="dmp-section-2-project-personnel"></a></h4>
+<p>Section 2 collects the project staff information (Required, at least one) and includes:</p>
+<ul>
+<li><strong>Primary Contact</strong>: This is the person who can be contacted regarding the data management plan itself. Note: this is not the primary contact of the project (the data steward).</li>
+<li><strong>Data Steward</strong>: This person is responsible for ensuring that collected data is tidy, clean, complete, quality controlled and assured, and appropriately documented with metadata. This may be the field crew leader or the project manager and serves as the primary contact for the project. This person should be highly knowledgeable regarding the project and its data products. This person will be a ‘point of contact’ in the metadata.</li>
+<li><strong>Data Custodian</strong>: This is person responsible for the long-term management of authoritative copies of data and metadata. This may be your program or regional data manager (if using the RDR) or may also be the project manager. This person will be listed as the ‘custodian’ in the metadata.</li>
+<li><strong>Data Trustee</strong>: This is the person responsible for ensuring that your project team has the resources allocated to fulfill all aspects of the project and data lifecycle. This is also likely the person who approved or renewed your project, such as your program manager or field office supervisor. This person will be the ‘owner’ in the metadata.</li>
+</ul>
+<p>The form provides additional space to add other project staff and/or collaborators. Use the plus (+) button (see blue arrow below) to add more contact entry rows. This allows you to give credit to those who may not have key data management role responsibilities, but who contributed time or resources toward your project. Their names will also appear in the metadata with their corresponding roles.</p>
+<p>The <a href="https://doimspp.sharepoint.com/sites/fws-data/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Ffws%2Ddata%2FShared%20Documents%2FDataManagementHandbook%2Epdf&amp;parent=%2Fsites%2Ffws%2Ddata%2FShared%20Documents">Service Data Management Handbook</a> provides additional guidance on these key roles and responsibilities.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../..\assets/image (10) (1).png" class="img-fluid figure-img"></p>
+<figcaption>Contacts entry table from the regional DMP template; Note the blue arrow indicated the plus (+) button to add additional rows to the table.</figcaption>
+</figure>
+</div>
+</section>
+<section id="dmp-section-3-metadata-data-standards" class="level4">
+<h4 class="anchored" data-anchor-id="dmp-section-3-metadata-data-standards">DMP Section 3: Metadata &amp; Data Standards</h4>
+<p>Check the box to indicate that your project and data products will be documented with metadata that meets regional and programmatic (super easy!). Currently, the are not a national metadata standard.</p>
+<p>Don’t worry—the metadata creation guidance section in this guide will ensure that your metadata meets these standards.</p>
+<p>Alternatively, if you would like to use another metadata standard, check the ‘Other’ box and select an option from the dropdown list. Be aware that this regional guidance does not address other metadata standards.</p>
+<p>This section ends with a reminder that data collection must follow Service-wide data standards. This guide provides a brief review of common Service-approved data standards and links to the full list.</p>
+</section>
+<section id="dmp-section-4-data-sharing-security-and-preservation" class="level4">
+<h4 class="anchored" data-anchor-id="dmp-section-4-data-sharing-security-and-preservation">DMP Section 4: Data Sharing, Security, and Preservation</h4>
+<p><strong>Short-term storage, backup and security</strong>: The primary causes of data loss are human error and hardware corruption; therefore, it is critically important that short-term data storage is backed up and secure. Identify here where the short-term, primary working project and data files will be located. This is NOT the Regional Data Repository (RDR) and should NOT be your computer hard drive. This should be a shared digital storage location with a backup and recovery protocol in place. Good options include OneDrive, Teams file folders, or a network drive. If there are internet connectivity concerns, working files may be stored on your computer hard drive for ease of use or on an additional external hard drive as a back-up, but must also be maintained in an accessible Service location. Files stored locally should have backups and version controls.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We highly recommend mirroring the RDR files top-level folder structure for your short-term storage since it will provide continuity across storage platforms. In this way, anyone can generally find items within other project, data, and metadata file folders.</p>
+</div>
+</div>
+<p>Indicate how frequently the primary, short-term storage location back-up is done during the project. Choose from a drop-down list of options or choose other and describe the back-up frequency in the input box. Be sure to implement this!</p>
+<p>If there are any data access restrictions that should apply to the short-term file storage, please detail those restrictions at the bottom of this section.</p>
+<p><strong>Regional Data Repository</strong>: The Regional Data Repository (RDR) was set up as an organized, long-term storage for authoritative preservation of project data and products for the Alaska region. Folders and files in the RDR have permissions set so that only specified individuals have write access to the directories and can modify files. All other Service individuals will have read-only access.</p>
+<p>From the RDR, copies of data and metadata may be shared, as appropriate, to other federal or external repositories and catalogs. Enter the URL location of the Regional Data Repository for your project if one already exists. If one does not currently exist, enter an abbreviated project title that you would like to use for your RDR folder. Check the box to indicate if you will be using the RDR as the authoritative long-term storage location for your project data assets. Some programs may require use of the RDR (as your data manager).</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Because the Service does NOT currently have officially approved repositories, the RDR serves as an authoritative staging and secure preservation location for regional project, data assets, products and associated metadata that are readily available for distribution to other catalogs and repositories, as appropriate.</p>
+</div>
+</div>
+<p><strong>Public Data Sharing Repositories</strong>: A copy of the data and metadata may be shared with other federal or external catalogs or repositories. List the public repositories you intend to use here. Use the plus (+) to add additional rows to the table.</p>
+<p>Note that Refuges are required to store data assets in ServCat.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../..\assets/image (3) (1).png" class="img-fluid figure-img"></p>
+<figcaption>Public Data Sharing Repositories table from the regional DMP template; The blue arrow indicates the plus (+) button for adding additional rows to the table.</figcaption>
+</figure>
+</div>
+</section>
+<section id="dmp-section-5-records-schedule-and-disposition" class="level4">
+<h4 class="anchored" data-anchor-id="dmp-section-5-records-schedule-and-disposition">DMP Section 5: Records Schedule and Disposition</h4>
+<p>Permanent electronic records must be transferred to the National Archive according to records schedules. The most relevant records disposition schedules most commonly applicable to biological data collection are presented as dropdown options. Choose the records schedule that best classifies your data type, then visit thee<a href="https://www.fws.gov/policy/a1283fw2.html">Combined USFWS Disposition Manual (2006)</a> weblink to select your the record type and find your disposition schedule. Use the plus (+) button to add rows, if more than one record type applies. If a record type applies that is not present in the shortlist, you can also manually enter a value in the record type field.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Feel free to contact the Alaska Regional Records Expert is Kyle Cahill (kyle_cahill@fws.gov or (907)786-3351) for assistance.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="data-products" class="level2">
+<h2 class="anchored" data-anchor-id="data-products"><em>Data Products</em></h2>
+<p>In some, but not all cases, projects have anticipated data products, whether a table, geographic dataset, or a series of photographs. Cataloging these anticipated data products during the planning phase can help identify resource need for the project. Additionally, use of the regional machine-readable DMP template will initiate metadata records for your data products, if needed, and create the project-product associations within the metadata records. </p>
+<p>For digital data products, the following are the attribute fields:</p>
+<p>Complete a Digital Data Product (required) and Physical Sample (optional) table for each data product that you expect to produce or use during your project. Data products may include (but are not limited to) data tables, shapefiles, computer code, or reports. To add a table, click on the plus (+) button in in the lower right corner of the table.</p>
+<ul>
+<li>Product Name: Enter the name or title of the data product</li>
+<li>Location url: Enter the location of the data resource. This may be the short-term storage location of the file or the project’s incoming folder RDR if the data resource is ready for review. </li>
+<li>Product History: Indicate with the check boxes if this is a new data product or an previous product. If it is an exiting data product, please also provide the url for the product metadata, if it exists.</li>
+<li>Resource Type: Select the resource type for the data product, and choose the appropriate format from the dropdown options. If the format is not listed, choose other and enter the format type in the input box. Refer to guidance on standard format types.</li>
+<li>Description: Enter a description of the product in the text box. It should be descriptive, but does not require justification for data collection.</li>
+<li>Data Originators: Indicate the name and email of the person who collected the data. This may or may not be a point of contact listed above for the project team.</li>
+<li>Quality Assurances: Describe the procedures and methods used to ensure the data is free of errors.</li>
+<li>Quality Controls: Describe the procedures and methods used to help prevent errors in data collection.</li>
+<li>Resource Requirements: Describe the resources needed, such as hardware, software, equipment, staff with specialized skills, or financial commitments, to maintain, store, and access this data product. Also include the size of the storage space needed and units (i.e.&nbsp;MB, GB, TB, PB)</li>
+<li> Metadata Author: Enter the name and email address for the primary metadata author for the data product.</li>
+<li>Maintenance and Submission Schedule: Select the frequency in which the data product and its metadata will be updated and submitted to the RDR. There are plenty of options, but ‘other’ is not one of them.</li>
+<li>Data Restrictions: Choose from the dropdown list where or not the data is restricted. Note that restricted data still requires metadata to be discoverable. In the majority of cases, data is open-access or unrestricted. If data restrictions apply, provide a justification. See data restrictions for more information.</li>
+<li>Supplemental Materials: List data products that are needed to understand this data product. This may include relational diagram, photo and video naming conventions, or pre-existing datasets from which this product was derived.</li>
+<li>Spatial Extent: Indicate if the spatial extent is the same as the project extent or if not, indicate the location of a spatial dataset for the data product.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Restricted data still requires metadata to be written and be publicly searchable. See constraints section in product metadata for more information. </p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If using the regional machine-readable Alaska region DMP template, a metadata record will be created for each expected product and each record will automatically be associated with the project metadata record.</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../..\assets/image (9) (1).png" class="img-fluid figure-img"></p>
+<figcaption>Digital Data Product table can be duplicated by clicking on the plus (+) button indicated by the blue arrow.</figcaption>
+</figure>
+</div>
+<section id="digital-data-table" class="level4">
+<h4 class="anchored" data-anchor-id="digital-data-table">Digital Data Table</h4>
+<p>A data table should be completed for each digital data type (e.g., table, database, model, geospatial layer, or photo/video collection. The following are the DMP fields for digital data.</p>
+<ul>
+<li>Collection Name: </li>
+<li>Description: Enter a description of the physical samples in the text box. Include number of samples and how they were used.</li>
+<li>Labeling Standards: Describe how the samples were labeled and the meaning of any codes or abbreviations used. </li>
+<li>Quality Assurance and Quality Control Procedures: Describe in the text box the procedures and methods used to collect and compile the the data from the sample to ensure quality data.</li>
+<li>Storage Location and Conditions: Identify the location of the physical samples and the conditions in which the samples are stored in the text box.</li>
+<li>Chain of Custody: Describe the chain of custody, controls, or transfer procedure of the physical samples in the text box.</li>
+<li>Fate After Analysis: Describe the long-term storage or disposition plan for the physical samples in the text box. </li>
+<li>Data Products Derived: Provide the name of the data product that directly resulted from the collection of these physical samples. __ </li>
+<li><strong>Product Title:</strong> (Required) Enter naa descriptive name or title of the data product</li>
+<li><strong>Location url:</strong> (Optional) Enter the location of the data resource. This is likely the short-term storage location of the file.</li>
+<li><strong>Product History:</strong> (Required) Check a box to indicate whether the data is a new product or a pre-existing data product. If metadata for the data product already exists and metadata exist, provide the URL for the location of the metadata.</li>
+<li><strong>Resource Type and Format:</strong> (Required) Select the resource type for the data product from the dropdown list, then choose the appropriate data format from the next dropdown list of options. If the format is not listed, choose ‘other’ and enter the format type in the input box. Refer to guidance on common open format types.</li>
+<li><strong>Description:</strong> (Optional) Describe the data product, including information on purpose of data and key attributes of the data collected. This is not a justification for data collected.</li>
+<li><strong>Data Producer(s)/Originators:</strong> (Optional)Indicate the name and email of the person(s) who collected the data. This may or may not be a point of contact listed above in the project personnel section. Use the blue plus (+) button to add additional persons.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../..\assets/image (2) (1).png" class="img-fluid figure-img"></p>
+<figcaption>Add additional data producers by clicking the blue plus (+) button.</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Quality Assurances:</strong> (Required) Briefly list the procedures and methods used to help prevent errors during data collection. If these procedures are already detailed in project methods documents (protocols), you may provide a link to those documents instead.</li>
+<li><strong>Quality Controls:</strong> (Required) Briefly list the procedures and methods used review and ensure data is free of errors after collection. If these procedures already detailed in project methods documents (protocols), you may provide a link to those documents instead.</li>
+<li><strong>Resource Requirements:</strong> (Required) Briefly describe the resources needed, such as hardware, software, equipment, staff with specialized skills, or financial commitments, needed to maintain, store, and access this data product. Describe what type of data, frequency, of data that is being collected. i.e.&nbsp;photos collected daily could be GBs or TB.</li>
+<li> <strong>Metadata Author:</strong> (Required) Enter the name and email address for the person(s) responsible for writing the metadata for the data product. Use the blue plus (+) button to add additional persons.</li>
+<li><strong>Data Restrictions:</strong> (Required) Choose from the dropdown list to indicate whether the data is restricted. In the majority of cases, data is open-access or unrestricted. If data restrictions apply, provide a brief justification. <em>Note that restricted data still require metadata</em>.</li>
+<li><strong>Supplemental Materials:</strong> (Optional) List any additional existing products or supplementary materials with access location that is needed to understand or re-create this data product. This may include a database diagram, existing data/source resources used, etc.</li>
+<li><strong>Spatial Extent:</strong> (Optional) Provide a spatial extent of the data, if the product contains spatial data (i.e., coordinates). If the product spatial extent is the same as the project spatial extent, check the box. If the spatial extent of different, include the URL location of an extent file for the data product.</li>
+</ul>
+</section>
+<section id="physical-samples" class="level4">
+<h4 class="anchored" data-anchor-id="physical-samples">Physical Samples</h4>
+<p>Physical samples include any tangible items that will be collected in association with the project. The collected items often include biological specimens such as feathers or fur, blood, feces, or carcasses. For example, deceased butterflies from a laboratory colony, fish scales for aging, feathers from bird surveys, hit-by-car carcasses or mounts for outreach may constitute physical collections. Associating these physical samples with their data and parent project creates rich metadata and contributes to an inventory of the physical samples. This table is an optional part of the DMP template. The following are fields for the DMP physical samples table.</p>
+<ul>
+<li><strong>Collection Name:</strong> Enter a descriptive name or title for the physical sample collection.</li>
+<li><strong>Description:</strong> Enter a description of the physical samples in the text box, including the purpose of the collected samples, e.g.&nbsp;blood collected for genetic research.</li>
+<li><strong>Labelling Standards:</strong> Briefly describe how the samples were labelled including the meaning of any codes or abbreviations used. </li>
+<li><strong>Quality Assurance and Quality Control Procedures:</strong> Briefly describe in the text box the quality procedures and methods used to collect and compile the data from the samples. Citations/links to technical reports, publications and existing protocols may be included.</li>
+<li><strong>Storage Location and Conditions:</strong> Identify the location of the physical samples and the conditions in which the samples must be stored.</li>
+<li><strong>Chain of Custody:</strong> Briefly describe the chain of custody, controls, or transfer procedure of the physical samples.</li>
+<li><strong>Fate After Analysis:</strong> Briefly describe the long-term storage or disposition plan for the physical samples.</li>
+<li><strong>Data Products Derived:</strong> Provide the name or description of digital data products that resulted from the collection of these physical samples. </li>
+</ul>
+<p>Updated June 2022</p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../planning/why-data-planning.html" class="pagination-link" aria-label="Why Data Planning?">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Why Data Planning?</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../planning/data-management-plan/data-standards-in-brief.html" class="pagination-link" aria-label="Data Standards in brief">
+        <span class="nav-page-text">Data Standards in brief</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,788 @@
+[
+  {
+    "objectID": "sharing-1/untitled/sharing-without-a-url.html",
+    "href": "sharing-1/untitled/sharing-without-a-url.html",
+    "title": "Sharing without a URL",
+    "section": "",
+    "text": "Sharing without a URL\nFor example, sharing via email…(TBD).",
+    "crumbs": [
+      "GitHub Source",
+      "Sharing 1",
+      "Open Data Requirements",
+      "Sharing without a URL"
+    ]
+  },
+  {
+    "objectID": "sharing-1/untitled/obtaining-a-digital-object-identifier-doi.html",
+    "href": "sharing-1/untitled/obtaining-a-digital-object-identifier-doi.html",
+    "title": "Obtaining a Digital Object Identifier (DOI)",
+    "section": "",
+    "text": "Obtaining a Digital Object Identifier (DOI)\nA digital object identifier (DOI; www.doi.org) is a unique identifier permanently associated with a data resource (csv file, report, published paper, etc.). For example, below is the DOI for this guide. \n\n\n\nAnatomy of a Digital Object Identifier URL\n\n\nThe FWS DOI Tool allows you to manage DOIs and associate metadata with them. When you ‘click’ on a DOI link or enter the link directly at www.doi.org, you are redirected to the website given in the resource’s metadata. The main advantage of a DOI is that if the underlying web link changes, you just have to update the DOI metadata. \n\n\n\n\n\n\nNote\n\n\n\nDo not create a DOI for published journal articles or anything else that already has a DOI. Use the existing DOI assigned by the publisher.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nWhen you create a DOI, you or someone in your organization is responsible for maintaining them. Whenever the metadata for the resource changes, you must update that information using the FWS DOI tool. \n\n\nTo reserve a DOI for a product, all you need is the title of the product and the FWS office or program responsible for managing the product. You should use the same title as is in your metadata record for the product. Before you begin, please note that you should not create fake or test DOIs.\n\n\n\n\n\n\nImportant\n\n\n\nDo not create fake or test DOIs!\n\n\nTo reserve a DOI, follow these steps: \n\nGo to the FWS DOI Tool\nRead the text in the ‘New User?’ box. \nSign in using your Active Directory username and password \nClick the ‘Create DOI’ button\nEnter the title and select your program\nClick ‘Reserve my DOI’ \nSelect ‘Add Manager’\nEnter the name of a secondary person that will manage this DOI in your absence. You should enter the Data Custodian for your program. You may also add others, if appropriate. The Active Directory search is slow and often fails, please be patient. After it fails, you can directly enter the person’s FWS email. \n\n\n\n\n\n\n\nImportant\n\n\n\nAdd the Data Custodian for your program as a secondary person who will manage the DOI.\n\n\nYou now have a DOI reserved for the product. You can save that information and return later or add more information to finish the record and publish the DOI. To finish the record, follow these steps:\n\nLogin, navigate to your record, and select the ‘Required Information’ tab on the left.\n Add the following information:\n\npublication year, \nauthor contacts (individual or organizational), \nURL of the product, and\nselect a resource type from the drop down list. \n\n(optional) Navigate to the ‘Supplemental Information’ tab and enter any additional information there. \nAt this point you can save the record for publishing later by selecting ‘Save unpublished record’ on the left or you can publish the record by selecting ‘Publish Approved Record to DataCite.’ If your record has been approved, select the latter.\nA confirmation box titled ‘Publish DOI?’ will appear. To confirm and publish the DOI, select ‘YES, publish this DOI’.\n\nThe information is then sent to DataCite where the DOI is published. When someone enters the DOI link into a web browser, they are redirected to the URL you provided in the metadata. Usually after a few minutes (it could be up 24 hours), you should be able to locate your data product by entering the DOI at www.doi.org. If it does not work after 24 hours or you have any other problems, contact the FWS DOI Tool Service Desk. \n\n\n\n\n\n\nWarning\n\n\n\nCurrently there is no official Region-wide approval process for obtaining DOIs and publishing data products. You should seek the approval of the Data Steward, Project Manager (PI), and your Supervisor.",
+    "crumbs": [
+      "GitHub Source",
+      "Sharing 1",
+      "Open Data Requirements",
+      "Obtaining a Digital Object Identifier (DOI)"
+    ]
+  },
+  {
+    "objectID": "planning/why-data-planning.html",
+    "href": "planning/why-data-planning.html",
+    "title": "Why Data Planning?",
+    "section": "",
+    "text": "Why Data Planning?\n\nBenefits of data management planning \nResearchers collect data with some investigation goal in mind. It might be a population survey or perhaps an experiment to test the effects of changing a parameter. Planning for how the data will be obtained, what it will look like, and where the data will be stored begins early in the project lifecycle and should consider data needs. It does not take much time and can pay dividends in the long run. The final product – discoverable, accessible, documented, and secure data – is a result of effective data planning. \n\n\nWhat is a data management plan? \nThe data management plan (DMP) is a living document that serves as an easy-to-follow roadmap that covers collection, organization, use, storage, contextualization, preservation, and sharing of research data, as well as identifying responsibilities and required resources. It is the primary communication tool between the project staff and the data manager or data custodian. The goal of a DMP is to consider and document the proposed process of data handling over the course of the data management lifecycle. \n\n\nWhen do I need a DMP?\nThe data management policy (274 FW 1) specifies that all data “created, acquired, or distributed, by or for the Service, in any medium or form” after October 1, 2020 must fall under a data management plan. This encompasses financial, personnel, property, safety management, award, other administrative records, and scientific/research data, including data collected through MOU, cooperative agreements, or contracts. This requirement does not extend to data generated through Service grants or certain financial assistance awards when we do not otherwise have reason or authority to obtain data produced through these awards. \n\n\nPlanning requirements\nPer the Service’s data management policy, employees must ensure that data fall under a data management plan. Section 1.9Alists the following minimum elements that must be addressed in a DMP:\n\nThe type(s) of data to be collected (See Data Types)\nThe Data Trustee, Steward, Custodian, and Producer (See Establish Roles and Responsibilities)\nThe Board-approved repository where the data will be stored (See Archive)\nAny special access or use restrictions that might apply (See Access & Share)\nResources needed to maintain, store, and access the data throughout its lifecycle (See Maintain?)\nMetadata standards that will be used to describe the data (See Initiate Metadata)\nRecords schedule and disposition (See Records Management)\nInstructions on how to access the data (See Access & Share)\nQuality assurance and quality control processes that will be applied to the data (See QA/QC)\nThe frequency with which the data and metadata will be reviewed and updated (See Maintain)\n\nThere are a few DMP templates available to help Alaska Region staff create plans that meet all Service requirements.\n\n\nPlanning metadata\nThe planning phase is the ideal time to initiate metadata for your project and proposed data products. Metadata - or data about data - is crucial for making sure your data is documented, findable, and reusable. \nMetadata is officially defined as “structural or descriptive information about data such as content, format, source, rights, accuracy, provenance, frequency, periodicity, granularity, contact information, publisher or responsible party, method of collection, and other descriptions” (44 U.S.C 3502). It provides critical information, such as data content and quality, points of contact, where the data are stored, and use limitations and restrictions among other things. Posting metadata to metadata catalogs (e.g., data.gov) allows other users to search for datasets. \nThe first step to initiating metadata for projects and products is to choose an applicable metadata standard. The metadata standard you choose will depend on what type of data you are describing and what data repository you will be using. For example, geospatial data must be described with Federal Geographic Data Committee-compliant metadata (i.e. FGDC CSDGM, ISO 191xx series). Regardless of the standard used, the data management policy requires that metadata be: (a) created in a machine-readable and open format, (b) adequately described, (c) updated throughout the lifecycle of the data, and (d) preserved alongside the data. \nThe Alaska Region has developed a metadata standard checklist that staff can refer to in order to meet minimum content requirements.\nFor non-geospatial metadata, the Alaska Region data management staff recommend using the mdJSON standard, which can be created using mdEditor. Guidance on using mdEditor can be found in the Alaska Region Metadata Guide.\nUpdated July 2022",
+    "crumbs": [
+      "GitHub Source",
+      "Plan",
+      "Why Data Planning?"
+    ]
+  },
+  {
+    "objectID": "planning/index.html",
+    "href": "planning/index.html",
+    "title": "Plan",
+    "section": "",
+    "text": "This section describes data management activities related to planning activities.\n\n\nThis “index.md” file can be used to display information that will not be rendered as a webpage but is viewable when browsing the GitHub repository. As opposed to a webpage that includes Quarto formatting, which will display the formatting code as raw text (e.g., ::: {.callout-tip} Completing a DMP is a National Service Requirement. :::",
+    "crumbs": [
+      "GitHub Source",
+      "Plan"
+    ]
+  },
+  {
+    "objectID": "planning/index.html#intent",
+    "href": "planning/index.html#intent",
+    "title": "Plan",
+    "section": "",
+    "text": "This “index.md” file can be used to display information that will not be rendered as a webpage but is viewable when browsing the GitHub repository. As opposed to a webpage that includes Quarto formatting, which will display the formatting code as raw text (e.g., ::: {.callout-tip} Completing a DMP is a National Service Requirement. :::",
+    "crumbs": [
+      "GitHub Source",
+      "Plan"
+    ]
+  },
+  {
+    "objectID": "planning/data-management-plan/data-standards-in-brief.html",
+    "href": "planning/data-management-plan/data-standards-in-brief.html",
+    "title": "Data Standards in brief",
+    "section": "",
+    "text": "Data Standards in brief\nData standards are simply a pre-defined format and field name for a value or attribute. Using the same attribute fields and formats across the Service increases the re-usability of our data, both internally and externally. For example, when the the date or year is collected in a dataset, the standard field name is YEAR, and the format is YYYY where Y represents a number 0 to 9.\n\n\n\n\n\n\nNote\n\n\n\nAll FWS approved data standards are detailed here.\n\n\nSome common data standards are listed below.\n\n\n\nAttribute Description\nField Name\nFormat\n\n\n\n\nCalendar Date\nDATE\nMMDDYYYY\n\n\nCounty Name\nCOUNTY\n\n\n\nCounty Numeric Code\nCOUNTYCODE\nNNN\n\n\nDun Universal Numbering System\nDUNS\nNNNNNNNNN\n\n\nEcosystem Unit Name\nECOSYSTEM\n\n\n\nEcosystem Unit Number\nECONUM\nNN\n\n\nFire Unit Identifier\nFIREUNITID\nAAAAA or AAANA\n\n\nFiscal Year\nFY\nYYYY\n\n\nGeographic Area Name\nGEONAME\nsee list\n\n\nGeopolitical Name & Code\nCNTYNAME, CNTYCODE\n\n\n\nLatitude & Longitude\nLAT, LONG\n\n\n\nWind Direction\nWINDDIR\nsee list\n\n\nWind Speed\nWINDSPEED\nNN\n\n\n\nWhere N is a numeric value from 0 to 9 and A is a alphabetical value.",
+    "crumbs": [
+      "GitHub Source",
+      "Plan",
+      "Data Management Plan Templates",
+      "Data Standards in brief"
+    ]
+  },
+  {
+    "objectID": "maintain/update-metadata.html",
+    "href": "maintain/update-metadata.html",
+    "title": "Update Metadata",
+    "section": "",
+    "text": "Update Metadata\nSee that Alaska Region Metadata Guide for detailed metadata writing guidance.\nIn the Plan phase of the data management lifecycle, you selected a metadata standard and began creating metadata for your proposed data products. Now is the time to revisit the initiated metadata records, update them as necessary, and create any additional records to ensure your project is well documented.\n\n\n\n\n\n\nNote\n\n\n\nIt is highly recommended that you regularly update your data management plan and metadata throughout the data management lifecycle. This will save you time and labor in the long run.\n\n\nTo update your metadata, follow the steps listed below:\n\nAccess the “metadata” sub-folder in your project’s RDR folder. There should be two folders contained therein: “mdEditor” and “mdJSON.” You will want to navigate to the “mdEditor” folder.\nThere should be a single file in your “mdEditor” folder. This file contains your initiated metadata records. Save a copy of this file to your computer.\nOpen a web browser and navigate to mdEditor, a digital tool for authoring and editing metadata. \nIn the primary navigation, click on “Import.”\nDrag and drop the file containing the initiated metadata records into the blue space.\nClick the green “Click to Import” button on the right-hand side of your screen.\nProceed to edit your metadata records and data dictionaries as needed.\nExport your updated records as a single .JSON file using the “Export All” function, and upload the file into the “incoming” sub-folder in your project’s RDR folder.\n\n\n\n\n\nAccessing mdEditor and importing initiated metadata records (Steps 3, 4, and 5).\n\n\n\n\n\nImporting, editing, and exporting metadata records in mdEditor (Steps 6, 7, and 8)\n\n\n\n\n\n\n\n\nNote\n\n\n\nFor additional guidance on how to write metadata or use mdEditor, refer to the Alaska Region Metadata Guide.",
+    "crumbs": [
+      "GitHub Source",
+      "Maintain",
+      "Update Metadata"
+    ]
+  },
+  {
+    "objectID": "long-term-storage-options/public-accessible-repositories.html",
+    "href": "long-term-storage-options/public-accessible-repositories.html",
+    "title": "Public Accessible Repositories",
+    "section": "",
+    "text": "Like the RDR, publicly accessible repositories are organized inventories of data assets. A key difference, though, is that these repositories are accessible to all individuals. Staff, with the assistance of their data manager, can upload their project data to a public-facing repository. The benefit of doing this is twofold:\n\nArchiving your data in more than one repository will lead to redundant storage, greatly reducing the risk of data loss.\nYour project data can easily be discovered and accessed by partners and other researchers outside of the Service.\n\nExamples of public repositories–many of which are federally managed–include:\n\nServCat\nScienceBase\nAGOL\nLandscape Conservation Cooperatives Science Catalog\nGeoPlatform\nData.gov\n\n\n\nServCat–short for Service Catalog–archives resources generated or created by the Service such as published and unpublished reports, management plans, datasets, photos, audio files, maps, and journal articles. This repository was designed allow project data to be easily discovered and retrieved by Service staff as well as the general public. The system is securely managed and backed up by USFWS data specialists, and files of all types and sizes can be uploaded to ServCat. This repository is well suited for document storage and can be used by all Service staff.\nAccess ServCat here: https://ecos.fws.gov/ServCat/****\n\n\n\nScienceBase is a digital repository created by USGS for the long-term storage of finalized science products like datasets, photos, and maps. Data uploaded to this repository can be shared within and without USGS through web services, and metadata can be created and maintained using this tool. ScienceBase also allows researchers to track projects and their data from their inception to completion. This repository is currently only available for Science Application staff.\nAccess ScienceBase here: https://www.sciencebase.gov/catalog/****\n\n\n\n\n\n\nWarning\n\n\n\nUploading project files to public-facing repositories is best accomplished with help from your data manager.",
+    "crumbs": [
+      "GitHub Source",
+      "Long-term Storage Options",
+      "Public Accessible Repositories"
+    ]
+  },
+  {
+    "objectID": "long-term-storage-options/public-accessible-repositories.html#servcat",
+    "href": "long-term-storage-options/public-accessible-repositories.html#servcat",
+    "title": "Public Accessible Repositories",
+    "section": "",
+    "text": "ServCat–short for Service Catalog–archives resources generated or created by the Service such as published and unpublished reports, management plans, datasets, photos, audio files, maps, and journal articles. This repository was designed allow project data to be easily discovered and retrieved by Service staff as well as the general public. The system is securely managed and backed up by USFWS data specialists, and files of all types and sizes can be uploaded to ServCat. This repository is well suited for document storage and can be used by all Service staff.\nAccess ServCat here: https://ecos.fws.gov/ServCat/****",
+    "crumbs": [
+      "GitHub Source",
+      "Long-term Storage Options",
+      "Public Accessible Repositories"
+    ]
+  },
+  {
+    "objectID": "long-term-storage-options/public-accessible-repositories.html#sciencebase",
+    "href": "long-term-storage-options/public-accessible-repositories.html#sciencebase",
+    "title": "Public Accessible Repositories",
+    "section": "",
+    "text": "ScienceBase is a digital repository created by USGS for the long-term storage of finalized science products like datasets, photos, and maps. Data uploaded to this repository can be shared within and without USGS through web services, and metadata can be created and maintained using this tool. ScienceBase also allows researchers to track projects and their data from their inception to completion. This repository is currently only available for Science Application staff.\nAccess ScienceBase here: https://www.sciencebase.gov/catalog/****\n\n\n\n\n\n\nWarning\n\n\n\nUploading project files to public-facing repositories is best accomplished with help from your data manager.",
+    "crumbs": [
+      "GitHub Source",
+      "Long-term Storage Options",
+      "Public Accessible Repositories"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AK Region Data Stewardship Team (v.3)",
+    "section": "",
+    "text": "Alaska Region Interim Data Management User Guide\nPlanning, acquiring, maintaining, sharing, and archiving are all important steps of proper data management. The Alaska Region Data Management User Guide was designed to walk staff through each of these steps, with procedures, documents, and best practices specific to Region 7. Fisheries and Ecological Services, Migratory Bird Management, National Wildlife Refuge System, and the Office of Subsistence Management staff should look to this guide for regional data management support. Supplementing this document are additional region-specific resources, including:\n\n****Alaska Region Metadata Guide, which provides region-specific guidance on how to create archive-quality metadata using mdEditor.\n****Trainings with accompanying handouts developed to assist staff with particular data management topics like file organization and tidy tabular data.\n****AK Data Forum, a Microsoft Team with a channel dedicated to receiving and answering staff inquiries.\n****Alaska Region Data Management **** SharePoint site, which contains important templates and the latest data management news.\n\nFor information related to U.S. Fish and Wildlife Service (USFWS) data management, consult the National Data Management Handbook. This document offers information on data management basics as well as a breakdown of data management lifecycle components and related USFWS policies.\n\n\n\n\n\n\nNote\n\n\n\nNeed help? Contact your program’s data manager or technician with any questions.\n\n\n\n\n\n\n\n\n\nProgram\nContact information\n\n\n\n\nFisheries and Ecological Services\n\n\n\nMigratory Birds\n\n\n\n\n\n\n\nRefuges\n\n\n\nOther\n\n\n\n\nUpdated May 2022"
+  },
+  {
+    "objectID": "four-fundamental-activities-of-data-management/quality-management.html",
+    "href": "four-fundamental-activities-of-data-management/quality-management.html",
+    "title": "Quality Management",
+    "section": "",
+    "text": "Quality Management\nData quality management is composed of quality assurance (QA) and quality control (QC). Quality assurance begins before data are collected and are procedures used to prevent errors from entering the data (e.g., using a mobile app for data collection that limits possible values that can be entered (pick-lists)). Quality control is the discovery and correction of errors in the data and generally occurs during or after data collection (e.g., detection of outliers, typographical error, a character datum where a numeric value is expected, using an incorrect species code, and etc.). Quality control should occur as soon as possible after collecting the data and before submitting data to the archive record or sharing. QA and QC procedures should be identified during the project planning phase in consultation with the program’s biometrician and/or data manager. Record quality management practices (QA and QC) in the mdEditor for all documented products. \nBest Practices in Quality Assurance\n\nUse documented protocols and standard methods\nUse high-quality instrumentation and regularly check accuracy\nProvide consistent training\nDevelop standardized data collection forms (data sheet templates or computer input with data validation formats)\n\nBest Practices in Quality Control\n\nInspect data values using summary functions (tabling unique values, calculating means and variances, etc.) or by applying complex analysis algorithms.\nIn Excel files, use sort and filter functions to look for data anomalies or outliers. \nVisually inspect data using scatterplots, regressions, and histograms.",
+    "crumbs": [
+      "GitHub Source",
+      "Four Fundamental Activities of Data Management",
+      "Quality Management"
+    ]
+  },
+  {
+    "objectID": "four-fundamental-activities-of-data-management/establish-roles-and-responsibilities.html",
+    "href": "four-fundamental-activities-of-data-management/establish-roles-and-responsibilities.html",
+    "title": "Establish Roles and Responsibilities",
+    "section": "",
+    "text": "Establish Roles and Responsibilities\nA critical first step in managing data is determining individual roles and responsibilities, which should include contacts for obtaining information on a project, product, or source data. \nExplicitly identify a person or position in the following roles:\n\nProject Manager: This role is held by a FWS employee and may be synonymous with the project’s principal investigator, responsible for the management of the project and all associated data products. The Project Manager is responsible for ensuring that the project performance is as described in the project and data management plans. It is the responsibility of the Project Manager to perform any necessary tasks if a particular required role is not explicitly identified. This role is responsible for project metadata creation.\nPrincipal Investigator: This role may or may NOT be held by a FWS employee which is common for cooperative projects. The Principal Investigator, like the project manager, is responsible for the management of the project and all associated data products.\nData Originator(s): The person(s) generating/collecting data, responsible for data they collect, author or generate. The data originator is responsible for following best practices for the data type and for product metadata creation.\nData Custodian: The person responsible for the management of the project archive folder. This is most likely your program data manager. \nData Steward: The subject-matter expert(s) responsible for ensuring that data products are clean and tidy and documentation and metadata are complete. The data steward is responsible for building the project-product associations between metadata records.\nData Trustee: An upper level position in the organization who has the ultimate responsibility for ensuring that the allocation of resources (e.g. staff and funding) are adequate to allow for the completion of all aspects of data management. The trustee also has the ultimate responsibility to ensure the application of governance policies to the project and resultant data resources. The trustee will most likely not be involved with data management, but rather with data governance.\n\n\n\n\n\n\n\nNote\n\n\n\n Note: An individual may fill many roles. Often the Project Manager covers all of the roles, with the exception of Data Trustee. It is best practice for the Project Manager and the Data Steward to be different individuals, however project-staffing levels may not allow for this.",
+    "crumbs": [
+      "GitHub Source",
+      "Four Fundamental Activities of Data Management",
+      "Establish Roles and Responsibilities"
+    ]
+  },
+  {
+    "objectID": "background/why-data-managment.html",
+    "href": "background/why-data-managment.html",
+    "title": "Why Data Managment?",
+    "section": "",
+    "text": "Why Data Managment?\n“If a biologist counts a bird, and no one knows, does it really count?”\nTo make data count, data must go beyond its immediate need. Staff must take additional steps to preserve data in a useful form and make it accessible and discoverable far into the future. This is data management. \nData management = the practice and process of making data into a valuable asset. It includes various workflows and tools to collect, prepare, cleanse, access, integrate, and store data. \nData management consists of the practices, architectural techniques, and tools for achieving consistent access to and delivery of data across the spectrum of data subject areas and data structure types within the Service enterprise, to meet the data consumption requirements of all applications and business processes.\nObjectives of data management include: \n\nMake data, documents, and software freely and openly available for conservation use or research, online when possible, with visual and geographical representation as appropriate. \nPublish complete, high quality metadata for each dataset in a standardized format. \nInclude valuable existing and legacy data into the curation process whenever appropriate. \nDeliver high-integrity data in open and documented formats, in standard vocabularies for optimal usability and compatibility. \nSecurely archive data into the future. \nAggregate searchable metadata linked to online and offline sources. \nProvide for coordinated development, discovery, and use of systems for achieving the above. \n\n “Doing what we’ve always done is another sign of insanity in a changing environment.” — Craig Fugate, former FEMA administrator.  \n\nWhat can improving your data management skills do for you? \n\nIncrease your productivity! \nYou are already managing your data in some form. Improving your skills can increase your productivity and can also improve your project management. \n\n\nImprove decision making for the Service! \nThe data we acquire, maintain, and analyze are important assets that advance the Service’s mission. Making decisions based on defensible, high-quality data improves our conservation outcomes, as well as the Service’s scientific credibility. Data exchange among the scientific, resource management, and conservation communities is essential to achieving our shared conservation goals.\n\n\nSave time and resources! \nProperly managing data reduces time and resources on duplication. Sharing data increases efficiency and enables collaboration across the Service.\n\n\nService policy supports data management! \nData management in the Service have long been led by grassroots efforts from staff who recognize the benefits of improving our data management system (much of this came from the Alaska Region!). Recent policies have led to the creation of the Service’s National Data Initiative, which requires that data is documented, shared, and archived accordingly AND has devoted resources to support training and tools to help you more effectively manage your data. The OPEN data Act now requires it!\n\n\nLeave your mark in Service history!\nMuch of your work is connected to the data that you collect and analyze. Documenting and archiving this data and its collection methods allows others to re-use and apply your data to future studies. Your data citations are trackable too, with the use of persistent identifiers.\n\n\nWhat can you do for data management? \nYou’re already on your way to helping improve the Service’s data management by using this guide. It is designed to be the primary data management resource for you and to include something about everything from the data management lifecycle, tools and even policies. If you want even more, join the national and regional communities to stay in the ‘know’. \nSee the FWS Data Management SharePoint Page for more.\nLast Update August 2022",
+    "crumbs": [
+      "GitHub Source",
+      "Background",
+      "Why Data Managment?"
+    ]
+  },
+  {
+    "objectID": "background/index.html",
+    "href": "background/index.html",
+    "title": "Background",
+    "section": "",
+    "text": "Background\nThe Alaska Region of the U.S. Fish and Wildlife Service is committed to improving the management of its data resources and is included in the regional strategic intent. As a result, a comprehensive, long-term plan to develop and implement a Regional Data Management System (RDMS) began in the spring of 2020, with the expectation that the RDMS will be operational and in use in 3 to 5 years. \nProperly managed data are documented, secure, discoverable, and accessible and timely. Documentation (i.e., metadata or data about data) provides sufficient and relevant information so that users can understand, interpret, and use all of the data and resulting products without additional guidance. Security procedures prevent loss and ensure data integrity. Discoverable data is readily found (e.g., using a data catalog), whereas accessible data is readily obtained (e.g., downloaded from a website). Using these qualities together ensures the effectiveness and efficiency of the data resources both within the Service and beyond. \nThis user guide describes the data management activities necessary to build a preservation folder for a project. Data resources within the folder are the subject of metadata records and these resources, supported by their metadata records, are the authoritative versions intended for long-term storage, all subsequent workflow, analysis, products, and sharing to outside partners. \nThis Interim Data Management User Guide is primarily for biologists and their supervisors in Fisheries and Ecological Services (FES), Migratory Bird Management (MBM), National Wildlife Refuge System (NWRS), and the Office of Subsistence Management (OSM). This guide is a living document (working draft) and revisions will reflect the ongoing development of the available systems in addition to feedback obtained from users. The procedures and processes outlined here attempt to employ best practices under the current restrictions imposed by resource and policy limitations. The team anticipates streamlining the current activities necessary in the interim for the final RDMS.\nThe first section of the document, Introduction, includes Why Data Management, The Big Picture: Integrating Data Management with Project Management, places data management activities into the larger context of the FWS mission, project management and provides guidance on determining which products should undergo data management. \nThe second section describes the Four Fundamental Activities of Data Management: Establish Roles and Responsibilities, Quality Management, Security and Preservation, and Documentation. A description of each activity and implementation guidance is given.\nThe remaining sections provide detailed guidance and best practices for each stages of the Data Management Lifecycle follow: PLAN, ACQUIRE, MAINTAIN, SHARE. A glossary is provided at the end to define data management-related terms used in this document. The Alaska Region Metadata Guide supplements this document by providing specific guidance for using mdEditor to write metadata. The mdEditor is a web-based application used to create archive-quality metadata for projects and products.\nlast update August 2022",
+    "crumbs": [
+      "GitHub Source",
+      "Background"
+    ]
+  },
+  {
+    "objectID": "appendix/summary.html",
+    "href": "appendix/summary.html",
+    "title": "Table of contents",
+    "section": "",
+    "text": "Alaska Region Interim Data Management User Guide\nBackground\n\nWhy Data Managment?\nThe Big Picture: Integrating Data Management with Project Management\nDefinition of Project and Product (aka Data Resources)\n\nFour Fundamental Activities of Data Management\n\nEstablish Roles and Responsibilities\nQuality Management\nSecurity and Preservation\nDocumentation\n\n\n\n\n\nWorkflow\nFile Organization and Best Practices\n\nBest Practices in Naming Conventions\nBest Practices for Version Control\nChangelog Best Practices\n\nAlaska Regional Data Repository\nData Management Policy\n\n\n\n\n\nWhy Data Planning?\nData Management Plan Templates\n\nData Standards in brief\n\nProject & Data Management Integration\nConsiderations for Projects with External Partners\n\n\n\n\n\nCommon Data Types\n\nOpen Formats\nBest Practices in Tabular Data\nBest Practices in Databases\nBest Practices in Geospatial Data\nBest Practices with Collections of Similar Types of Data\nBest Practices with Source Data\n\nQuality Management Procedures\n\nIncorporating Data Standards\nUsing Unique Identifiers\n\n\n\n\n\n\nUpdate Metadata\n\n\n\n\n\nOpen Data Requirements\n\nObtaining a Digital Object Identifier (DOI)\nObtaining a URL\nSharing without a URL\n\n\n\n\nLong-term Storage Options\n\nUsing the Regional Data Repository\nPublic Accessible Repositories\n\nRecords Schedule & Disposition\nData Management Actions Quick Guide\nGlossary",
+    "crumbs": [
+      "GitHub Source",
+      "Appendix",
+      "Table of contents"
+    ]
+  },
+  {
+    "objectID": "appendix/summary.html#alaska-data-management-101",
+    "href": "appendix/summary.html#alaska-data-management-101",
+    "title": "Table of contents",
+    "section": "",
+    "text": "Workflow\nFile Organization and Best Practices\n\nBest Practices in Naming Conventions\nBest Practices for Version Control\nChangelog Best Practices\n\nAlaska Regional Data Repository\nData Management Policy",
+    "crumbs": [
+      "GitHub Source",
+      "Appendix",
+      "Table of contents"
+    ]
+  },
+  {
+    "objectID": "appendix/summary.html#plan",
+    "href": "appendix/summary.html#plan",
+    "title": "Table of contents",
+    "section": "",
+    "text": "Why Data Planning?\nData Management Plan Templates\n\nData Standards in brief\n\nProject & Data Management Integration\nConsiderations for Projects with External Partners",
+    "crumbs": [
+      "GitHub Source",
+      "Appendix",
+      "Table of contents"
+    ]
+  },
+  {
+    "objectID": "appendix/summary.html#acquire",
+    "href": "appendix/summary.html#acquire",
+    "title": "Table of contents",
+    "section": "",
+    "text": "Common Data Types\n\nOpen Formats\nBest Practices in Tabular Data\nBest Practices in Databases\nBest Practices in Geospatial Data\nBest Practices with Collections of Similar Types of Data\nBest Practices with Source Data\n\nQuality Management Procedures\n\nIncorporating Data Standards\nUsing Unique Identifiers",
+    "crumbs": [
+      "GitHub Source",
+      "Appendix",
+      "Table of contents"
+    ]
+  },
+  {
+    "objectID": "appendix/summary.html#maintain",
+    "href": "appendix/summary.html#maintain",
+    "title": "Table of contents",
+    "section": "",
+    "text": "Update Metadata",
+    "crumbs": [
+      "GitHub Source",
+      "Appendix",
+      "Table of contents"
+    ]
+  },
+  {
+    "objectID": "appendix/summary.html#access-share",
+    "href": "appendix/summary.html#access-share",
+    "title": "Table of contents",
+    "section": "",
+    "text": "Open Data Requirements\n\nObtaining a Digital Object Identifier (DOI)\nObtaining a URL\nSharing without a URL\n\n\n\n\nLong-term Storage Options\n\nUsing the Regional Data Repository\nPublic Accessible Repositories\n\nRecords Schedule & Disposition\nData Management Actions Quick Guide\nGlossary",
+    "crumbs": [
+      "GitHub Source",
+      "Appendix",
+      "Table of contents"
+    ]
+  },
+  {
+    "objectID": "appendix/glossary.html",
+    "href": "appendix/glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "Glossary\nWhen consistent with usage in this document, definitions have been pulled from various other resources including Wikipedia, Open Data Handbook glossary, Duke Law EDRM glossary, and the Open Government Data Act codification of act definitions 44 usc 3502. It is possible to find alternative and contradictory definitions in other data management resources resources. The definitions provided here are those implied by the term’s usage in this document.\nAccessibility: the degree to which the resource is obtainable by an interested party. Direct access without constraint would be the most accessible (e.g. resources that may be downloaded without requiring a login), whereas resources that require third-party intervention would be less accessible. \nArchive Folder: a consistent file structure with use constraints and backup schedule that houses the definitive record of a project’s data resources. Products in the archive folder are the subject of metadata records and are the versions intended for use and dissemination. Contrast with working folder.\nData Catalog: database comprised of metadata allowing for the discovery of data resources.\nData Custodian: individual responsible for the storage and security of a data resource.\nData Trustee: individual having the authority to: 1) ensure resources are available to implement the complete project and data lifecycle and 2) ensure compliance with all data governance policies.\nData Dictionary: provides information on the contents of a dataset to support data quality and use. Such information includes entity (i.e., variable) definitions and allowable values. In the case of databases, or a collection of datasets, relationships between tables are also defined in the data dictionary.\nData Integrity: property describing foundational soundness of a data resource. Data with strong integrity have undergone quality control and assurance procedures throughout their lifespan, have permanence over a reasonable timeframe and changes to the data are appropriately documented.\nData Management: an administrative process that includes acquiring, validating, storing, and securing data to ensure the accessibility, integrity, and timeliness of the data for its users.\nData Management Plan: document that describes the data expected from the project, how such data will be handled throughout the project to protect data integrity, and stored at the conclusion of the project to ensure security, discoverability, and accessibility.\nData Resources: data. Recorded information, regardless of form or the media on which the data is recorded. aka Products.\nData Steward: individual responsible for reviewing the quality and metadata of a resource.\nDiscoverability: the degree to which information about a data resource’s existence is readily obtained via searching an information system (e.g., Data.gov). Certain aspects of the metadata for the resource may be useful in enhancing discoverability, such as keywords or spatial bounds. Data catalogs can enhance discoverability by providing a standard location for searching and organizing resources. A data resource may be discoverable (e.g. found in a search result) but not accessible (see accessibility).\nISO: the International Organization for Standardization. Entity that provides standards to ensure consistency in definitions, formats, and use.\nmdEditor: a web application used to write archival-quality metadata for projects and data resources. mdeditor.org\nMetadata: data that describes and provides additional information about other data to promote discoverability and proper use.\nOpen Format: data format that is platform independent, machine readable, and made available to the public without restrictions that would impede the re-use of that information.\nProject: a discrete effort on a particular topic with defined objectives or goals.\nProject Management: the practice of initiating, planning, executing, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time. \nQuality Assurance: preventing errors. The maintenance of a desired level of quality in a product, by means of attention to every stage of the process of acquisition, manipulation, and use\nQuality Control: identifying and correcting errors. Process of review to reduce or eliminate errors made during data acquisition and manipulation.\nReproducible (analyses, workflow, or research): structuring activities so that a product (e.g., a data set, analysis result, or report) can be repeated and the same results achieved. Replication could be achieved by either the same person or team that created the original product or a different team. Documentation and scripted work flows play a key role in reproducibility. \nTidy Data: standard way of relating the structure of a dataset to its meaning. Specifically, each row represents an observation and each column represents a variable recorded on an observation.\nWorking Folder: a file structure used by an individual, or a group in collaboration, to store data resources under production during the course of a project’s implementation. Contrast with archive folder.",
+    "crumbs": [
+      "GitHub Source",
+      "Appendix",
+      "Glossary"
+    ]
+  },
+  {
+    "objectID": "alaska-data-management-101/workflow.html",
+    "href": "alaska-data-management-101/workflow.html",
+    "title": "Workflow",
+    "section": "",
+    "text": "Workflow\n\n\n\nGeneralized Alaska Data Management Workflow\n\n\n\n\n#1: Complete a Data Management Plan \nData Management Plan (DMPs) serves as your data communication document with project staff and your data manager on data collection procedures, quality control practices, working files storage, and distribution preferences. One DMP option is the Alaska Region machine-readable DMP template that can be used to automatically initiate metadata records.\nEven if you have started writing metadata, you should complete a DMP, if you have not done so. \nIf your project is ongoing (ie. annual survey), and you have already completed a DMP, please just take a moment to confirm that nothing has changed. \n\n\n#2: Complete your PROJECT Metadata Record \nIf you used the machine-readable DMP template, you will have a Project metadata record populated from the fields in your DMP ready for updating in mdEditor where records can be updated. Needed updates will likely include adding GCMD keywords, taxonomy, and spatial extent, if not provided in the DMP. See the project metadata creation section of this guidance to ensure that your project metadata meets the regional requirements. \nIf your are starting your metadata from scratch, this training video can help you get started. Also, see the project metadata creation section in this guide.\n\n\n#3: Collect and Clean your Data \nAfter acquiring your data, prepare your data for re-use. This means that the data tables are tidy, open source, and have passed quality control checks. Tidy data means that each column is a type of data, each row is a single data entry, and values are present throughout the table. For more tips on tidy data, check out this training video. Also see the Quality Management and Acquire section of this guidance.\nDon’t forget to prepare a data dictionary that defines your column names, measurement units, and any codes found in the dataset. This is necessary for others to be able to understand the data.\n\n\n#4: Complete your data PRODUCT metadata \nOnce your data is cleaned, complete your data product metadata. If you included the dataset in your DMP, you have a data Product metadata record ready to be completed. See the product metadata creation section of this guide. Both raw data and final, clean data should be documented with metadata.\nWhen your metadata is complete, ask your data manager if a persistent identifiers is appropriate for you project or products. A Digital Object Identifier is one persistent identifier option. This is essentially a Social Security number for your dataset. It creates a permanent citation link for your data so that it can be referenced in reports, publications, or larger data analysis, in addition to making your data more discoverable.\n\n\n#5: Store Data and Metadata \nYour data and completed metadata is required to be made publicly available. The Alaska Regional Data Repository is a regional home for the preservation of Alaska authoritative data and completed metadata. Use of the RDR enables data managers to access and share your metadata and data with public repositories as appropriate.\n\n\n\n\n\n\nImportant\n\n\n\nCurrently, FWS does not have approved data repositories for Service-wide use. \n\n\n#6: Share metadata and data publicly\nPolicy requires that the authoritative copy is maintained on a FWS system, but a COPY of metadata and data may be shared with internal and external catalogs and repositories as desired. After the completed metadata and data are deposited in the RDR, consult with your program data manager to identify where the data may be appropriately shared publicly. \nUpdated August 2022",
+    "crumbs": [
+      "GitHub Source",
+      "Ak DM 101",
+      "Workflow"
+    ]
+  },
+  {
+    "objectID": "alaska-data-management-101/file-organization-and-best-practices/changelog-best-practices.html",
+    "href": "alaska-data-management-101/file-organization-and-best-practices/changelog-best-practices.html",
+    "title": "Changelog Best Practices",
+    "section": "",
+    "text": "Changelog Best Practices\nAlso often titled a “README” file, this text tile serves as a project folder much like a table of contents of a book or a report. It outlines what you will find inside and provides a space for noting changes in the contents.\n\nSome basic elements of this text file may include: \n\nProject title–add your project title at the top of the text file\nContact information–include name, and contact information\nOverview–include what files will be found in the project archive and descriptions of the information in the files\nInstructions–include details on how the files should be used together\nChange Log–notes on any additions, subtractions, or corrections made to the associated files\n\nUpdated August 2022",
+    "crumbs": [
+      "GitHub Source",
+      "Ak DM 101",
+      "File Organization and Best Practices",
+      "Changelog Best Practices"
+    ]
+  },
+  {
+    "objectID": "alaska-data-management-101/data-management-policy.html",
+    "href": "alaska-data-management-101/data-management-policy.html",
+    "title": "Data Management Policy",
+    "section": "",
+    "text": "Data Management Policy\nUSFWS Policy 274 FW 1 Data Management\nThe USFWS Data Management Policy was written to ensure that USFWS was a responsible public steward of data, managing it as a key strategic asset. The policy requires a data management plan, data description with an applicable metadata standard and maintained in a machine-readable open format, \nThis policy also applies when USFWS employees work in collaborative projects with other organizations, including non-FWS staffed Joint Ventures, where non-FWS staff may be engaged in activities that would fall under FWS data management policy as “contractors, and volunteers who collect, create, distribute, or manage data for the Service” (274 FW 1.2 A(2)). Therefore, data produced by these efforts are Service data assets.\nContracts and agreements awarded to “non-Service entities to collect, create, distribute, or manage data for the Service” are required to “ensure that Service maintains access to our data and incorporate any other applicable requirement in this policy” (274 FW 1.8 A(2)).\nAs stated in 274 FW 1.2 B, legacy data produced prior to October 1, 2020 does not fall under the current data management policy “unless used in an ongoing activity or provided to the public.”\nPolicy also requires that data should be made publicly accessible “to the extent possible and legally permissible” (274 FW 1.11), including when sensitive data has been integrated or manipulated in such a way that the product can be safely distributed to the public. Restrictions to public access requires a legal justification such as a FOIA exemption.\nData must also be available internally. Custodians “must store data in a repository that will allow the appropriate Service employees to access it in a timely manner”. This location must be documented as part of the metadata (274 FW 1.8 D).\nOpen, Public, Electronic, and Necessary (OPEN) Government Data Act (S. 760/H.R. 1770); Title II of Foundations for Evidence-Based Policymaking Act of 2018) \nThis law is the legal requirement for DOI agencies to share data assets with the public as open data, using standardized, non-proprietary formats, and are data machine-readable, cataloged under open license in a comprehensive inventory with appropriate metadata, administered by GSA (currently Data.gov).\n\nMemo: Open Data Policy-Managing Information as an Asset\n OMB M-13-13 states “Open data are published in primary forms (i.e., as collected at the source), with the finest possible level of granularity that is practicable and permitted by law and other requirements. Derived or aggregate open data should also be published but must reference the primary data“\nThis means that raw data and the cleaned data, both, are required to be openly published.\n\n\n National Geospatial Data Act of 2018 (NGDA)(43 U.S.C. Chapter 46, 2801-2811)\nThis law codified the Federal Geographical Data Committee that is responsible for developing, implementing, and reviewing the policies, practices, and standards relating to geospatial data; establish standards for NGDA data themes, including rules, conditions, guidelines, and characteristics, and also establishes content standards for metadata, consistent with international standards; establishes GeoPlatform required to be made available through the Internet, be accessible through a common interface, include metadata for all geospatial data collected, directly or indirectly, by covered agencies, and include a set of programming instructions and standards that would provide an automated means of accessing geospatial data. \n\n\n Freedom of Information Act (FOIA), as amended (5 U.S.C. 552)\nThis law gives any person the right to request and access federal agency records except when the records, or portion of the records, are protected from public disclosure by a FOIA exemption and are as follows: \n\nClassified national defense and foreign relations information. \nInternal agency rules and practices. \nInformation that is prohibited from disclosure by another federal law. \nTrade secrets and other confidential business information. \nInter-agency or intra-agency communications that are protected by legal privileges. \nInformation involving matters of personal privacy (protected under the Privacy Act or containing sensitive personally identifiable information). \nInformation compiled for law enforcement purposes, to the extent that the production of those records: \nCould reasonably be expected to interfere with enforcement proceedings. \nWould deprive a person of a right to a fair trial or an impartial adjudication. \nCould reasonably be expected to constitute an unwarranted invasion of personal privacy. \nCould reasonably be expected to disclose the identity of a confidential source. \nWould disclose techniques and procedures for law enforcement, investigations or prosecutions, or would disclose guidelines for law enforcement investigations or prosecutions. \nCould reasonably be expected to endanger the life or physical safety of any individual. \nInformation relating to the supervision of financial institutions. \nGeological information on wells. \n\nLearn more about FOIA exemptions in the U.S. Department of Justice Guide to the Freedom of Information Act. \n\n\nOffice of Management and Budget (OMB)Circular A-130, Managing Information as a Strategic Resource. \nunder development\n\n\nOMB Memorandum M-19-18, Federal Data Strategy –A Framework for Consistency \nunder development\nupdated August 2022",
+    "crumbs": [
+      "GitHub Source",
+      "Ak DM 101",
+      "Data Management Policy"
+    ]
+  },
+  {
+    "objectID": "acquire/quality-management-procedures.html",
+    "href": "acquire/quality-management-procedures.html",
+    "title": "Quality Management Procedures",
+    "section": "",
+    "text": "Quality Management Procedures\nManaging data quality is an important component of the data lifecycle. Data quality management is the prevention and correction of data defects or issues within a dataset that reduce our ability to apply data towards our science-based conservation efforts. There are two distinct components of data quality management that are often lumped together: quality assurance and quality control. \n\nQuality Assurance (QA) – Implementing processes that prevent data defects from occurring. For example, writing a detailed protocol for a long-term survey so the methodology is maintained as new staff come on board. Quality assurance begins before the data are collected and includes processes and procedures used to prevent errors while collecting or entering the data.\nQuality Control (QC) – Detecting and repairing defects once you have the data. For example, noticing a negative value in a count field may indicate a data-entry error, which might be fixed by reviewing a field data sheet. Quality control should occur as soon as possible after collecting the data and before submitting, archiving, or sharing data.\n\nWhile this topic is listed in this handbook under the “Acquire” section, it is important to note that quality management can be applied at any stage in the data management lifecycle.\n\nQuality Assurance\nThe following are examples of quality assurance measures that can be incorporated into your project workflow:\n\nCreating Standard Operating Procedures\nStaff training and testing\nIncorporating data standards\nCreating standard data sheets for field data collection\nCreating defined value lists (data domains) for computer data entry\nDesignating missing value codes\nIdentifying required fields\n\n\n\nQuality Control\nThe following are examples of quality control that can be incorporated into your workflow:\n\nCheck for outliers and anomalous values or gaps.\nReview the file content and descriptors to ensure that there are no missing data values for key parameters.\nSort the records by key parameters to highlight discrepancies.\nCheck the validity of measured or derived values and scan for impossible values (e.g., a pH of 74).\nCheck the time frame and the temporal units. Generate time series plots to detect anomalous values or data gaps.\nReview statistical summaries (e.g., mean, median, minimum values, maximum values, etc.).\nIf geolocation is a parameter, use scatter plots or GIS software to map each location to check for errors in coordinates. For GIS image and vector files, ensure the projection parameters have been accurately stated.\nAdditional information such as data type, scale, corner coordinates, missing data value, size of an image, and the number of bands should be checked for accuracy.\nRemove any unnecessary parameters or columns used in processing that are uninformative.",
+    "crumbs": [
+      "GitHub Source",
+      "Acquire",
+      "Quality Management Procedures"
+    ]
+  },
+  {
+    "objectID": "acquire/quality-management-procedures/incorporating-data-standards.html",
+    "href": "acquire/quality-management-procedures/incorporating-data-standards.html",
+    "title": "Incorporating Data Standards",
+    "section": "",
+    "text": "Incorporating Data Standards\nData standards are guidelines for describing and storing data. Using data standards is crucial to making your data consistent and interoperable. Standards can apply at the whole dataset level (e.g., Darwin Core standard for sharing information about biodiversity) or to individual parameters (e.g., the ISO 8601 date and time format: YYYY-MM-DD). \nThe USFWS data management policy requires biologists to use appropriate data standards whenever applicable. These can include: \n\nStandardized descriptors such as latitude/longitude, state/county codes, wind direction, and telephone number\nClassification systems such as vegetation classification and biological taxonomy\nData layers such as Hydrologic Units, Wetlands, and Transportation layers\n\nAn approved list of data standards for use in USFWS is currently under review.",
+    "crumbs": [
+      "GitHub Source",
+      "Acquire",
+      "Quality Management Procedures",
+      "Incorporating Data Standards"
+    ]
+  },
+  {
+    "objectID": "acquire/file-organization-and-best-practices/best-practices-in-naming-conventions.html",
+    "href": "acquire/file-organization-and-best-practices/best-practices-in-naming-conventions.html",
+    "title": "Best Practices in Naming Conventions",
+    "section": "",
+    "text": "Best Practices in Naming Conventions\nWhen naming the project folder (short title), files within, and even variable names (column headers in spreadsheets) there are some best practices in naming conventions to keep in mind.\n\nKeep names short, but meaningful.\nUse ISO date format: YYYY, YYYYMM, or YYYYMMDD. It ensures that files with the same name and different dates are sorted in order.\nAvoid using “draft”, “version”, or “final” in file names. Use date (in ISO format, see above) to distinguish versions or use consecutive numbering live v1, v2, v3, …\nWhen using personal names, give the family name first, followed by the first name or initials (e.g. SmithMary or SmithMC).\nUse only letters, numbers, dashes, “-“, and underscores, “_”. Do not use spaces or any other characters.\n\nExamples of file names using the naming conventions:\n\n20201211_SmithMC_samplingdata.jpeg \nProjectReport_20201213.docx\n20201215_duckData-south.xlxs\nPBear_2020_annualobservationv4.tiff",
+    "crumbs": [
+      "GitHub Source",
+      "Acquire",
+      "File Organization and Best Practices",
+      "Best Practices in Naming Conventions"
+    ]
+  },
+  {
+    "objectID": "acquire/common-data-types/open-formats.html",
+    "href": "acquire/common-data-types/open-formats.html",
+    "title": "Open Formats",
+    "section": "",
+    "text": "Open Formats\n\nSharing data can be greatly enhanced if you use ubiquitous, easy-to-read formats. For instance, while Microsoft Excel files are commonplace, it’s better to export these spreadsheets to Comma Separated Values (CSV) text files, which can be read on any computer without having Microsoft products installed. Open data means that anyone can read it without the need for costly software.\nFor image files, use common formats like PNG, JPEG, TIFF, etc. Most browsers can handle these. If you use specialized software to create your data, try to save you data in well-known formats. For instance, GIS data can be exported to ESRI shapefiles, and data created in Matlab or other matrix-based programs can be exported as NetCDF (an open binary format). Some common open formats are listed below.\nContainers: TAR, GZIP, ZIP \nDatabases: XML, CSV, JSON \nGeospatial: SHP, DBF, GeoTIFF, NetCDF \nVideo: MPEG, AVI, MXF, MKV \nSounds: WAVE, AIFF, MP3, MXF, FLAC \nStatistics: DTA, POR, SAS, SAV \nImages: TIFF, JPEG 2000, PDF, PNG, GIF, BMP, SVG \nTabular data: CSV, TSV, TXT \nText: XML, PDF, HTML, JSON, TXT, RTF \nWeb archive: WARC \nUpdated December 2021",
+    "crumbs": [
+      "GitHub Source",
+      "Acquire",
+      "Common Data Types",
+      "Open Formats"
+    ]
+  },
+  {
+    "objectID": "acquire/common-data-types/best-practices-with-source-data.html",
+    "href": "acquire/common-data-types/best-practices-with-source-data.html",
+    "title": "Best Practices with Source Data",
+    "section": "",
+    "text": "Best Practices with Source Data\nSource data refers to those data resources used by the project but not created by the project. Source data is commonly used as input in the creation of new data products. Examples include base layers used in GIS processing or sensor input used to generate analytical output. If the source data is discoverable and permanently accessible through another means (e.g. USGS Streamflow data), this data does not need to be maintained in a project archive folder. However, if the source data is not readily available in the form used by the project it would be appropriate to save that information in the archive folder by following the best practices for each data type as described in prior sections of this guide.\n‌In either case, a metadata record for the source data, obtained from the original source or written in the mdEditor, must be in the source data folder of the archive. The relationship between source data and products are described in the Lineage section of the product metadata record.",
+    "crumbs": [
+      "GitHub Source",
+      "Acquire",
+      "Common Data Types",
+      "Best Practices with Source Data"
+    ]
+  },
+  {
+    "objectID": "acquire/common-data-types/best-practices-in-tabular-data.html",
+    "href": "acquire/common-data-types/best-practices-in-tabular-data.html",
+    "title": "Best Practices in Tabular Data",
+    "section": "",
+    "text": "Best Practices in Tabular Data\nMuch of the Region’s data is contained in spreadsheets (i.e., tabular data, most commonly MS Excel files). Multiple spreadsheets within the same file can contain data and derivatives of the data (tables, summaries, pivot tables, formulas, figures). Below are some best practices when dealing with this type of data. \n\nOne sheet in the file should contain a clean version of the data. Nothing else should be on this sheet. This is sometimes also referred to as tidy data. In tidy data:\n\nThe first row contains variable names and each column represents one variable. Variable names should use only letters, numbers, dashes, “-“, and underscores, “_”. Do not use spaces or any other characters. The variable name should include the unit where this is relevant (e.g., length_cm and weight_g).\nEach row after the first row should represent one observation.\nAvoid formatting information in this sheet (e.g., comma in the thousands place, font settings, border lines, colors, etc). If the formatting is there to convey some information; instead, add a new variable to record that information. For example, instead of highlighting a cell to indicate a possible error, add another column and assign an error code to the observation (e.g. 1=sensor failure, 2=lost data sheet).\nFor the purposes of tidy data, blank cells indicate that the data point is missing; some use -9999 to indicate missing data. “0” in a cell means that the data point was collected and it was “0”. The treatment of missing data should always be recorded in the data dictionary (see below).\nThe tidy data sheet, in addition to being part of the workbook, should also be saved in an open format (e.g. Text or CSV or TSV) using the same name as the Excel file (e.g., fish_data.xlsx and fish_data.csv) in the same archive folder as the Excel file.\n\nOne sheet in the file should provide a brief description of each variable in the tidy data. Each row of this sheet represents one variable. This is termed the data dictionary and will be part of the metadata record for the tidy data. An example and a template for the data dictionary is available here. \nOther sheets in the file can contain summaries of the data (pivot tables), graphical representations of the data (figures), or derived quantities from the data (formulae, macros, etc). Avoid including metadata on these sheets.\nOne sheet in the file should provide a brief description of each sheet in the file (what does it contain, any relevant information about its use) like a table of contents. Each row of this sheet represents one sheet of the file. First column is the sheet name, the second column is the sheet description.\nSave the original workbook in the most recent format supported by the application. For example, save Excel files in .xlsx format rather than .xls format.\n\n\nTidy Data\n\n\n\nTidy Data Example\n\n\n\n\nUntidy Data\n\n\n\nUntidy Data Example\n\n\n\nWhy is this data untidy?\n\nThere are three different tables on one sheet\n\n It is necessary for human intervention to tidy the spreadsheets up before they are machine-readable\n\nOne row is NOT one observation\nOne column is NOT one variable\n\nSome of the values have indications of additional information\n\n Totals and percentages are calculated in the sheet\n\nSome of the rows have indications of formatting embedded\n\n\n\n\nResources to tidy your data\nHow to merge and tidy data with Excel\nHow to tidy data with Python",
+    "crumbs": [
+      "GitHub Source",
+      "Acquire",
+      "Common Data Types",
+      "Best Practices in Tabular Data"
+    ]
+  },
+  {
+    "objectID": "acquire/common-data-types/best-practices-in-databases.html",
+    "href": "acquire/common-data-types/best-practices-in-databases.html",
+    "title": "Best Practices in Databases",
+    "section": "",
+    "text": "Best Practices in Databases\nDatabases are essentially a collection of tidy datasets with relationships between the tables specified. Generally, but not exclusively, databases in the Region are developed using MSAccess.\n\nVariable names in each table should be described (i.e., a data dictionary is available for each table). When possible, the database should be documented within the database application (e.g. from within MS Access, add title and abstract to database properties and add description for all tables and fields)\nEnforce constraints on variables to promote Quality Assurance (see Quality Management section). For example, in a variable named “Gender,” inputs could be constrained to the values of “Female,” “Male,” and “Unknown;” in a variable named “Length_mm,” only integers between 10 and 1000 may be allowable values.\nIf possible, consider converting MSAccess databases to SQLite, an open format that will preserve the database functionality. Utilities are available to assist with this, but may require additional technical assistance. Contact your DST member if you are interested in this conversion.\nIf conversion is not possible, MSAccess tables and their data dictionaries should be exported to a preferred open format (e.g. Text or CSV) and the database structure (relationships diagram in MSAccess) should be saved to a preferred open format (e.g. JPEG or PNG) throughout the duration of the project and at the completion of the project. These files are stored in the same archive folder as the database.",
+    "crumbs": [
+      "GitHub Source",
+      "Acquire",
+      "Common Data Types",
+      "Best Practices in Databases"
+    ]
+  },
+  {
+    "objectID": "CONTRIBUTING.html",
+    "href": "CONTRIBUTING.html",
+    "title": "TEST: Alaska Region Data Management User Guide",
+    "section": "",
+    "text": "Install Quarto\nThe install shoudld update your path and run from any command terminal\nChange to the project directory (if using GitHub Desktop, select “Repository - Open in Command prompt”, or `Ctrl+``)\nRun the “Quarto preview” to start a live preview session that will render the updated pages as you edit.\nAfter edits are complete, run “Quarto render” to render the entire site.",
+    "crumbs": [
+      "GitHub Source",
+      "CONTRIBUTING"
+    ]
+  },
+  {
+    "objectID": "acquire/common-data-types/best-practices-in-geospatial-data.html",
+    "href": "acquire/common-data-types/best-practices-in-geospatial-data.html",
+    "title": "Best Practices in Geospatial Data",
+    "section": "",
+    "text": "Best Practices in Geospatial Data\nGeospatial data are often stored in a complex proprietary format (e.g. ESRI geodatabase) that is extremely difficult to archive for long-term preservation and access. A single geodatabase can contain many individual data sets. Each individual data set, within a geodatabase, typically consists of multiple individual files (in proprietary formats) that record the spatial information, attribute information, and other essential database properties required to use the data. The complexity of the geodatabase (e.g. a few individual feature classes or many feature classes with related tables and attribute domains) will determine the best methods to use when creating open data formats for archival purposes. Please consult with your program Data Manager and/or GIS Analyst, prior to archiving geospatial data. Broad steps for managing geospatial data include:\n\nFully document each individual feature class or shapefile.\nStore individual geodatabases and shapefiles in the archive folder directory structure as with other data types.\nConvert the geodatabase or shapefile to an open format (e.g. GeoPackage) and store in the archive folder.\n\nAdditional guidance relevant to this data type is currently under development.",
+    "crumbs": [
+      "GitHub Source",
+      "Acquire",
+      "Common Data Types",
+      "Best Practices in Geospatial Data"
+    ]
+  },
+  {
+    "objectID": "acquire/common-data-types/best-practices-with-collections-of-similar-types-of-data.html",
+    "href": "acquire/common-data-types/best-practices-with-collections-of-similar-types-of-data.html",
+    "title": "Best Practices with Collections of Similar Types of Data",
+    "section": "",
+    "text": "Best Practices with Collections of Similar Types of Data\nLarge batches of data are often collected in a project via cameras (e.g., from a remote camera taking time-lapsed or motion-sensitive images or from an aerial survey), data loggers, etc. Save these batches, called a “collection” in metadata, in a single archive data folder with an accompanying text file describing relevant information for each file (location, equipment, resolution, etc.). In the case of photographic images, information for each file is removable from the metadata embedded in the image itself. The collection can be documented with a single metadata record in the mdEditor.",
+    "crumbs": [
+      "GitHub Source",
+      "Acquire",
+      "Common Data Types",
+      "Best Practices with Collections of Similar Types of Data"
+    ]
+  },
+  {
+    "objectID": "acquire/common-data-types/index.html",
+    "href": "acquire/common-data-types/index.html",
+    "title": "Common Data Types",
+    "section": "",
+    "text": "Common Data Types\nThere are a few very common types of data generated by Alaska Region projects. These are tabular data, databases, geospatial data, collections of similar types of data (digital images, data logger outputs, etc.), and source data (data not generated by the project but used during the course of the project. For example, data used to inform project design). This section gives best practices for organizing various data types for the archive folder. In the future, more specific guidance and training will be available for each data type.\nGuidance is also given on converting data formats produced from commonly used programs (e.g., MS Office or ESRI ArcGIS) into preferred open formats. These formats are preferred for archive folder purposes because they are independent of any particular software program, meaning that users with a variety of applications can open them and that the files are resilient to software application upgrades or obsolescence that can degrade proprietary formats over time.",
+    "crumbs": [
+      "GitHub Source",
+      "Acquire",
+      "Common Data Types"
+    ]
+  },
+  {
+    "objectID": "acquire/common-data-types/page-2.html",
+    "href": "acquire/common-data-types/page-2.html",
+    "title": "Page 2",
+    "section": "",
+    "text": "Page 2",
+    "crumbs": [
+      "GitHub Source",
+      "Acquire",
+      "Common Data Types",
+      "Page 2"
+    ]
+  },
+  {
+    "objectID": "acquire/file-organization-and-best-practices/index.html",
+    "href": "acquire/file-organization-and-best-practices/index.html",
+    "title": "File Organization and Best Practices",
+    "section": "",
+    "text": "File Organization and Best Practices\nThere is a distinction between working folders and archive folders; development of the latter is the focus of this document. Working folders often exist on an individual’s computer hard drive and are used to collect, organize, and analyze products during the course of the project. In contrast, we use archive folders to store products that need to be retained over time. The products in the archive folders are the subject of metadata records to ensure that they are discoverable. \nConsistent archive folder organization across projects and programs allows the file creator, collaborators, supervisors, and our future colleagues to find relevant documents associated with a project quickly and understand how documents relate to one another. A tree structure describing the recommended file structure is in Appendix B. \nWhen needing to initiate a new project archive folder, contact your Data Stewardship Team (DST) member. They will set up the folder structure in the Regional Data Repository and give you the address to access the incoming folder (see Security and Preservation section). Folder names use a short acronym for your program, followed by a three-digit number, followed by the short title of the project (e.g., FESFRP_001_BarrowEider where FES FRP stands for FES Fairbanks Recovery Program). The Security and Preservation section of this guide discusses access to this record.",
+    "crumbs": [
+      "GitHub Source",
+      "Acquire",
+      "File Organization and Best Practices"
+    ]
+  },
+  {
+    "objectID": "acquire/quality-management-procedures/using-unique-identifiers.html",
+    "href": "acquire/quality-management-procedures/using-unique-identifiers.html",
+    "title": "Using Unique Identifiers",
+    "section": "",
+    "text": "It is a best practice to add unique identifiers to table records during or immediately after data entry. If you are working with a long-standing dataset, it is recommended to add unique identifiers before conducting any tidying procedures. This addition not only prevents errors, but allows you to cross-reference with previous versions of the dataset. \nBefore you begin, verify the current dataset does not contain duplicate records. This is particularly important if unique identifiers are being applied for the first time to a long-standing dataset. For example, In a bird banding dataset, you may concatenate the species, band number and date variables into a new column and check for uniqueness using the Conditional Formatting command in Excel.\nOnce record uniqueness is established, add a column of unique identifiers. This may be done by concatenating values from key variables in the dataset or creating universally unique identifiers. Key variables are existing variables in the dataset that, separately and/or in combination, uniquely identify the record. Universally Unique Identifiers (UUIDs) are a formula-generated 128-bit integer number used to identify resources. 128-bits is big enough and the generation algorithm is unique enough that if every human on Earth generated 600,000,000 UUIDs there would only be a 50% probability of a duplicate.\n\n\n\nName the identifier column something unique and “identifying”. A few options are “identifierID”, “recordID”, or “occurenceID”.\nUtilize numeric identifiers to increase efficiency of sorting and filtering records. Do not use spaces, special characters or accents in the identifiers, since they may be modified when the dataset is converted in different formats.\nLimit the number of characters used in identifiers or utilize separators to avoid truncation. Specifically, Microsoft Excel has a character limit of 15 for numeric values and any digits past the fifteenth place is changed to zero. However, this can be avoided by inserting separators in the identifier (i.e. UUIDs use dashes). \nIf you create identifiers with key variables, ensure the variables uniquely identify each observation. Variables that have missing, zero, or null values are not suitable as key variables. Further, consider whether it is possible for an identifier comprised of concatenated key variables to be duplicated. Example: In a bird banding dataset, species, band number, and date may be suitable as key variables in combination IF the previously stated conditions are met.\n\n\n\n\nOnline UUID Generator\nCreate a bulk number of UUIDs using one of many online UUID generators and paste the requisite number in the designated identifier column of the dataset.\nExcel\nCreate a copy of the empty identifier column in the dataset. Paste the following into the first cell of the copied column: \n=LOWER(CONCATENATE(DEC2HEX(RANDBETWEEN(0,4294967295),8),“-”,DEC2HEX(RANDBETWEEN(0,65535),4),“-”,DEC2HEX(RANDBETWEEN(16384,20479),4),“-”,DEC2HEX(RANDBETWEEN(32768,49151),4),“-”,DEC2HEX(RANDBETWEEN(0,65535),4),DEC2HEX(RANDBETWEEN(0,4294967295),8)))\nDrag the cell with the formula to the bottom of the dataset. When each record has a UUID, highlight the column and copy /’paste special’ to the original identifier column and select ‘Values’ to make sure that only the values are pasted and not formulas. Delete the identifier column with formulas.\nR\nYou can generate UUIDs in R using various package. One option is the function UUIDgenerate()from the uuid package. The following code demonstrates how to add an identifier column with UUIDs to a example data frame. Paste and run the code in RStudioto see how it works.\n\n\n\n\n\n\nNote\n\n\n\nFWS employees can install R and RStudio on a DOI Windows computer from FWS Apps-to-Go. Search “IFW-R” in the search bar and install the latest versions of the applications.\n\n\n# Install tibble and uuid packages\ninstall.packages(c(\"tibble\",\"uuid\"))\n\n# Create an example data frame\nmy.df &lt;- data.frame(variable.A = c(1, 1, 1), variable.B = c(2, 2, 2), variable.C = c(3, 3, 3))\n\n# Add an empty identifier column to the beginning of the data frame\nmy.df&lt;- tibble::add_column(my.df, \"identifierID\" = NA, .before = 1)\n\n# Generate UUIDs for the number of rows in the data frame\nid &lt;- uuid::UUIDgenerate(use.time = FALSE, n = nrow(my.df))\n                         \n# Add the UUIDs to the identifier column in the data frame\nmy.df$identifierID&lt;-id\n\n\nin development",
+    "crumbs": [
+      "GitHub Source",
+      "Acquire",
+      "Quality Management Procedures",
+      "Using Unique Identifiers"
+    ]
+  },
+  {
+    "objectID": "acquire/quality-management-procedures/using-unique-identifiers.html#identifier-best-practices",
+    "href": "acquire/quality-management-procedures/using-unique-identifiers.html#identifier-best-practices",
+    "title": "Using Unique Identifiers",
+    "section": "",
+    "text": "Name the identifier column something unique and “identifying”. A few options are “identifierID”, “recordID”, or “occurenceID”.\nUtilize numeric identifiers to increase efficiency of sorting and filtering records. Do not use spaces, special characters or accents in the identifiers, since they may be modified when the dataset is converted in different formats.\nLimit the number of characters used in identifiers or utilize separators to avoid truncation. Specifically, Microsoft Excel has a character limit of 15 for numeric values and any digits past the fifteenth place is changed to zero. However, this can be avoided by inserting separators in the identifier (i.e. UUIDs use dashes). \nIf you create identifiers with key variables, ensure the variables uniquely identify each observation. Variables that have missing, zero, or null values are not suitable as key variables. Further, consider whether it is possible for an identifier comprised of concatenated key variables to be duplicated. Example: In a bird banding dataset, species, band number, and date may be suitable as key variables in combination IF the previously stated conditions are met.",
+    "crumbs": [
+      "GitHub Source",
+      "Acquire",
+      "Quality Management Procedures",
+      "Using Unique Identifiers"
+    ]
+  },
+  {
+    "objectID": "acquire/quality-management-procedures/using-unique-identifiers.html#options-for-creating-uuids",
+    "href": "acquire/quality-management-procedures/using-unique-identifiers.html#options-for-creating-uuids",
+    "title": "Using Unique Identifiers",
+    "section": "",
+    "text": "Online UUID Generator\nCreate a bulk number of UUIDs using one of many online UUID generators and paste the requisite number in the designated identifier column of the dataset.\nExcel\nCreate a copy of the empty identifier column in the dataset. Paste the following into the first cell of the copied column: \n=LOWER(CONCATENATE(DEC2HEX(RANDBETWEEN(0,4294967295),8),“-”,DEC2HEX(RANDBETWEEN(0,65535),4),“-”,DEC2HEX(RANDBETWEEN(16384,20479),4),“-”,DEC2HEX(RANDBETWEEN(32768,49151),4),“-”,DEC2HEX(RANDBETWEEN(0,65535),4),DEC2HEX(RANDBETWEEN(0,4294967295),8)))\nDrag the cell with the formula to the bottom of the dataset. When each record has a UUID, highlight the column and copy /’paste special’ to the original identifier column and select ‘Values’ to make sure that only the values are pasted and not formulas. Delete the identifier column with formulas.\nR\nYou can generate UUIDs in R using various package. One option is the function UUIDgenerate()from the uuid package. The following code demonstrates how to add an identifier column with UUIDs to a example data frame. Paste and run the code in RStudioto see how it works.\n\n\n\n\n\n\nNote\n\n\n\nFWS employees can install R and RStudio on a DOI Windows computer from FWS Apps-to-Go. Search “IFW-R” in the search bar and install the latest versions of the applications.\n\n\n# Install tibble and uuid packages\ninstall.packages(c(\"tibble\",\"uuid\"))\n\n# Create an example data frame\nmy.df &lt;- data.frame(variable.A = c(1, 1, 1), variable.B = c(2, 2, 2), variable.C = c(3, 3, 3))\n\n# Add an empty identifier column to the beginning of the data frame\nmy.df&lt;- tibble::add_column(my.df, \"identifierID\" = NA, .before = 1)\n\n# Generate UUIDs for the number of rows in the data frame\nid &lt;- uuid::UUIDgenerate(use.time = FALSE, n = nrow(my.df))\n                         \n# Add the UUIDs to the identifier column in the data frame\nmy.df$identifierID&lt;-id\n\n\nin development",
+    "crumbs": [
+      "GitHub Source",
+      "Acquire",
+      "Quality Management Procedures",
+      "Using Unique Identifiers"
+    ]
+  },
+  {
+    "objectID": "alaska-data-management-101/alaska-regional-data-repository.html",
+    "href": "alaska-data-management-101/alaska-regional-data-repository.html",
+    "title": "Alaska Regional Data Repository",
+    "section": "",
+    "text": "The Alaska Regional Data Repository is a centralized server dedicated to the storage of regional projects, data assets, and products and metadata. The RDR is intended to be the regionally accessible, secure, authoritative storage location for project documents, records, data and metadata and as a single source for serving data and metadata to publicly accessible catalogs and other repositories.\nThe regional repository is for the storage of completed resources (this does not mean they can never be replaced or updated); it is not intended for active working files. The process of depositing files in the RDR was designed to implement a data management quality control process where: 1) a digital resource passes from the “data producer” to 2) the “data steward” (who reviews metadata quality) then on to 3) the “data custodian” (who moves the resource to an appropriate storage location). The program repositories are managed by the respective program data managers (i.e. Custodians).\nThis process helps to ensure that all assets in the repository have metadata that meet a minimum regional metadata standard and the project directory does not become a disorganized collection files that is often present in shared file systems.\nYou can reach the Repository by typing **\\7ro-file.fws.doi.net* into the address bar in File Explorer on any computer that is on, or has access to, the internal network. Telework computers will need to use a VPN service like Pulse Secure to access the location.\nTo insure that files placed in the Repository are protected from loss or corruption, access to files within the Repository are controlled through permissions. You, and everyone on the network, may read and copy anything in the Repository, but write and modify permissions are limited. \n\n\nTo obtain an archive folder for your project, complete a Data Management Plan (DMP) and submit it to your data manager. The DMP is a working communication document between the project team and your data manager. \nAfter submission of a DMP, you will be provided with the address to your project archive folder in the RDR. It will look something like this: \n\n\n\nExample RDR digital location\n\n\n\n\n\nThe Regional Data Repository contains a folder for each program using the RDR (Fisheries and Ecological Services = FES, Migratory Bird Management = MBM, National Wildlife Refuge System = NWRS, Office of Subsistence Management = OSM, and Science Applications = SA. Within each program folder is a folder for each project that will serve as an archive.\nThe project archive folder name takes the format: ProgramAcronym_SequentialNumber_ShortTitle, i.e. MBMwa_011_YKDeltaNestPlot would stand for the Migratory Bird Management Waterfowl Program, YK Delta Nest Plot Survey, and it was the 11th archive record created for that program. \nListed and described below is the basic folder structure of the RDR. Top level folders (BOLD) are generally maintained for every project. Projects vary and the use of sub-folders, naming, and organization are at the discretion of the project staff and your data manager. \n\nchangelog.txt ReadMe text file to record additions, subtractions and alterations to contents of the archive record.\nadmin material related to general project administration; could be replicated each year for multiyear projects, i.e., admin2019, admin2020. Contents of the admin folder are often important record related to the project implementation and may include:\n\ncontracts final executed agreements\ncorrespondence important information relating to the execution of the project including permits obtained for the project\npurchasing significant or unique purchasing information that is deemed important to archive\ntraining training materials developed for the project\ntravel significant or unique travel information that is deemed important to archive\n\ncode computer processing code i.e. R or Python scripts\ndata generated from the project, and can be sorted in sub-folders, if needed. Otherwise, naming conventions noted below, should be used to identify the data type.\n\nraw data is unprocessed data as initially recorded. File structure may vary by project and it is recommended to organize data by data type. File names of raw data may reflect the format raw_type_of_data_x and repeated as needed. Raw data may consist of spreadsheets, databases, images, text notes, sounds, geo points or lines, etc.\nfinal data is data that has passed all quality control checks and are typically the data products destined for public release and used for analysis and reporting. The structure and file names should mirror that of the raw data suck as final_type_of_data_x and repeated as needed. ****\nanalysis output are result files of computer code or model, or other processing step or other derived tables needed from analysis. i.e. an observer matrix table, model output file, etc. These should follow similar file naming format such as output_type_x and repeated as needed.\n\ndocuments include materials generated by the project; these products may also be described in metadata. Some documents are internal work products and may not be intended for public consumption. The contents of the documents folder may include:\n\ndata management plan for the project\nproposal documents prepared to solicit both internal or external funding\npublic relations materials such as project photographs, maps, graphics, drawings, etc. \npublications peer-reviewed, final manuscripts\nreports white papers that are not peer-reviewed, but provide results or information from the project\ntalks recordings or presentation slides related to the project\nposters stand-alone posters related to the project\nprotocols may be a sub-folder and may include investigation plans, methods and protocol documents that guide project procedures\n\nform_template may include data sheets, or templates for data entry, etc. that are important for understanding the project\n\n\nincoming serves as a holding location for materials that should be filed under one of the other subfolder locations after review\nmetadata contains the mdEditor JSON file for the project, associated products, project contacts, and data dictionaries. All files in the RDR should be accompanied by metadata.\nsource_data may or may not be part of the project. It is designated to house data that is NOT generated by the project, but used during the course of the project. It is generally existing pubished or freely available data. These items may be placed in a separate folder or within the data folder if appropriately named. File naming may follow a designated format such as source_type_of_data_x.\n\n\n\n\nGraphical representation of possible RDR project archive folder structure. Green folders are common across all projects and should be maintained if appropriate, blue sub-folders may or may not apply to a given project or may or may not be used. Subsequent orange and dark blue boxes represent example naming conventions or file types\n\n\nUpdated August 2022",
+    "crumbs": [
+      "GitHub Source",
+      "Ak DM 101",
+      "Alaska Regional Data Repository"
+    ]
+  },
+  {
+    "objectID": "alaska-data-management-101/alaska-regional-data-repository.html#obtaining-your-project-archive-folder-in-the-rdr",
+    "href": "alaska-data-management-101/alaska-regional-data-repository.html#obtaining-your-project-archive-folder-in-the-rdr",
+    "title": "Alaska Regional Data Repository",
+    "section": "",
+    "text": "To obtain an archive folder for your project, complete a Data Management Plan (DMP) and submit it to your data manager. The DMP is a working communication document between the project team and your data manager. \nAfter submission of a DMP, you will be provided with the address to your project archive folder in the RDR. It will look something like this: \n\n\n\nExample RDR digital location",
+    "crumbs": [
+      "GitHub Source",
+      "Ak DM 101",
+      "Alaska Regional Data Repository"
+    ]
+  },
+  {
+    "objectID": "alaska-data-management-101/alaska-regional-data-repository.html#organization-of-the-regional-data-repository",
+    "href": "alaska-data-management-101/alaska-regional-data-repository.html#organization-of-the-regional-data-repository",
+    "title": "Alaska Regional Data Repository",
+    "section": "",
+    "text": "The Regional Data Repository contains a folder for each program using the RDR (Fisheries and Ecological Services = FES, Migratory Bird Management = MBM, National Wildlife Refuge System = NWRS, Office of Subsistence Management = OSM, and Science Applications = SA. Within each program folder is a folder for each project that will serve as an archive.\nThe project archive folder name takes the format: ProgramAcronym_SequentialNumber_ShortTitle, i.e. MBMwa_011_YKDeltaNestPlot would stand for the Migratory Bird Management Waterfowl Program, YK Delta Nest Plot Survey, and it was the 11th archive record created for that program. \nListed and described below is the basic folder structure of the RDR. Top level folders (BOLD) are generally maintained for every project. Projects vary and the use of sub-folders, naming, and organization are at the discretion of the project staff and your data manager. \n\nchangelog.txt ReadMe text file to record additions, subtractions and alterations to contents of the archive record.\nadmin material related to general project administration; could be replicated each year for multiyear projects, i.e., admin2019, admin2020. Contents of the admin folder are often important record related to the project implementation and may include:\n\ncontracts final executed agreements\ncorrespondence important information relating to the execution of the project including permits obtained for the project\npurchasing significant or unique purchasing information that is deemed important to archive\ntraining training materials developed for the project\ntravel significant or unique travel information that is deemed important to archive\n\ncode computer processing code i.e. R or Python scripts\ndata generated from the project, and can be sorted in sub-folders, if needed. Otherwise, naming conventions noted below, should be used to identify the data type.\n\nraw data is unprocessed data as initially recorded. File structure may vary by project and it is recommended to organize data by data type. File names of raw data may reflect the format raw_type_of_data_x and repeated as needed. Raw data may consist of spreadsheets, databases, images, text notes, sounds, geo points or lines, etc.\nfinal data is data that has passed all quality control checks and are typically the data products destined for public release and used for analysis and reporting. The structure and file names should mirror that of the raw data suck as final_type_of_data_x and repeated as needed. ****\nanalysis output are result files of computer code or model, or other processing step or other derived tables needed from analysis. i.e. an observer matrix table, model output file, etc. These should follow similar file naming format such as output_type_x and repeated as needed.\n\ndocuments include materials generated by the project; these products may also be described in metadata. Some documents are internal work products and may not be intended for public consumption. The contents of the documents folder may include:\n\ndata management plan for the project\nproposal documents prepared to solicit both internal or external funding\npublic relations materials such as project photographs, maps, graphics, drawings, etc. \npublications peer-reviewed, final manuscripts\nreports white papers that are not peer-reviewed, but provide results or information from the project\ntalks recordings or presentation slides related to the project\nposters stand-alone posters related to the project\nprotocols may be a sub-folder and may include investigation plans, methods and protocol documents that guide project procedures\n\nform_template may include data sheets, or templates for data entry, etc. that are important for understanding the project\n\n\nincoming serves as a holding location for materials that should be filed under one of the other subfolder locations after review\nmetadata contains the mdEditor JSON file for the project, associated products, project contacts, and data dictionaries. All files in the RDR should be accompanied by metadata.\nsource_data may or may not be part of the project. It is designated to house data that is NOT generated by the project, but used during the course of the project. It is generally existing pubished or freely available data. These items may be placed in a separate folder or within the data folder if appropriately named. File naming may follow a designated format such as source_type_of_data_x.\n\n\n\n\nGraphical representation of possible RDR project archive folder structure. Green folders are common across all projects and should be maintained if appropriate, blue sub-folders may or may not apply to a given project or may or may not be used. Subsequent orange and dark blue boxes represent example naming conventions or file types\n\n\nUpdated August 2022",
+    "crumbs": [
+      "GitHub Source",
+      "Ak DM 101",
+      "Alaska Regional Data Repository"
+    ]
+  },
+  {
+    "objectID": "alaska-data-management-101/file-organization-and-best-practices/best-practices-for-version-control.html",
+    "href": "alaska-data-management-101/file-organization-and-best-practices/best-practices-for-version-control.html",
+    "title": "Best Practices for Version Control",
+    "section": "",
+    "text": "Best Practices for Version Control\nunder development\nhttps://homes.cs.washington.edu/~mernst/advice/version-control.html",
+    "crumbs": [
+      "GitHub Source",
+      "Ak DM 101",
+      "File Organization and Best Practices",
+      "Best Practices for Version Control"
+    ]
+  },
+  {
+    "objectID": "alaska-data-management-101/index.html",
+    "href": "alaska-data-management-101/index.html",
+    "title": "Ak DM 101",
+    "section": "",
+    "text": "This section will provide some basic information about data management in the Alaska Region",
+    "crumbs": [
+      "GitHub Source",
+      "Ak DM 101"
+    ]
+  },
+  {
+    "objectID": "appendix/appendix-a-interim-data-management-quick-guide.html",
+    "href": "appendix/appendix-a-interim-data-management-quick-guide.html",
+    "title": "Data Management Actions Quick Guide",
+    "section": "",
+    "text": "Data Management Actions Quick Guide\nneeds updated\nNOTE: For Completed projects, the Data Steward will often perform the actions assigned to the Data Originator and Project Manager, when those roles are unable to be filled. Whenever possible, the Data Originator should author product metadata.\n\n\n\nTask\nPerforms\nApproves\n\n\n\n\n□Establish roles and responsibilities\nProject Manager\nData Trustee\n\n\n□ Create the archive folder and establish security and access controls\nData Custodian\nN/A\n\n\n□ Establish procedures among project members for adding products to the incoming folder, review, and accepting files to the archive\nProject Manager\nData Steward\n\n\n□ Identify anticipated products from the project and assess any sharing constraints\nProject Manager\n\n\n\n□ Document QA/QC procedures used for the data products\nData Originator\nData Steward\n\n\n□ Create the project metadata record\nProject Manager\nData Steward\n\n\n□ Use data type-specific best practices to prepare products for the archive\nData Originator\nData Steward\n\n\n□ Write product metadata records and export records to the incoming folder\nData Originator\nData Steward\n\n\n□ Review products for best practices and metadata for correctness and completeness\nData Steward\nN/A\n\n\n□ Revise products and/or associated metadata, when necessary\nData Originator\nData Steward\n\n\n□ Move approved products to the appropriate location of the archive folder\nData Custodian\nN/A\n\n\n□ Confirm readiness of products for discoverability and accessibility\nData Custodian",
+    "crumbs": [
+      "GitHub Source",
+      "Appendix",
+      "Data Management Actions Quick Guide"
+    ]
+  },
+  {
+    "objectID": "appendix/records-schedule-and-disposition.html",
+    "href": "appendix/records-schedule-and-disposition.html",
+    "title": "Records Schedule & Disposition",
+    "section": "",
+    "text": "Records Schedule & Disposition\nHow long records must be maintained and when they must be archived or destroyed is based on Service policy. The Service’s Records Schedule and Disposition Manual provides detailed guidance on retention and disposal, which are based on the format, content, and importance of project records. The Records Schedule and Disposition undergoes regular review and approval by the National Archives and Records Administration (NARA).\nThe disposition schedules that apply to your project and its products must be stated in your data management plan. This information is important to include to ensure compliance with Service policy and restrict limited permanent archive space in NARA to resources that truly need to be preserved.\nProject records that need to be sent to Federal Records Centers or NARA for permanent storage will be transferred by your project’s data custodian (most likely your data manager). Project records slated for disposal can be properly discarded from the RDR by your data manger at the appropriate time, if desired.\n\n\n\n\n\n\nNote\n\n\n\nYour data manager or the Regional Records Manager Kyle Cahill (kyle_cahill@fws.gov) can assist you in determining the correct records schedule and disposition for your project records and data products.\n\n\nUpdated July 2022",
+    "crumbs": [
+      "GitHub Source",
+      "Appendix",
+      "Records Schedule & Disposition"
+    ]
+  },
+  {
+    "objectID": "background/definition-of-project-and-product-aka-data-resources.html",
+    "href": "background/definition-of-project-and-product-aka-data-resources.html",
+    "title": "Definition of Project and Product (aka Data Resources)",
+    "section": "",
+    "text": "Definition of Project and Product (aka Data Resources)\nThe interim plan is focused on projects and their derived products. Projects are discrete efforts on a particular topic with defined objectives or goals. At this time, programs determine which projects (completed, ongoing, or proposed) should undergo data management. For example, use in management decisions and partner needs may be criteria managers could adopt to prioritize projects for data management. \nProducts (aka Data Resources) are recorded information generated by experiments, models, simulations, observations, analysis, and other activities that create or synthesize data resources. In a new project, anticipated products are identified during the planning stage when the design of sampling and analysis take place in consultation with the program’s biometrician. Determining which products to document is at the discretion of the principal investigator, their supervisor, and any relevant program or branch policies but guided by the principle of reuse.",
+    "crumbs": [
+      "GitHub Source",
+      "Background",
+      "Definition of Project and Product (aka Data Resources)"
+    ]
+  },
+  {
+    "objectID": "background/the-big-picture-integrating-data-management-with-project-management.html",
+    "href": "background/the-big-picture-integrating-data-management-with-project-management.html",
+    "title": "The Big Picture: Integrating Data Management with Project Management",
+    "section": "",
+    "text": "The Big Picture: Integrating Data Management with Project Management\nProject management and data management are different. Project management is the application of knowledge, skills, tools, and techniques to oversee a project to completion in the desired time and to a specified quality. Data management is concerned with the handling of data to ensure long-lasting integrity and usability. The figure below shows the relationship between the project and data management life cycles. Data management is most effective when fully integrated into project workflows, project oversight, and staff supervision (i.e., project management). The purpose of this document is to provide knowledge and guidance for the data management aspect of projects. Guidance on project management is beyond the scope of this document.\n\n\n\nIntegrating Data Management with Project Management.",
+    "crumbs": [
+      "GitHub Source",
+      "Background",
+      "The Big Picture: Integrating Data Management with Project Management"
+    ]
+  },
+  {
+    "objectID": "four-fundamental-activities-of-data-management/documentation.html",
+    "href": "four-fundamental-activities-of-data-management/documentation.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "Documentation\nUse the mdEditor to write metadata or data about the data. mdEditor is a web-based application developed by the Alaska Data Integration Working Group (ADIwg) that allows data-generators to write archival-quality metadata without specialized technical knowledge. Metadata writers export mdEditor JSON files to the incoming folder in the project archive. Data Custodians review these records and move them to the metadata folder in the project archive.\n‌Early adopters unfamiliar with mdEditor should first complete the mdEditor Tutorial to become acquainted with the layout and functionality of the application. The Alaska Region Metadata Guide provides additional region-specific guidance. Contact a member of the DST to learn about other training opportunities, such as hands-on workshops.\nAs a quick checklist, information to gather for a metadata record includes:\n\nTitle\nRoles and responsibilities\nContact information for project staff\nAbstract\nStart date\nEnd date\nKeywords\nFocal species in the project\nSpatial extent\nData dictionaries (for some product types)\nProtocols used in the project",
+    "crumbs": [
+      "GitHub Source",
+      "Four Fundamental Activities of Data Management",
+      "Documentation"
+    ]
+  },
+  {
+    "objectID": "four-fundamental-activities-of-data-management/index.html",
+    "href": "four-fundamental-activities-of-data-management/index.html",
+    "title": "Four Fundamental Activities of Data Management",
+    "section": "",
+    "text": "Four Fundamental Activities of Data Management\nThere are four fundamental activities of data management;\n\nEstablishing Roles and Responsibilities\nQuality Management\nSecurity and Preservation\nDocumentation",
+    "crumbs": [
+      "GitHub Source",
+      "Four Fundamental Activities of Data Management"
+    ]
+  },
+  {
+    "objectID": "four-fundamental-activities-of-data-management/security-and-preservation.html",
+    "href": "four-fundamental-activities-of-data-management/security-and-preservation.html",
+    "title": "Security and Preservation",
+    "section": "",
+    "text": "Security and Preservation\nEstablishing a single archive folder for each project prevents data loss and ensures data integrity. The archive folder for a project, comprised of the recommended file structure (Appendix B) and described in File Organization and Best Practices section, will be placed in the Regional Data Repository. See File Organization and Best Practices for details on setting up an archive folder for your project. \nThe Data Custodian will have write permissions to all folders in the archive folder. The Project Manager and Data Originators will have write permissions to an “incoming” folder and read-only permissions to all other folders. All other staff in the Region will have read-only access to the entire folder. The incoming folder allows project personnel to contribute products and associated metadata records to the archive folder. The Data Steward is responsible for reviewing these files and the Data Custodian is responsible for moving them from the incoming folder to the appropriate folder in the archive folder.\n\n\n\n\n\n\nNote\n\n\n\nAnyone with access to the Regional Data Repository can copy an archive folder to their local hard drive and maintain the files on their hard drive in whatever manner they choose, but only project personnel may move things into their project’s archive folder via the incoming folder.",
+    "crumbs": [
+      "GitHub Source",
+      "Four Fundamental Activities of Data Management",
+      "Security and Preservation"
+    ]
+  },
+  {
+    "objectID": "long-term-storage-options/index.html",
+    "href": "long-term-storage-options/index.html",
+    "title": "Long-term Storage Options",
+    "section": "",
+    "text": "Long-term Storage Options\nArchiving project data and their associated metadata is critical for preserving your work and legacy in the Service. Proper archiving mitigates the risk of data loss, eases access to current and historic data, and enables convenient data sharing. There are several long-term storage options available to Alaska Region staff to safekeep project files:\n\nAlaska Regional Data Repository, which is a shared internal drive accessible to Service staff.\nPublic-facing repositories such as ServCat and ScienceBase.\n\n\n\n\n\n\n\nNote\n\n\n\nWhile the type of short-term storage used is at the project leader’s full discretion, all data must eventually be stored within a FWS repository.",
+    "crumbs": [
+      "GitHub Source",
+      "Long-term Storage Options"
+    ]
+  },
+  {
+    "objectID": "long-term-storage-options/using-the-regional-data-repository.html",
+    "href": "long-term-storage-options/using-the-regional-data-repository.html",
+    "title": "Using the Regional Data Repository",
+    "section": "",
+    "text": "The Alaska Regional Data Repository (RDR) is a centralized server dedicated to the long-term storage of regional projects and their products. It serves as an accessible and secure digital archive that contains authoritative copies of a project’s data, documents, and metadata. Your program’s data manager and technician are responsible for maintaining the RDR.\n\n\nThe RDR can be accessed through your web browser or file explorer by copying and pasting the following link into the address bar: **\\7ro-file.fws.doi.net*\n\n\n\n\n\n\nNote\n\n\n\nThe RDR can only be reached when you are connected to the Service network. Also, capabilities are limited when the RDR is accessed using your web browser.\n\n\nTo ensure that files stored in the RDR are protected from loss or corruption, access to files within the Repository are controlled through permissions. Everyone in the Service with a VPN and link to the RDR may read what’s in the Repository, but write and modify permissions are limited and assigned by data managers. For example, data stewards are granted write permission to their project’s “incoming” folder but otherwise have read permission for all other folders. \n\n\n\n\n\n\nBranching tree of program sub-folders in ‘datamgt’ folder\n\n\n\n\nThis folder contains the template for regional project folders and their sub-folders. Your data manager will tailor the template to your particular project once your data management plan is approved.\n\n\n\nThis folder contains JSON files of the master contact list used for metadata creation. These files have regional contact information of staff and external partners and should be imported into mdEditor to prevent duplicating contacts.\n\n\n\nGeoJSON files and metadata for common study areas in Alaska can be found in this folder. GeoJSON files can be imported into mdEditor under the “Extent” tab to precisely delineate the spatial boundary of your project.\n\n\n\nThe RDR contains a folder for each program, and within each program folder are project folders. The programs with RDR folders include:\n\nFisheries and Ecological Services (fes)\nMigratory Bird Management (mbm)\nNational Wildlife Refuge System (nwrs)\nOffice of Subsistence Management (osm)\nScience Applications (sa)\n\n\n\n\n\nCompletion and data manager approval of your data management plan will trigger the creation of a RDR folder for your project. Your data manager will create the project folder and include a link to it in your data management plan for your reference.\nThe link to your project’s RDR folder is broken down as follows:\n\n\n\nExample RDR link for an FES project\n\n\n\n\n\n\n\n\nExample branching tree of sub-folders in “fesafb_001_SockeyeFyke” folder\n\n\n\n\nThis folder houses documents related to project implementation and may include:\n\ncontracts and final executed agreements\ncorrespondence\npermits obtained for project execution\nreceipts for significant or unique purchases deemed important to archive\ntraining materials developed for the project\nsignificant or unique travel information deemed important to archive\n\n\n\n\nCode used to calculate statistics, develop figures, or tidy tabular data should be filed in this folder. Examples of code include R and Python scripts.\n\n\n\nBoth raw, unprocessed data and clean, final data should be housed in this folder. Intermediate datasets created during the tidying process do not need to be archived in the RDR.\n\n\n\nDocuments generated by the project should be filed in this folder, and they can include:\n\nData management plans\nInvestigation plans or protocol documents guiding project procedures\nProposal documents prepared to solicit internal or external funding\nPublic relations materials like photographs, graphics, maps, etc.\nReports and white papers that are not peer-reviewed, but provide results or information from the project\nFinal manuscripts and peer-reviewed publications\nTalks, recordings, posters, or presentation slides related to the project\n\n\n\n\nThis folder allows the data steward(s)–who are granted write permission–to add project data, documents, and metadata that are ready to be archived in the RDR. Your data manager will then properly organize the files dropped into this folder. Alternatively, the data steward(s) can email project data to their data manager or technician for filing in the RDR.\n\n\n\n\n\n\nNote\n\n\n\nAll files should be saved in an open format and abide by recommended file naming conventions prior to being added to the “incoming” folder.\n\n\n\n\n\nThis folder holds mdEditor and mdJSON files of your project metadata, which can be created using mdEditor. Typically, this folder contains a single mdEditor file that encompasses all of your project’s metadata and multiple mdJSON files for individual project and product metadata records.\n\n\n\n\n\n\nNote\n\n\n\nAll files in your project’s RDR folder should be accompanied by metadata.\n\n\n\n\n\nAlso referred to as a README file, the changelog is a text file communicating updates made to the RDR project folder. It also includes details about who made those updates and when they were made.\nUpdated July 2022",
+    "crumbs": [
+      "GitHub Source",
+      "Long-term Storage Options",
+      "Using the Regional Data Repository"
+    ]
+  },
+  {
+    "objectID": "long-term-storage-options/using-the-regional-data-repository.html#accessing-the-rdr",
+    "href": "long-term-storage-options/using-the-regional-data-repository.html#accessing-the-rdr",
+    "title": "Using the Regional Data Repository",
+    "section": "",
+    "text": "The RDR can be accessed through your web browser or file explorer by copying and pasting the following link into the address bar: **\\7ro-file.fws.doi.net*\n\n\n\n\n\n\nNote\n\n\n\nThe RDR can only be reached when you are connected to the Service network. Also, capabilities are limited when the RDR is accessed using your web browser.\n\n\nTo ensure that files stored in the RDR are protected from loss or corruption, access to files within the Repository are controlled through permissions. Everyone in the Service with a VPN and link to the RDR may read what’s in the Repository, but write and modify permissions are limited and assigned by data managers. For example, data stewards are granted write permission to their project’s “incoming” folder but otherwise have read permission for all other folders.",
+    "crumbs": [
+      "GitHub Source",
+      "Long-term Storage Options",
+      "Using the Regional Data Repository"
+    ]
+  },
+  {
+    "objectID": "long-term-storage-options/using-the-regional-data-repository.html#organization-of-the-rdr",
+    "href": "long-term-storage-options/using-the-regional-data-repository.html#organization-of-the-rdr",
+    "title": "Using the Regional Data Repository",
+    "section": "",
+    "text": "Branching tree of program sub-folders in ‘datamgt’ folder\n\n\n\n\nThis folder contains the template for regional project folders and their sub-folders. Your data manager will tailor the template to your particular project once your data management plan is approved.\n\n\n\nThis folder contains JSON files of the master contact list used for metadata creation. These files have regional contact information of staff and external partners and should be imported into mdEditor to prevent duplicating contacts.\n\n\n\nGeoJSON files and metadata for common study areas in Alaska can be found in this folder. GeoJSON files can be imported into mdEditor under the “Extent” tab to precisely delineate the spatial boundary of your project.\n\n\n\nThe RDR contains a folder for each program, and within each program folder are project folders. The programs with RDR folders include:\n\nFisheries and Ecological Services (fes)\nMigratory Bird Management (mbm)\nNational Wildlife Refuge System (nwrs)\nOffice of Subsistence Management (osm)\nScience Applications (sa)",
+    "crumbs": [
+      "GitHub Source",
+      "Long-term Storage Options",
+      "Using the Regional Data Repository"
+    ]
+  },
+  {
+    "objectID": "long-term-storage-options/using-the-regional-data-repository.html#obtaining-your-rdr-project-folder",
+    "href": "long-term-storage-options/using-the-regional-data-repository.html#obtaining-your-rdr-project-folder",
+    "title": "Using the Regional Data Repository",
+    "section": "",
+    "text": "Completion and data manager approval of your data management plan will trigger the creation of a RDR folder for your project. Your data manager will create the project folder and include a link to it in your data management plan for your reference.\nThe link to your project’s RDR folder is broken down as follows:\n\n\n\nExample RDR link for an FES project",
+    "crumbs": [
+      "GitHub Source",
+      "Long-term Storage Options",
+      "Using the Regional Data Repository"
+    ]
+  },
+  {
+    "objectID": "long-term-storage-options/using-the-regional-data-repository.html#organization-of-your-rdr-project-folder",
+    "href": "long-term-storage-options/using-the-regional-data-repository.html#organization-of-your-rdr-project-folder",
+    "title": "Using the Regional Data Repository",
+    "section": "",
+    "text": "Example branching tree of sub-folders in “fesafb_001_SockeyeFyke” folder\n\n\n\n\nThis folder houses documents related to project implementation and may include:\n\ncontracts and final executed agreements\ncorrespondence\npermits obtained for project execution\nreceipts for significant or unique purchases deemed important to archive\ntraining materials developed for the project\nsignificant or unique travel information deemed important to archive\n\n\n\n\nCode used to calculate statistics, develop figures, or tidy tabular data should be filed in this folder. Examples of code include R and Python scripts.\n\n\n\nBoth raw, unprocessed data and clean, final data should be housed in this folder. Intermediate datasets created during the tidying process do not need to be archived in the RDR.\n\n\n\nDocuments generated by the project should be filed in this folder, and they can include:\n\nData management plans\nInvestigation plans or protocol documents guiding project procedures\nProposal documents prepared to solicit internal or external funding\nPublic relations materials like photographs, graphics, maps, etc.\nReports and white papers that are not peer-reviewed, but provide results or information from the project\nFinal manuscripts and peer-reviewed publications\nTalks, recordings, posters, or presentation slides related to the project\n\n\n\n\nThis folder allows the data steward(s)–who are granted write permission–to add project data, documents, and metadata that are ready to be archived in the RDR. Your data manager will then properly organize the files dropped into this folder. Alternatively, the data steward(s) can email project data to their data manager or technician for filing in the RDR.\n\n\n\n\n\n\nNote\n\n\n\nAll files should be saved in an open format and abide by recommended file naming conventions prior to being added to the “incoming” folder.\n\n\n\n\n\nThis folder holds mdEditor and mdJSON files of your project metadata, which can be created using mdEditor. Typically, this folder contains a single mdEditor file that encompasses all of your project’s metadata and multiple mdJSON files for individual project and product metadata records.\n\n\n\n\n\n\nNote\n\n\n\nAll files in your project’s RDR folder should be accompanied by metadata.\n\n\n\n\n\nAlso referred to as a README file, the changelog is a text file communicating updates made to the RDR project folder. It also includes details about who made those updates and when they were made.\nUpdated July 2022",
+    "crumbs": [
+      "GitHub Source",
+      "Long-term Storage Options",
+      "Using the Regional Data Repository"
+    ]
+  },
+  {
+    "objectID": "planning/considerations-for-projects-with-external-partners.html",
+    "href": "planning/considerations-for-projects-with-external-partners.html",
+    "title": "Considerations for Projects with External Partners",
+    "section": "",
+    "text": "Considerations for Projects with External Partners\nData collected through Service-funded MOU, cooperative agreements, or contracts with external agencies must follow all applicable data management policy requirements. Staff are responsible for ensuring that contracts and agreements awarded to non-Service entities to collect, distribute, or manage data for the Service do the following: \n1) specify data management and stewardship responsibility,\n2) identify any restrictions on use,\n3) describe preservation responsibilities,\n4) ensure that the Service maintains access to the data, and \n5) incorporate applicable requirements from the data management policy (i.e., the creation of data management plans).\nThis section will be updated when specific guidance for including data management in contracts is developed.\nUpdated December 2021",
+    "crumbs": [
+      "GitHub Source",
+      "Plan",
+      "Considerations for Projects with External Partners"
+    ]
+  },
+  {
+    "objectID": "planning/data-management-plan/index.html",
+    "href": "planning/data-management-plan/index.html",
+    "title": "Data Management Plan Templates",
+    "section": "",
+    "text": "Tip\n\n\n\nCompleting a DMP is a National Service Requirement.\n\n\n\n\nThe DMP is a partner document to your project documents (i.e., proposal, investigation plan, protocols, etc.). The Alaska region offers a machine-readable Microsoft Word DMP template for region-wide use. The most recent version can be found at the link below. The form must be completed in the desktop version of Microsoft Word.\n&lt;DOWNLOAD TEMPLATE HERE&gt;\n\n\n\n\n\n\nNote\n\n\n\nA DMP is required to be completed for any new or ongoing projects. Ongoing projects may just need to review and update an existing DMP. Completed DMPs are housed in the project folder in the Regional Data Repository. A DMP is a living document that can be updated as needed throughout the course of a project.\n\n\n\n\n1) This template can be used to initiate your PROJECT and PRODUCT metadata records for import into mdEditor. A computer code (i.e., Python script) extracts information from a completed DMP and writes metadata field equivalents into an mdEditor file. This automation eliminates the redundancy of having to manually input the same information from the DMP into your metadata.\n2) A completed DMP is the mechanism to allocate a project space in the Regional Data Repository. There is no need to complete the RDR Project Folder Request form when using the regional DMP template.\n3) Lastly, this template is designed to meet the policy requirements of the Service National DMP template.\n\n\n\n\n\n\nThe first section collects basic project information and includes:\n\nProgram Name: (Required) Choose your program name from the dropdown list. While hidden, the default region is the USFWS Alaska Region. Multiple programs can be added.\nCost Center: (Required) Choose your cost center from the dropdown list. Please let your data manager know if there are any discrepancies to this list. Multiple cost centers can be added.\nProject Title: (Required) Enter a descriptive, yet succinct title. Include species, time frame, geography, season, method or purpose, as appropriate.\nStart and End Dates: (Required) Enter a start date and end date from the calendar pick tools. Project start date is generally when the project is approved, funded, or when work actually began. End date is the date that a final product is completed (i.e. report) or funding ends and may be an estimated date. If the project is a long-term monitoring effort, check the ongoing box rather than selecting an end date.\nAbstract: (Required) Enter a description of the project into the text box. This can be copy and pasted from a proposal or investigation plan. Note: multiple paragraphs are not allowed, so limit the abstract to a single, succinct paragraph.\nKeywords: (Optional) Enter comma-separated keywords in the text box. Keywords may be location, species, survey method, or biological event of interest. For example: Eastern red knot, Maine, migration, stopover sites\nUnique Project Identifier or Tracking Number: (Optional) Enter the project identifier(s) into the text box, if applicable. This can be a funding agreement number, contract number, or any other identifier that can link your data products to the project effort. If the project is refuge initiative, enter the PRIMR survey ID. Internal projects may not have any project tracking identifiers.\nSpatial Extent: (Required) Enter a brief text description and/or the URL location of the project spatial extent, if available. The URL may reference a shapefile, geoJSON, KML, geopackage, geoTIFF or other. Spatial features should be provided in latitude and longitude coordinates (WGS84). Note: In order to include extent features in the metadata generated by the script, files must be in geoJSON format and on a shared server location, not a local computer. File paths must include the full server name instead of the mapped drive letter (i.e., “\\7ro-file.fws.doi.net simplified_refuge.geojson” instead of “D: simplified_refuge.geojson”). Simplified refuge boundaries can be found in the RDR. Other simplified boundaries can be created and shared upon request.\n\n\n\n\nSection 2 collects the project staff information (Required, at least one) and includes:\n\nPrimary Contact: This is the person who can be contacted regarding the data management plan itself. Note: this is not the primary contact of the project (the data steward).\nData Steward: This person is responsible for ensuring that collected data is tidy, clean, complete, quality controlled and assured, and appropriately documented with metadata. This may be the field crew leader or the project manager and serves as the primary contact for the project. This person should be highly knowledgeable regarding the project and its data products. This person will be a ‘point of contact’ in the metadata.\nData Custodian: This is person responsible for the long-term management of authoritative copies of data and metadata. This may be your program or regional data manager (if using the RDR) or may also be the project manager. This person will be listed as the ‘custodian’ in the metadata.\nData Trustee: This is the person responsible for ensuring that your project team has the resources allocated to fulfill all aspects of the project and data lifecycle. This is also likely the person who approved or renewed your project, such as your program manager or field office supervisor. This person will be the ‘owner’ in the metadata.\n\nThe form provides additional space to add other project staff and/or collaborators. Use the plus (+) button (see blue arrow below) to add more contact entry rows. This allows you to give credit to those who may not have key data management role responsibilities, but who contributed time or resources toward your project. Their names will also appear in the metadata with their corresponding roles.\nThe Service Data Management Handbook provides additional guidance on these key roles and responsibilities.\n\n\n\nContacts entry table from the regional DMP template; Note the blue arrow indicated the plus (+) button to add additional rows to the table.\n\n\n\n\n\nCheck the box to indicate that your project and data products will be documented with metadata that meets regional and programmatic (super easy!). Currently, the are not a national metadata standard.\nDon’t worry—the metadata creation guidance section in this guide will ensure that your metadata meets these standards.\nAlternatively, if you would like to use another metadata standard, check the ‘Other’ box and select an option from the dropdown list. Be aware that this regional guidance does not address other metadata standards.\nThis section ends with a reminder that data collection must follow Service-wide data standards. This guide provides a brief review of common Service-approved data standards and links to the full list.\n\n\n\nShort-term storage, backup and security: The primary causes of data loss are human error and hardware corruption; therefore, it is critically important that short-term data storage is backed up and secure. Identify here where the short-term, primary working project and data files will be located. This is NOT the Regional Data Repository (RDR) and should NOT be your computer hard drive. This should be a shared digital storage location with a backup and recovery protocol in place. Good options include OneDrive, Teams file folders, or a network drive. If there are internet connectivity concerns, working files may be stored on your computer hard drive for ease of use or on an additional external hard drive as a back-up, but must also be maintained in an accessible Service location. Files stored locally should have backups and version controls.\n\n\n\n\n\n\nWarning\n\n\n\nWe highly recommend mirroring the RDR files top-level folder structure for your short-term storage since it will provide continuity across storage platforms. In this way, anyone can generally find items within other project, data, and metadata file folders.\n\n\nIndicate how frequently the primary, short-term storage location back-up is done during the project. Choose from a drop-down list of options or choose other and describe the back-up frequency in the input box. Be sure to implement this!\nIf there are any data access restrictions that should apply to the short-term file storage, please detail those restrictions at the bottom of this section.\nRegional Data Repository: The Regional Data Repository (RDR) was set up as an organized, long-term storage for authoritative preservation of project data and products for the Alaska region. Folders and files in the RDR have permissions set so that only specified individuals have write access to the directories and can modify files. All other Service individuals will have read-only access.\nFrom the RDR, copies of data and metadata may be shared, as appropriate, to other federal or external repositories and catalogs. Enter the URL location of the Regional Data Repository for your project if one already exists. If one does not currently exist, enter an abbreviated project title that you would like to use for your RDR folder. Check the box to indicate if you will be using the RDR as the authoritative long-term storage location for your project data assets. Some programs may require use of the RDR (as your data manager).\n\n\n\n\n\n\nNote\n\n\n\nBecause the Service does NOT currently have officially approved repositories, the RDR serves as an authoritative staging and secure preservation location for regional project, data assets, products and associated metadata that are readily available for distribution to other catalogs and repositories, as appropriate.\n\n\nPublic Data Sharing Repositories: A copy of the data and metadata may be shared with other federal or external catalogs or repositories. List the public repositories you intend to use here. Use the plus (+) to add additional rows to the table.\nNote that Refuges are required to store data assets in ServCat.\n\n\n\nPublic Data Sharing Repositories table from the regional DMP template; The blue arrow indicates the plus (+) button for adding additional rows to the table.\n\n\n\n\n\nPermanent electronic records must be transferred to the National Archive according to records schedules. The most relevant records disposition schedules most commonly applicable to biological data collection are presented as dropdown options. Choose the records schedule that best classifies your data type, then visit theeCombined USFWS Disposition Manual (2006) weblink to select your the record type and find your disposition schedule. Use the plus (+) button to add rows, if more than one record type applies. If a record type applies that is not present in the shortlist, you can also manually enter a value in the record type field.\n\n\n\n\n\n\nTip\n\n\n\nFeel free to contact the Alaska Regional Records Expert is Kyle Cahill (kyle_cahill@fws.gov or (907)786-3351) for assistance.\n\n\n\n\n\n\nIn some, but not all cases, projects have anticipated data products, whether a table, geographic dataset, or a series of photographs. Cataloging these anticipated data products during the planning phase can help identify resource need for the project. Additionally, use of the regional machine-readable DMP template will initiate metadata records for your data products, if needed, and create the project-product associations within the metadata records. \nFor digital data products, the following are the attribute fields:\nComplete a Digital Data Product (required) and Physical Sample (optional) table for each data product that you expect to produce or use during your project. Data products may include (but are not limited to) data tables, shapefiles, computer code, or reports. To add a table, click on the plus (+) button in in the lower right corner of the table.\n\nProduct Name: Enter the name or title of the data product\nLocation url: Enter the location of the data resource. This may be the short-term storage location of the file or the project’s incoming folder RDR if the data resource is ready for review. \nProduct History: Indicate with the check boxes if this is a new data product or an previous product. If it is an exiting data product, please also provide the url for the product metadata, if it exists.\nResource Type: Select the resource type for the data product, and choose the appropriate format from the dropdown options. If the format is not listed, choose other and enter the format type in the input box. Refer to guidance on standard format types.\nDescription: Enter a description of the product in the text box. It should be descriptive, but does not require justification for data collection.\nData Originators: Indicate the name and email of the person who collected the data. This may or may not be a point of contact listed above for the project team.\nQuality Assurances: Describe the procedures and methods used to ensure the data is free of errors.\nQuality Controls: Describe the procedures and methods used to help prevent errors in data collection.\nResource Requirements: Describe the resources needed, such as hardware, software, equipment, staff with specialized skills, or financial commitments, to maintain, store, and access this data product. Also include the size of the storage space needed and units (i.e. MB, GB, TB, PB)\n Metadata Author: Enter the name and email address for the primary metadata author for the data product.\nMaintenance and Submission Schedule: Select the frequency in which the data product and its metadata will be updated and submitted to the RDR. There are plenty of options, but ‘other’ is not one of them.\nData Restrictions: Choose from the dropdown list where or not the data is restricted. Note that restricted data still requires metadata to be discoverable. In the majority of cases, data is open-access or unrestricted. If data restrictions apply, provide a justification. See data restrictions for more information.\nSupplemental Materials: List data products that are needed to understand this data product. This may include relational diagram, photo and video naming conventions, or pre-existing datasets from which this product was derived.\nSpatial Extent: Indicate if the spatial extent is the same as the project extent or if not, indicate the location of a spatial dataset for the data product.\n\n\n\n\n\n\n\nNote\n\n\n\nRestricted data still requires metadata to be written and be publicly searchable. See constraints section in product metadata for more information. \n\n\n\n\n\n\n\n\nNote\n\n\n\nIf using the regional machine-readable Alaska region DMP template, a metadata record will be created for each expected product and each record will automatically be associated with the project metadata record.\n\n\n\n\n\nDigital Data Product table can be duplicated by clicking on the plus (+) button indicated by the blue arrow.\n\n\n\n\nA data table should be completed for each digital data type (e.g., table, database, model, geospatial layer, or photo/video collection. The following are the DMP fields for digital data.\n\nCollection Name: \nDescription: Enter a description of the physical samples in the text box. Include number of samples and how they were used.\nLabeling Standards: Describe how the samples were labeled and the meaning of any codes or abbreviations used. \nQuality Assurance and Quality Control Procedures: Describe in the text box the procedures and methods used to collect and compile the the data from the sample to ensure quality data.\nStorage Location and Conditions: Identify the location of the physical samples and the conditions in which the samples are stored in the text box.\nChain of Custody: Describe the chain of custody, controls, or transfer procedure of the physical samples in the text box.\nFate After Analysis: Describe the long-term storage or disposition plan for the physical samples in the text box. \nData Products Derived: Provide the name of the data product that directly resulted from the collection of these physical samples. __ \nProduct Title: (Required) Enter naa descriptive name or title of the data product\nLocation url: (Optional) Enter the location of the data resource. This is likely the short-term storage location of the file.\nProduct History: (Required) Check a box to indicate whether the data is a new product or a pre-existing data product. If metadata for the data product already exists and metadata exist, provide the URL for the location of the metadata.\nResource Type and Format: (Required) Select the resource type for the data product from the dropdown list, then choose the appropriate data format from the next dropdown list of options. If the format is not listed, choose ‘other’ and enter the format type in the input box. Refer to guidance on common open format types.\nDescription: (Optional) Describe the data product, including information on purpose of data and key attributes of the data collected. This is not a justification for data collected.\nData Producer(s)/Originators: (Optional)Indicate the name and email of the person(s) who collected the data. This may or may not be a point of contact listed above in the project personnel section. Use the blue plus (+) button to add additional persons.\n\n\n\n\nAdd additional data producers by clicking the blue plus (+) button.\n\n\n\nQuality Assurances: (Required) Briefly list the procedures and methods used to help prevent errors during data collection. If these procedures are already detailed in project methods documents (protocols), you may provide a link to those documents instead.\nQuality Controls: (Required) Briefly list the procedures and methods used review and ensure data is free of errors after collection. If these procedures already detailed in project methods documents (protocols), you may provide a link to those documents instead.\nResource Requirements: (Required) Briefly describe the resources needed, such as hardware, software, equipment, staff with specialized skills, or financial commitments, needed to maintain, store, and access this data product. Describe what type of data, frequency, of data that is being collected. i.e. photos collected daily could be GBs or TB.\n Metadata Author: (Required) Enter the name and email address for the person(s) responsible for writing the metadata for the data product. Use the blue plus (+) button to add additional persons.\nData Restrictions: (Required) Choose from the dropdown list to indicate whether the data is restricted. In the majority of cases, data is open-access or unrestricted. If data restrictions apply, provide a brief justification. Note that restricted data still require metadata.\nSupplemental Materials: (Optional) List any additional existing products or supplementary materials with access location that is needed to understand or re-create this data product. This may include a database diagram, existing data/source resources used, etc.\nSpatial Extent: (Optional) Provide a spatial extent of the data, if the product contains spatial data (i.e., coordinates). If the product spatial extent is the same as the project spatial extent, check the box. If the spatial extent of different, include the URL location of an extent file for the data product.\n\n\n\n\nPhysical samples include any tangible items that will be collected in association with the project. The collected items often include biological specimens such as feathers or fur, blood, feces, or carcasses. For example, deceased butterflies from a laboratory colony, fish scales for aging, feathers from bird surveys, hit-by-car carcasses or mounts for outreach may constitute physical collections. Associating these physical samples with their data and parent project creates rich metadata and contributes to an inventory of the physical samples. This table is an optional part of the DMP template. The following are fields for the DMP physical samples table.\n\nCollection Name: Enter a descriptive name or title for the physical sample collection.\nDescription: Enter a description of the physical samples in the text box, including the purpose of the collected samples, e.g. blood collected for genetic research.\nLabelling Standards: Briefly describe how the samples were labelled including the meaning of any codes or abbreviations used. \nQuality Assurance and Quality Control Procedures: Briefly describe in the text box the quality procedures and methods used to collect and compile the data from the samples. Citations/links to technical reports, publications and existing protocols may be included.\nStorage Location and Conditions: Identify the location of the physical samples and the conditions in which the samples must be stored.\nChain of Custody: Briefly describe the chain of custody, controls, or transfer procedure of the physical samples.\nFate After Analysis: Briefly describe the long-term storage or disposition plan for the physical samples.\nData Products Derived: Provide the name or description of digital data products that resulted from the collection of these physical samples. \n\nUpdated June 2022",
+    "crumbs": [
+      "GitHub Source",
+      "Plan",
+      "Data Management Plan Templates"
+    ]
+  },
+  {
+    "objectID": "planning/data-management-plan/index.html#data-products",
+    "href": "planning/data-management-plan/index.html#data-products",
+    "title": "Data Management Plan Templates",
+    "section": "",
+    "text": "In some, but not all cases, projects have anticipated data products, whether a table, geographic dataset, or a series of photographs. Cataloging these anticipated data products during the planning phase can help identify resource need for the project. Additionally, use of the regional machine-readable DMP template will initiate metadata records for your data products, if needed, and create the project-product associations within the metadata records. \nFor digital data products, the following are the attribute fields:\nComplete a Digital Data Product (required) and Physical Sample (optional) table for each data product that you expect to produce or use during your project. Data products may include (but are not limited to) data tables, shapefiles, computer code, or reports. To add a table, click on the plus (+) button in in the lower right corner of the table.\n\nProduct Name: Enter the name or title of the data product\nLocation url: Enter the location of the data resource. This may be the short-term storage location of the file or the project’s incoming folder RDR if the data resource is ready for review. \nProduct History: Indicate with the check boxes if this is a new data product or an previous product. If it is an exiting data product, please also provide the url for the product metadata, if it exists.\nResource Type: Select the resource type for the data product, and choose the appropriate format from the dropdown options. If the format is not listed, choose other and enter the format type in the input box. Refer to guidance on standard format types.\nDescription: Enter a description of the product in the text box. It should be descriptive, but does not require justification for data collection.\nData Originators: Indicate the name and email of the person who collected the data. This may or may not be a point of contact listed above for the project team.\nQuality Assurances: Describe the procedures and methods used to ensure the data is free of errors.\nQuality Controls: Describe the procedures and methods used to help prevent errors in data collection.\nResource Requirements: Describe the resources needed, such as hardware, software, equipment, staff with specialized skills, or financial commitments, to maintain, store, and access this data product. Also include the size of the storage space needed and units (i.e. MB, GB, TB, PB)\n Metadata Author: Enter the name and email address for the primary metadata author for the data product.\nMaintenance and Submission Schedule: Select the frequency in which the data product and its metadata will be updated and submitted to the RDR. There are plenty of options, but ‘other’ is not one of them.\nData Restrictions: Choose from the dropdown list where or not the data is restricted. Note that restricted data still requires metadata to be discoverable. In the majority of cases, data is open-access or unrestricted. If data restrictions apply, provide a justification. See data restrictions for more information.\nSupplemental Materials: List data products that are needed to understand this data product. This may include relational diagram, photo and video naming conventions, or pre-existing datasets from which this product was derived.\nSpatial Extent: Indicate if the spatial extent is the same as the project extent or if not, indicate the location of a spatial dataset for the data product.\n\n\n\n\n\n\n\nNote\n\n\n\nRestricted data still requires metadata to be written and be publicly searchable. See constraints section in product metadata for more information. \n\n\n\n\n\n\n\n\nNote\n\n\n\nIf using the regional machine-readable Alaska region DMP template, a metadata record will be created for each expected product and each record will automatically be associated with the project metadata record.\n\n\n\n\n\nDigital Data Product table can be duplicated by clicking on the plus (+) button indicated by the blue arrow.\n\n\n\n\nA data table should be completed for each digital data type (e.g., table, database, model, geospatial layer, or photo/video collection. The following are the DMP fields for digital data.\n\nCollection Name: \nDescription: Enter a description of the physical samples in the text box. Include number of samples and how they were used.\nLabeling Standards: Describe how the samples were labeled and the meaning of any codes or abbreviations used. \nQuality Assurance and Quality Control Procedures: Describe in the text box the procedures and methods used to collect and compile the the data from the sample to ensure quality data.\nStorage Location and Conditions: Identify the location of the physical samples and the conditions in which the samples are stored in the text box.\nChain of Custody: Describe the chain of custody, controls, or transfer procedure of the physical samples in the text box.\nFate After Analysis: Describe the long-term storage or disposition plan for the physical samples in the text box. \nData Products Derived: Provide the name of the data product that directly resulted from the collection of these physical samples. __ \nProduct Title: (Required) Enter naa descriptive name or title of the data product\nLocation url: (Optional) Enter the location of the data resource. This is likely the short-term storage location of the file.\nProduct History: (Required) Check a box to indicate whether the data is a new product or a pre-existing data product. If metadata for the data product already exists and metadata exist, provide the URL for the location of the metadata.\nResource Type and Format: (Required) Select the resource type for the data product from the dropdown list, then choose the appropriate data format from the next dropdown list of options. If the format is not listed, choose ‘other’ and enter the format type in the input box. Refer to guidance on common open format types.\nDescription: (Optional) Describe the data product, including information on purpose of data and key attributes of the data collected. This is not a justification for data collected.\nData Producer(s)/Originators: (Optional)Indicate the name and email of the person(s) who collected the data. This may or may not be a point of contact listed above in the project personnel section. Use the blue plus (+) button to add additional persons.\n\n\n\n\nAdd additional data producers by clicking the blue plus (+) button.\n\n\n\nQuality Assurances: (Required) Briefly list the procedures and methods used to help prevent errors during data collection. If these procedures are already detailed in project methods documents (protocols), you may provide a link to those documents instead.\nQuality Controls: (Required) Briefly list the procedures and methods used review and ensure data is free of errors after collection. If these procedures already detailed in project methods documents (protocols), you may provide a link to those documents instead.\nResource Requirements: (Required) Briefly describe the resources needed, such as hardware, software, equipment, staff with specialized skills, or financial commitments, needed to maintain, store, and access this data product. Describe what type of data, frequency, of data that is being collected. i.e. photos collected daily could be GBs or TB.\n Metadata Author: (Required) Enter the name and email address for the person(s) responsible for writing the metadata for the data product. Use the blue plus (+) button to add additional persons.\nData Restrictions: (Required) Choose from the dropdown list to indicate whether the data is restricted. In the majority of cases, data is open-access or unrestricted. If data restrictions apply, provide a brief justification. Note that restricted data still require metadata.\nSupplemental Materials: (Optional) List any additional existing products or supplementary materials with access location that is needed to understand or re-create this data product. This may include a database diagram, existing data/source resources used, etc.\nSpatial Extent: (Optional) Provide a spatial extent of the data, if the product contains spatial data (i.e., coordinates). If the product spatial extent is the same as the project spatial extent, check the box. If the spatial extent of different, include the URL location of an extent file for the data product.\n\n\n\n\nPhysical samples include any tangible items that will be collected in association with the project. The collected items often include biological specimens such as feathers or fur, blood, feces, or carcasses. For example, deceased butterflies from a laboratory colony, fish scales for aging, feathers from bird surveys, hit-by-car carcasses or mounts for outreach may constitute physical collections. Associating these physical samples with their data and parent project creates rich metadata and contributes to an inventory of the physical samples. This table is an optional part of the DMP template. The following are fields for the DMP physical samples table.\n\nCollection Name: Enter a descriptive name or title for the physical sample collection.\nDescription: Enter a description of the physical samples in the text box, including the purpose of the collected samples, e.g. blood collected for genetic research.\nLabelling Standards: Briefly describe how the samples were labelled including the meaning of any codes or abbreviations used. \nQuality Assurance and Quality Control Procedures: Briefly describe in the text box the quality procedures and methods used to collect and compile the data from the samples. Citations/links to technical reports, publications and existing protocols may be included.\nStorage Location and Conditions: Identify the location of the physical samples and the conditions in which the samples must be stored.\nChain of Custody: Briefly describe the chain of custody, controls, or transfer procedure of the physical samples.\nFate After Analysis: Briefly describe the long-term storage or disposition plan for the physical samples.\nData Products Derived: Provide the name or description of digital data products that resulted from the collection of these physical samples. \n\nUpdated June 2022",
+    "crumbs": [
+      "GitHub Source",
+      "Plan",
+      "Data Management Plan Templates"
+    ]
+  },
+  {
+    "objectID": "planning/project-and-data-management-integration.html",
+    "href": "planning/project-and-data-management-integration.html",
+    "title": "Project & Data Management Integration",
+    "section": "",
+    "text": "Project & Data Management Integration\nProject management is the application of knowledge, skills, tools, and techniques to oversee a project to completion in the desired time and to a specified quality. Data management is concerned with the handling of data to ensure long-lasting integrity and usability. Despite the fundamental difference, project management and data management lifecycles work in tandem. Data management is most effective when fully integrated into project workflows, project oversight, and staff supervision (i.e., project management).\n\n\n\nLifecycle comparison between project management and data management.",
+    "crumbs": [
+      "GitHub Source",
+      "Plan",
+      "Project & Data Management Integration"
+    ]
+  },
+  {
+    "objectID": "sharing-1/untitled/index.html",
+    "href": "sharing-1/untitled/index.html",
+    "title": "Open Data Requirements",
+    "section": "",
+    "text": "Open Data Requirements\nSharing data is fundamental to scientific collaboration and the USFWS mission. \n\n\n\n\n\n\nNote\n\n\n\nIt is best practice (and the law) to make our data assets discoverable and available. The best way to do this is online by distributing a stable link to partners.",
+    "crumbs": [
+      "GitHub Source",
+      "Sharing 1",
+      "Open Data Requirements"
+    ]
+  },
+  {
+    "objectID": "sharing-1/untitled/obtaining-a-url.html",
+    "href": "sharing-1/untitled/obtaining-a-url.html",
+    "title": "Obtaining a URL",
+    "section": "",
+    "text": "Obtaining a URL\n\nPublishing to ScienceBase\nTBD\n\n\nPublishing to ServCat\nTBD",
+    "crumbs": [
+      "GitHub Source",
+      "Sharing 1",
+      "Open Data Requirements",
+      "Obtaining a URL"
+    ]
+  }
+]
